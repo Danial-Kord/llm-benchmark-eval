@@ -1,0 +1,11 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_85.x_solve__mutmut_1": null,
+        "humaneval_files.solutions.solution_85.x_solve__mutmut_2": null,
+        "humaneval_files.solutions.solution_85.x_solve__mutmut_3": null,
+        "humaneval_files.solutions.solution_85.x_solve__mutmut_4": null
+    },
+    "hash_by_function_name": {
+        "solve": "b17e1bf2578bc654241fa2e0fd5bd038"
+    }
+}

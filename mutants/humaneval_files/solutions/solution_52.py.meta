@@ -1,0 +1,14 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_1": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_2": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_3": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_4": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_5": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_6": null,
+        "humaneval_files.solutions.solution_52.x_remove_vowels__mutmut_7": null
+    },
+    "hash_by_function_name": {
+        "remove_vowels": "fbc7625cb32718e6159805f0c91c780f"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_1": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_2": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_3": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_4": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_5": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_6": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_7": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_8": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_9": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_10": null,
+        "humaneval_files.solutions.solution_66.x_circular_shift__mutmut_11": null
+    },
+    "hash_by_function_name": {
+        "circular_shift": "ca2993949710ef5746bff86ee140f92d"
+    }
+}

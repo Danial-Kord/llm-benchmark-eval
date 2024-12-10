@@ -1,0 +1,12 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_160.x_eat__mutmut_1": null,
+        "humaneval_files.solutions.solution_160.x_eat__mutmut_2": null,
+        "humaneval_files.solutions.solution_160.x_eat__mutmut_3": null,
+        "humaneval_files.solutions.solution_160.x_eat__mutmut_4": null,
+        "humaneval_files.solutions.solution_160.x_eat__mutmut_5": null
+    },
+    "hash_by_function_name": {
+        "eat": "cc1931777fde18bb5c668de2c1dbe345"
+    }
+}

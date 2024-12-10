@@ -1,0 +1,12 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_27.x_remove_duplicates__mutmut_1": null,
+        "humaneval_files.solutions.solution_27.x_remove_duplicates__mutmut_2": null,
+        "humaneval_files.solutions.solution_27.x_remove_duplicates__mutmut_3": null,
+        "humaneval_files.solutions.solution_27.x_remove_duplicates__mutmut_4": null,
+        "humaneval_files.solutions.solution_27.x_remove_duplicates__mutmut_5": null
+    },
+    "hash_by_function_name": {
+        "remove_duplicates": "8115db7b338140282b2578edbfd40faa"
+    }
+}

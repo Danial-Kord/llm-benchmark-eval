@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_61.x_sum_to_n__mutmut_1": null,
+        "humaneval_files.solutions.solution_61.x_sum_to_n__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "sum_to_n": "68fe0c92a0b9955acda8ea0a70c1cfdf"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_8.x_filter_by_substring__mutmut_1": null
+    },
+    "hash_by_function_name": {
+        "filter_by_substring": "95be71b42077d6c8b8de74fa47b02cdd"
+    }
+}

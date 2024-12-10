@@ -1,0 +1,18 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_1": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_2": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_3": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_4": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_5": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_6": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_7": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_8": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_9": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_10": null,
+        "humaneval_files.solutions.solution_56.x_fib__mutmut_11": null
+    },
+    "hash_by_function_name": {
+        "fib": "d69e07966c04e36377e9b6aa980e1f74"
+    }
+}

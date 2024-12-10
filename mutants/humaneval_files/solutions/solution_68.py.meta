@@ -1,0 +1,12 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_68.x_fruit_distribution__mutmut_1": null,
+        "humaneval_files.solutions.solution_68.x_fruit_distribution__mutmut_2": null,
+        "humaneval_files.solutions.solution_68.x_fruit_distribution__mutmut_3": null,
+        "humaneval_files.solutions.solution_68.x_fruit_distribution__mutmut_4": null,
+        "humaneval_files.solutions.solution_68.x_fruit_distribution__mutmut_5": null
+    },
+    "hash_by_function_name": {
+        "fruit_distribution": "112b27d3923e83eda11ec8eae1091a5e"
+    }
+}

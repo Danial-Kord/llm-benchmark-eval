@@ -1,0 +1,12 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_153.x_compare__mutmut_1": null,
+        "humaneval_files.solutions.solution_153.x_compare__mutmut_2": null,
+        "humaneval_files.solutions.solution_153.x_compare__mutmut_3": null,
+        "humaneval_files.solutions.solution_153.x_compare__mutmut_4": null,
+        "humaneval_files.solutions.solution_153.x_compare__mutmut_5": null
+    },
+    "hash_by_function_name": {
+        "compare": "54c2d1556da666a765ddd0dbf0e7e299"
+    }
+}

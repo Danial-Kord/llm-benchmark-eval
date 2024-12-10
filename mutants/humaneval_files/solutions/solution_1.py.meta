@@ -1,0 +1,15 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_1": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_2": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_3": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_4": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_5": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_6": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_7": null,
+        "humaneval_files.solutions.solution_1.x_has_close_elements__mutmut_8": null
+    },
+    "hash_by_function_name": {
+        "has_close_elements": "babc10ce8269af942e21f84a33bda1dc"
+    }
+}

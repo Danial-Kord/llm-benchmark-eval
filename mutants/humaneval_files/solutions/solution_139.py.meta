@@ -1,0 +1,14 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_1": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_2": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_3": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_4": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_5": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_6": null,
+        "humaneval_files.solutions.solution_139.x_is_equal_to_sum_even__mutmut_7": null
+    },
+    "hash_by_function_name": {
+        "is_equal_to_sum_even": "f00d064659b6e8510c43a89008e0587f"
+    }
+}

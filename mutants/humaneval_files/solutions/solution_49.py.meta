@@ -1,0 +1,15 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_1": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_2": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_3": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_4": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_5": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_6": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_7": null,
+        "humaneval_files.solutions.solution_49.x_is_palindrome__mutmut_8": null
+    },
+    "hash_by_function_name": {
+        "is_palindrome": "feaf46c3dce1171c0193c04ec6e5c446"
+    }
+}

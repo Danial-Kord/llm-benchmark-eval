@@ -1,0 +1,25 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_1": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_2": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_3": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_4": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_5": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_6": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_7": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_8": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_9": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_10": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_11": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_12": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_13": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_14": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_15": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_16": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_17": null,
+        "humaneval_files.solutions.solution_65.x_vowels_count__mutmut_18": null
+    },
+    "hash_by_function_name": {
+        "vowels_count": "5348b7c57ea4c3617ceb3e5e350559a2"
+    }
+}

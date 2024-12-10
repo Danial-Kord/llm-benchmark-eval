@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_3.x_truncate_number__mutmut_1": null,
+        "humaneval_files.solutions.solution_3.x_truncate_number__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "truncate_number": "3d0b1c018e739375bd5030d698ffab47"
+    }
+}

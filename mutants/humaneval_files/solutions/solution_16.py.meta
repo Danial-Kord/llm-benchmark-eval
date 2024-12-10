@@ -1,0 +1,11 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_16.x_string_sequence__mutmut_1": null,
+        "humaneval_files.solutions.solution_16.x_string_sequence__mutmut_2": null,
+        "humaneval_files.solutions.solution_16.x_string_sequence__mutmut_3": null,
+        "humaneval_files.solutions.solution_16.x_string_sequence__mutmut_4": null
+    },
+    "hash_by_function_name": {
+        "string_sequence": "588193ecdaf600ec006542d33b60fcfd"
+    }
+}

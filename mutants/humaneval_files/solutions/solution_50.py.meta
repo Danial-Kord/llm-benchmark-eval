@@ -1,0 +1,14 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_1": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_2": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_3": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_4": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_5": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_6": null,
+        "humaneval_files.solutions.solution_50.x_modp__mutmut_7": null
+    },
+    "hash_by_function_name": {
+        "modp": "42a77b54086fc1628ed73ae499108cef"
+    }
+}

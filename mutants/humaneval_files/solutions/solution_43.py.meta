@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_43.x_incr_list__mutmut_1": null,
+        "humaneval_files.solutions.solution_43.x_incr_list__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "incr_list": "108226881d22e37da50e8aecde6fd747"
+    }
+}

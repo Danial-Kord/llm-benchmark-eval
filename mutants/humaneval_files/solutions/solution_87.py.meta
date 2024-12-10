@@ -1,0 +1,11 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_87.x_anti_shuffle__mutmut_1": null,
+        "humaneval_files.solutions.solution_87.x_anti_shuffle__mutmut_2": null,
+        "humaneval_files.solutions.solution_87.x_anti_shuffle__mutmut_3": null,
+        "humaneval_files.solutions.solution_87.x_anti_shuffle__mutmut_4": null
+    },
+    "hash_by_function_name": {
+        "anti_shuffle": "99f094020a45f836c7f48d1048c68514"
+    }
+}

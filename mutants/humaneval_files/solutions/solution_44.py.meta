@@ -1,0 +1,16 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_1": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_2": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_3": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_4": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_5": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_6": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_7": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_8": null,
+        "humaneval_files.solutions.solution_44.x_pairs_sum_to_zero__mutmut_9": null
+    },
+    "hash_by_function_name": {
+        "pairs_sum_to_zero": "672ca2d246ba74173e086a4fb3c563c1"
+    }
+}

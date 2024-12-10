@@ -1,0 +1,10 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_46.x_triangle_area__mutmut_1": null,
+        "humaneval_files.solutions.solution_46.x_triangle_area__mutmut_2": null,
+        "humaneval_files.solutions.solution_46.x_triangle_area__mutmut_3": null
+    },
+    "hash_by_function_name": {
+        "triangle_area": "b84b2e5b4f540e01d3d52e85789ebff0"
+    }
+}

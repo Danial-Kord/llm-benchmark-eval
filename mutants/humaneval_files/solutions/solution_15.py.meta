@@ -1,0 +1,11 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_15.x_all_prefixes__mutmut_1": null,
+        "humaneval_files.solutions.solution_15.x_all_prefixes__mutmut_2": null,
+        "humaneval_files.solutions.solution_15.x_all_prefixes__mutmut_3": null,
+        "humaneval_files.solutions.solution_15.x_all_prefixes__mutmut_4": null
+    },
+    "hash_by_function_name": {
+        "all_prefixes": "0b53602fe5eeb04019540b2ef744a85b"
+    }
+}

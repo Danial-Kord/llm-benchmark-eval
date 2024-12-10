@@ -1,0 +1,15 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_1": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_2": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_3": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_4": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_5": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_6": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_7": null,
+        "humaneval_files.solutions.solution_9.x_sum_product__mutmut_8": null
+    },
+    "hash_by_function_name": {
+        "sum_product": "5dd58d48a571c8cbfbe74219adad69c3"
+    }
+}

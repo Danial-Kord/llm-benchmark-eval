@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_31.x_get_positive__mutmut_1": null,
+        "humaneval_files.solutions.solution_31.x_get_positive__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "get_positive": "11b5f4f523bab72cca995322f9ffed23"
+    }
+}

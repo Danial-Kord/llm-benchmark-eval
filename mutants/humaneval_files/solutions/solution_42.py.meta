@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_42.x_car_race_collision__mutmut_1": null,
+        "humaneval_files.solutions.solution_42.x_car_race_collision__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "car_race_collision": "e41ae3defd4523000cff92b2171bcabb"
+    }
+}

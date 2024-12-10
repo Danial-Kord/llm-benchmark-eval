@@ -1,0 +1,12 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_67.x_digitSum__mutmut_1": null,
+        "humaneval_files.solutions.solution_67.x_digitSum__mutmut_2": null,
+        "humaneval_files.solutions.solution_67.x_digitSum__mutmut_3": null,
+        "humaneval_files.solutions.solution_67.x_digitSum__mutmut_4": null,
+        "humaneval_files.solutions.solution_67.x_digitSum__mutmut_5": null
+    },
+    "hash_by_function_name": {
+        "digitSum": "793cca8f3d0741a83852daefce080192"
+    }
+}

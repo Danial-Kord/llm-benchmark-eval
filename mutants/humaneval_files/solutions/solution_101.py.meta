@@ -1,0 +1,11 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_101.x_make_a_pile__mutmut_1": null,
+        "humaneval_files.solutions.solution_101.x_make_a_pile__mutmut_2": null,
+        "humaneval_files.solutions.solution_101.x_make_a_pile__mutmut_3": null,
+        "humaneval_files.solutions.solution_101.x_make_a_pile__mutmut_4": null
+    },
+    "hash_by_function_name": {
+        "make_a_pile": "55b110d073cd28c7ad07649d06dc2e1d"
+    }
+}

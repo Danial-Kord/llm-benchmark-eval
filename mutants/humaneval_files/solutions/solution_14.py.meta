@@ -1,0 +1,9 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_14.x_greatest_common_divisor__mutmut_1": null,
+        "humaneval_files.solutions.solution_14.x_greatest_common_divisor__mutmut_2": null
+    },
+    "hash_by_function_name": {
+        "greatest_common_divisor": "9be1ee8b3b2886ccbdf4a168d3bcecd6"
+    }
+}

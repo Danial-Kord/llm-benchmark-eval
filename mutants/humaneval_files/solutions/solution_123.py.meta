@@ -1,0 +1,10 @@
+{
+    "exit_code_by_key": {
+        "humaneval_files.solutions.solution_123.x_add_elements__mutmut_1": null,
+        "humaneval_files.solutions.solution_123.x_add_elements__mutmut_2": null,
+        "humaneval_files.solutions.solution_123.x_add_elements__mutmut_3": null
+    },
+    "hash_by_function_name": {
+        "add_elements": "d72a001dd5d9ba7ef5c45b17276c2505"
+    }
+}
