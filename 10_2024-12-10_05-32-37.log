@@ -1,0 +1,3515 @@
+
+Running tests for: test_1.py and solution_1.py
+❌ Mutant x_has_close_elements__mutmut_1 failed.
+❌ Mutant x_has_close_elements__mutmut_2 failed.
+❌ Mutant x_has_close_elements__mutmut_3 failed.
+❌ Mutant x_has_close_elements__mutmut_4 failed.
+❌ Mutant x_has_close_elements__mutmut_5 failed.
+✅ Mutant x_has_close_elements__mutmut_6 passed.
+❌ Mutant x_has_close_elements__mutmut_7 failed.
+❌ Mutant x_has_close_elements__mutmut_8 failed.
+
+Summary for solution_1.py:
+Total Mutants: 8
+Passed Mutants: 1
+Pass Percentage: 12.50%
+Number of failed patches so far: 1
+
+Running tests for: test_10.py and solution_10.py
+❌ Mutant x_rolling_max__mutmut_1 failed.
+❌ Mutant x_rolling_max__mutmut_2 failed.
+❌ Mutant x_rolling_max__mutmut_3 failed.
+❌ Mutant x_rolling_max__mutmut_4 failed.
+❌ Mutant x_rolling_max__mutmut_5 failed.
+❌ Mutant x_rolling_max__mutmut_6 failed.
+❌ Mutant x_rolling_max__mutmut_7 failed.
+❌ Mutant x_rolling_max__mutmut_8 failed.
+❌ Mutant x_rolling_max__mutmut_9 failed.
+❌ Mutant x_rolling_max__mutmut_10 failed.
+
+Summary for solution_10.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 1
+
+Running tests for: test_100.py and solution_100.py
+✅ Mutant x_closest_integer__mutmut_1 passed.
+❌ Mutant x_closest_integer__mutmut_2 failed.
+✅ Mutant x_closest_integer__mutmut_3 passed.
+✅ Mutant x_closest_integer__mutmut_4 passed.
+✅ Mutant x_closest_integer__mutmut_5 passed.
+❌ Mutant x_closest_integer__mutmut_6 failed.
+❌ Mutant x_closest_integer__mutmut_7 failed.
+✅ Mutant x_closest_integer__mutmut_8 passed.
+✅ Mutant x_closest_integer__mutmut_9 passed.
+✅ Mutant x_closest_integer__mutmut_10 passed.
+✅ Mutant x_closest_integer__mutmut_11 passed.
+✅ Mutant x_closest_integer__mutmut_12 passed.
+❌ Mutant x_closest_integer__mutmut_13 failed.
+❌ Mutant x_closest_integer__mutmut_14 failed.
+✅ Mutant x_closest_integer__mutmut_15 passed.
+❌ Mutant x_closest_integer__mutmut_16 failed.
+❌ Mutant x_closest_integer__mutmut_17 failed.
+❌ Mutant x_closest_integer__mutmut_18 failed.
+❌ Mutant x_closest_integer__mutmut_19 failed.
+✅ Mutant x_closest_integer__mutmut_20 passed.
+✅ Mutant x_closest_integer__mutmut_21 passed.
+❌ Mutant x_closest_integer__mutmut_22 failed.
+❌ Mutant x_closest_integer__mutmut_23 failed.
+❌ Mutant x_closest_integer__mutmut_24 failed.
+❌ Mutant x_closest_integer__mutmut_25 failed.
+✅ Mutant x_closest_integer__mutmut_26 passed.
+✅ Mutant x_closest_integer__mutmut_27 passed.
+❌ Mutant x_closest_integer__mutmut_28 failed.
+❌ Mutant x_closest_integer__mutmut_29 failed.
+✅ Mutant x_closest_integer__mutmut_30 passed.
+✅ Mutant x_closest_integer__mutmut_31 passed.
+
+Summary for solution_100.py:
+Total Mutants: 31
+Passed Mutants: 16
+Pass Percentage: 51.61%
+Number of failed patches so far: 2
+
+Running tests for: test_101.py and solution_101.py
+❌ Mutant x_make_a_pile__mutmut_1 failed.
+❌ Mutant x_make_a_pile__mutmut_2 failed.
+❌ Mutant x_make_a_pile__mutmut_3 failed.
+❌ Mutant x_make_a_pile__mutmut_4 failed.
+
+Summary for solution_101.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 2
+
+Running tests for: test_102.py and solution_102.py
+❌ Mutant x_words_string__mutmut_1 failed.
+❌ Mutant x_words_string__mutmut_2 failed.
+❌ Mutant x_words_string__mutmut_3 failed.
+❌ Mutant x_words_string__mutmut_4 failed.
+❌ Mutant x_words_string__mutmut_5 failed.
+❌ Mutant x_words_string__mutmut_6 failed.
+❌ Mutant x_words_string__mutmut_7 failed.
+❌ Mutant x_words_string__mutmut_8 failed.
+❌ Mutant x_words_string__mutmut_9 failed.
+
+Summary for solution_102.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 2
+
+Running tests for: test_103.py and solution_103.py
+❌ Mutant x_choose_num__mutmut_1 failed.
+❌ Mutant x_choose_num__mutmut_2 failed.
+❌ Mutant x_choose_num__mutmut_3 failed.
+❌ Mutant x_choose_num__mutmut_4 failed.
+❌ Mutant x_choose_num__mutmut_5 failed.
+❌ Mutant x_choose_num__mutmut_6 failed.
+❌ Mutant x_choose_num__mutmut_7 failed.
+❌ Mutant x_choose_num__mutmut_8 failed.
+❌ Mutant x_choose_num__mutmut_9 failed.
+❌ Mutant x_choose_num__mutmut_10 failed.
+❌ Mutant x_choose_num__mutmut_11 failed.
+❌ Mutant x_choose_num__mutmut_12 failed.
+
+Summary for solution_103.py:
+Total Mutants: 12
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 2
+
+Running tests for: test_104.py and solution_104.py
+❌ Mutant x_rounded_avg__mutmut_1 failed.
+❌ Mutant x_rounded_avg__mutmut_2 failed.
+❌ Mutant x_rounded_avg__mutmut_3 failed.
+❌ Mutant x_rounded_avg__mutmut_4 failed.
+❌ Mutant x_rounded_avg__mutmut_5 failed.
+❌ Mutant x_rounded_avg__mutmut_6 failed.
+❌ Mutant x_rounded_avg__mutmut_7 failed.
+❌ Mutant x_rounded_avg__mutmut_8 failed.
+❌ Mutant x_rounded_avg__mutmut_9 failed.
+❌ Mutant x_rounded_avg__mutmut_10 failed.
+❌ Mutant x_rounded_avg__mutmut_11 failed.
+❌ Mutant x_rounded_avg__mutmut_12 failed.
+❌ Mutant x_rounded_avg__mutmut_13 failed.
+❌ Mutant x_rounded_avg__mutmut_14 failed.
+❌ Mutant x_rounded_avg__mutmut_15 failed.
+
+Summary for solution_104.py:
+Total Mutants: 15
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 2
+
+Running tests for: test_105.py and solution_105.py
+❌ Mutant x_unique_digits__mutmut_1 failed.
+❌ Mutant x_unique_digits__mutmut_2 failed.
+❌ Mutant x_unique_digits__mutmut_3 failed.
+❌ Mutant x_unique_digits__mutmut_4 failed.
+❌ Mutant x_unique_digits__mutmut_5 failed.
+❌ Mutant x_unique_digits__mutmut_6 failed.
+❌ Mutant x_unique_digits__mutmut_7 failed.
+❌ Mutant x_unique_digits__mutmut_8 failed.
+❌ Mutant x_unique_digits__mutmut_9 failed.
+
+Summary for solution_105.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 2
+
+Running tests for: test_106.py and solution_106.py
+❌ Mutant x_by_length__mutmut_1 failed.
+❌ Mutant x_by_length__mutmut_2 failed.
+❌ Mutant x_by_length__mutmut_3 failed.
+❌ Mutant x_by_length__mutmut_4 failed.
+❌ Mutant x_by_length__mutmut_5 failed.
+❌ Mutant x_by_length__mutmut_6 failed.
+❌ Mutant x_by_length__mutmut_7 failed.
+❌ Mutant x_by_length__mutmut_8 failed.
+❌ Mutant x_by_length__mutmut_9 failed.
+❌ Mutant x_by_length__mutmut_10 failed.
+✅ Mutant x_by_length__mutmut_11 passed.
+✅ Mutant x_by_length__mutmut_12 passed.
+✅ Mutant x_by_length__mutmut_13 passed.
+✅ Mutant x_by_length__mutmut_14 passed.
+❌ Mutant x_by_length__mutmut_15 failed.
+❌ Mutant x_by_length__mutmut_16 failed.
+❌ Mutant x_by_length__mutmut_17 failed.
+❌ Mutant x_by_length__mutmut_18 failed.
+❌ Mutant x_by_length__mutmut_19 failed.
+❌ Mutant x_by_length__mutmut_20 failed.
+❌ Mutant x_by_length__mutmut_21 failed.
+❌ Mutant x_by_length__mutmut_22 failed.
+❌ Mutant x_by_length__mutmut_23 failed.
+❌ Mutant x_by_length__mutmut_24 failed.
+❌ Mutant x_by_length__mutmut_25 failed.
+❌ Mutant x_by_length__mutmut_26 failed.
+
+Summary for solution_106.py:
+Total Mutants: 26
+Passed Mutants: 4
+Pass Percentage: 15.38%
+Number of failed patches so far: 3
+
+Running tests for: test_107.py and solution_107.py
+❌ Mutant x_f__mutmut_1 failed.
+❌ Mutant x_f__mutmut_2 failed.
+❌ Mutant x_f__mutmut_3 failed.
+❌ Mutant x_f__mutmut_4 failed.
+❌ Mutant x_f__mutmut_5 failed.
+❌ Mutant x_f__mutmut_6 failed.
+❌ Mutant x_f__mutmut_7 failed.
+❌ Mutant x_f__mutmut_8 failed.
+❌ Mutant x_f__mutmut_9 failed.
+❌ Mutant x_f__mutmut_10 failed.
+✅ Mutant x_f__mutmut_11 passed.
+❌ Mutant x_f__mutmut_12 failed.
+❌ Mutant x_f__mutmut_13 failed.
+❌ Mutant x_f__mutmut_14 failed.
+❌ Mutant x_f__mutmut_15 failed.
+❌ Mutant x_f__mutmut_16 failed.
+❌ Mutant x_f__mutmut_17 failed.
+❌ Mutant x_f__mutmut_18 failed.
+❌ Mutant x_f__mutmut_19 failed.
+❌ Mutant x_f__mutmut_20 failed.
+❌ Mutant x_f__mutmut_21 failed.
+❌ Mutant x_f__mutmut_22 failed.
+❌ Mutant x_f__mutmut_23 failed.
+❌ Mutant x_f__mutmut_24 failed.
+❌ Mutant x_f__mutmut_25 failed.
+❌ Mutant x_f__mutmut_26 failed.
+
+Summary for solution_107.py:
+Total Mutants: 26
+Passed Mutants: 1
+Pass Percentage: 3.85%
+Number of failed patches so far: 3
+
+Running tests for: test_108.py and solution_108.py
+❌ Mutant x_even_odd_palindrome__mutmut_1 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_2 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_3 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_4 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_5 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_6 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_7 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_8 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_9 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_10 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_11 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_12 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_13 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_14 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_15 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_16 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_17 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_18 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_19 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_20 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_21 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_22 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_23 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_24 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_25 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_26 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_27 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_28 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_29 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_30 failed.
+❌ Mutant x_even_odd_palindrome__mutmut_31 failed.
+
+Summary for solution_108.py:
+Total Mutants: 31
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 3
+
+Running tests for: test_109.py and solution_109.py
+✅ Mutant x_count_nums__mutmut_1 passed.
+❌ Mutant x_count_nums__mutmut_2 failed.
+✅ Mutant x_count_nums__mutmut_3 passed.
+✅ Mutant x_count_nums__mutmut_4 passed.
+❌ Mutant x_count_nums__mutmut_5 failed.
+❌ Mutant x_count_nums__mutmut_6 failed.
+❌ Mutant x_count_nums__mutmut_7 failed.
+❌ Mutant x_count_nums__mutmut_8 failed.
+❌ Mutant x_count_nums__mutmut_9 failed.
+❌ Mutant x_count_nums__mutmut_10 failed.
+❌ Mutant x_count_nums__mutmut_11 failed.
+❌ Mutant x_count_nums__mutmut_12 failed.
+❌ Mutant x_count_nums__mutmut_13 failed.
+❌ Mutant x_count_nums__mutmut_14 failed.
+❌ Mutant x_count_nums__mutmut_15 failed.
+❌ Mutant x_count_nums__mutmut_16 failed.
+❌ Mutant x_count_nums__mutmut_17 failed.
+✅ Mutant x_count_nums__mutmut_18 passed.
+❌ Mutant x_count_nums__mutmut_19 failed.
+❌ Mutant x_count_nums__mutmut_20 failed.
+
+Summary for solution_109.py:
+Total Mutants: 20
+Passed Mutants: 4
+Pass Percentage: 20.00%
+Number of failed patches so far: 4
+
+Running tests for: test_110.py and solution_110.py
+❌ Mutant x_move_one_ball__mutmut_1 failed.
+❌ Mutant x_move_one_ball__mutmut_2 failed.
+❌ Mutant x_move_one_ball__mutmut_3 failed.
+❌ Mutant x_move_one_ball__mutmut_4 failed.
+❌ Mutant x_move_one_ball__mutmut_5 failed.
+✅ Mutant x_move_one_ball__mutmut_6 passed.
+❌ Mutant x_move_one_ball__mutmut_7 failed.
+❌ Mutant x_move_one_ball__mutmut_8 failed.
+❌ Mutant x_move_one_ball__mutmut_9 failed.
+❌ Mutant x_move_one_ball__mutmut_10 failed.
+❌ Mutant x_move_one_ball__mutmut_11 failed.
+❌ Mutant x_move_one_ball__mutmut_12 failed.
+❌ Mutant x_move_one_ball__mutmut_13 failed.
+❌ Mutant x_move_one_ball__mutmut_14 failed.
+❌ Mutant x_move_one_ball__mutmut_15 failed.
+❌ Mutant x_move_one_ball__mutmut_16 failed.
+❌ Mutant x_move_one_ball__mutmut_17 failed.
+❌ Mutant x_move_one_ball__mutmut_18 failed.
+❌ Mutant x_move_one_ball__mutmut_19 failed.
+❌ Mutant x_move_one_ball__mutmut_20 failed.
+
+Summary for solution_110.py:
+Total Mutants: 20
+Passed Mutants: 1
+Pass Percentage: 5.00%
+Number of failed patches so far: 4
+
+Running tests for: test_111.py and solution_111.py
+❌ Mutant x_exchange__mutmut_1 failed.
+❌ Mutant x_exchange__mutmut_2 failed.
+❌ Mutant x_exchange__mutmut_3 failed.
+❌ Mutant x_exchange__mutmut_4 failed.
+❌ Mutant x_exchange__mutmut_5 failed.
+❌ Mutant x_exchange__mutmut_6 failed.
+❌ Mutant x_exchange__mutmut_7 failed.
+❌ Mutant x_exchange__mutmut_8 failed.
+❌ Mutant x_exchange__mutmut_9 failed.
+❌ Mutant x_exchange__mutmut_10 failed.
+❌ Mutant x_exchange__mutmut_11 failed.
+❌ Mutant x_exchange__mutmut_12 failed.
+❌ Mutant x_exchange__mutmut_13 failed.
+❌ Mutant x_exchange__mutmut_14 failed.
+❌ Mutant x_exchange__mutmut_15 failed.
+❌ Mutant x_exchange__mutmut_16 failed.
+❌ Mutant x_exchange__mutmut_17 failed.
+❌ Mutant x_exchange__mutmut_18 failed.
+❌ Mutant x_exchange__mutmut_19 failed.
+❌ Mutant x_exchange__mutmut_20 failed.
+❌ Mutant x_exchange__mutmut_21 failed.
+
+Summary for solution_111.py:
+Total Mutants: 21
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 4
+
+Running tests for: test_112.py and solution_112.py
+❌ Mutant x_histogram__mutmut_1 failed.
+❌ Mutant x_histogram__mutmut_2 failed.
+❌ Mutant x_histogram__mutmut_3 failed.
+❌ Mutant x_histogram__mutmut_4 failed.
+❌ Mutant x_histogram__mutmut_5 failed.
+❌ Mutant x_histogram__mutmut_6 failed.
+✅ Mutant x_histogram__mutmut_7 passed.
+❌ Mutant x_histogram__mutmut_8 failed.
+❌ Mutant x_histogram__mutmut_9 failed.
+❌ Mutant x_histogram__mutmut_10 failed.
+❌ Mutant x_histogram__mutmut_11 failed.
+❌ Mutant x_histogram__mutmut_12 failed.
+✅ Mutant x_histogram__mutmut_13 passed.
+❌ Mutant x_histogram__mutmut_14 failed.
+❌ Mutant x_histogram__mutmut_15 failed.
+❌ Mutant x_histogram__mutmut_16 failed.
+❌ Mutant x_histogram__mutmut_17 failed.
+❌ Mutant x_histogram__mutmut_18 failed.
+
+Summary for solution_112.py:
+Total Mutants: 18
+Passed Mutants: 2
+Pass Percentage: 11.11%
+Number of failed patches so far: 5
+
+Running tests for: test_113.py and solution_113.py
+❌ Mutant x_reverse_delete__mutmut_1 failed.
+❌ Mutant x_reverse_delete__mutmut_2 failed.
+❌ Mutant x_reverse_delete__mutmut_3 failed.
+❌ Mutant x_reverse_delete__mutmut_4 failed.
+❌ Mutant x_reverse_delete__mutmut_5 failed.
+❌ Mutant x_reverse_delete__mutmut_6 failed.
+❌ Mutant x_reverse_delete__mutmut_7 failed.
+
+Summary for solution_113.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 5
+
+Running tests for: test_114.py and solution_114.py
+❌ Mutant x_odd_count__mutmut_1 failed.
+❌ Mutant x_odd_count__mutmut_2 failed.
+❌ Mutant x_odd_count__mutmut_3 failed.
+❌ Mutant x_odd_count__mutmut_4 failed.
+❌ Mutant x_odd_count__mutmut_5 failed.
+❌ Mutant x_odd_count__mutmut_6 failed.
+❌ Mutant x_odd_count__mutmut_7 failed.
+❌ Mutant x_odd_count__mutmut_8 failed.
+❌ Mutant x_odd_count__mutmut_9 failed.
+❌ Mutant x_odd_count__mutmut_10 failed.
+❌ Mutant x_odd_count__mutmut_11 failed.
+❌ Mutant x_odd_count__mutmut_12 failed.
+❌ Mutant x_odd_count__mutmut_13 failed.
+❌ Mutant x_odd_count__mutmut_14 failed.
+❌ Mutant x_odd_count__mutmut_15 failed.
+❌ Mutant x_odd_count__mutmut_16 failed.
+❌ Mutant x_odd_count__mutmut_17 failed.
+❌ Mutant x_odd_count__mutmut_18 failed.
+❌ Mutant x_odd_count__mutmut_19 failed.
+❌ Mutant x_odd_count__mutmut_20 failed.
+❌ Mutant x_odd_count__mutmut_21 failed.
+❌ Mutant x_odd_count__mutmut_22 failed.
+❌ Mutant x_odd_count__mutmut_23 failed.
+❌ Mutant x_odd_count__mutmut_24 failed.
+
+Summary for solution_114.py:
+Total Mutants: 24
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 5
+
+Running tests for: test_115.py and solution_115.py
+❌ Mutant x_minSubArraySum__mutmut_1 failed.
+❌ Mutant x_minSubArraySum__mutmut_2 failed.
+❌ Mutant x_minSubArraySum__mutmut_3 failed.
+❌ Mutant x_minSubArraySum__mutmut_4 failed.
+❌ Mutant x_minSubArraySum__mutmut_5 failed.
+❌ Mutant x_minSubArraySum__mutmut_6 failed.
+❌ Mutant x_minSubArraySum__mutmut_7 failed.
+✅ Mutant x_minSubArraySum__mutmut_8 passed.
+✅ Mutant x_minSubArraySum__mutmut_9 passed.
+❌ Mutant x_minSubArraySum__mutmut_10 failed.
+❌ Mutant x_minSubArraySum__mutmut_11 failed.
+❌ Mutant x_minSubArraySum__mutmut_12 failed.
+❌ Mutant x_minSubArraySum__mutmut_13 failed.
+❌ Mutant x_minSubArraySum__mutmut_14 failed.
+❌ Mutant x_minSubArraySum__mutmut_15 failed.
+❌ Mutant x_minSubArraySum__mutmut_16 failed.
+❌ Mutant x_minSubArraySum__mutmut_17 failed.
+❌ Mutant x_minSubArraySum__mutmut_18 failed.
+❌ Mutant x_minSubArraySum__mutmut_19 failed.
+❌ Mutant x_minSubArraySum__mutmut_20 failed.
+❌ Mutant x_minSubArraySum__mutmut_21 failed.
+❌ Mutant x_minSubArraySum__mutmut_22 failed.
+
+Summary for solution_115.py:
+Total Mutants: 22
+Passed Mutants: 2
+Pass Percentage: 9.09%
+Number of failed patches so far: 5
+
+Running tests for: test_116.py and solution_116.py
+❌ Mutant x_max_fill__mutmut_1 failed.
+❌ Mutant x_max_fill__mutmut_2 failed.
+
+Summary for solution_116.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 5
+
+Running tests for: test_117.py and solution_117.py
+❌ Mutant x_sort_array__mutmut_1 failed.
+❌ Mutant x_sort_array__mutmut_2 failed.
+✅ Mutant x_sort_array__mutmut_3 passed.
+❌ Mutant x_sort_array__mutmut_4 failed.
+❌ Mutant x_sort_array__mutmut_5 failed.
+❌ Mutant x_sort_array__mutmut_6 failed.
+❌ Mutant x_sort_array__mutmut_7 failed.
+
+Summary for solution_117.py:
+Total Mutants: 7
+Passed Mutants: 1
+Pass Percentage: 14.29%
+Number of failed patches so far: 6
+
+Running tests for: test_118.py and solution_118.py
+❌ Mutant x_select_words__mutmut_1 failed.
+❌ Mutant x_select_words__mutmut_2 failed.
+❌ Mutant x_select_words__mutmut_3 failed.
+❌ Mutant x_select_words__mutmut_4 failed.
+❌ Mutant x_select_words__mutmut_5 failed.
+❌ Mutant x_select_words__mutmut_6 failed.
+❌ Mutant x_select_words__mutmut_7 failed.
+❌ Mutant x_select_words__mutmut_8 failed.
+❌ Mutant x_select_words__mutmut_9 failed.
+❌ Mutant x_select_words__mutmut_10 failed.
+❌ Mutant x_select_words__mutmut_11 failed.
+❌ Mutant x_select_words__mutmut_12 failed.
+❌ Mutant x_select_words__mutmut_13 failed.
+❌ Mutant x_select_words__mutmut_14 failed.
+❌ Mutant x_select_words__mutmut_15 failed.
+❌ Mutant x_select_words__mutmut_16 failed.
+
+Summary for solution_118.py:
+Total Mutants: 16
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 6
+
+Running tests for: test_119.py and solution_119.py
+❌ Mutant x_get_closest_vowel__mutmut_1 failed.
+❌ Mutant x_get_closest_vowel__mutmut_2 failed.
+❌ Mutant x_get_closest_vowel__mutmut_3 failed.
+❌ Mutant x_get_closest_vowel__mutmut_4 failed.
+❌ Mutant x_get_closest_vowel__mutmut_5 failed.
+❌ Mutant x_get_closest_vowel__mutmut_6 failed.
+❌ Mutant x_get_closest_vowel__mutmut_7 failed.
+❌ Mutant x_get_closest_vowel__mutmut_8 failed.
+✅ Mutant x_get_closest_vowel__mutmut_9 passed.
+✅ Mutant x_get_closest_vowel__mutmut_10 passed.
+✅ Mutant x_get_closest_vowel__mutmut_11 passed.
+✅ Mutant x_get_closest_vowel__mutmut_12 passed.
+✅ Mutant x_get_closest_vowel__mutmut_13 passed.
+❌ Mutant x_get_closest_vowel__mutmut_14 failed.
+❌ Mutant x_get_closest_vowel__mutmut_15 failed.
+❌ Mutant x_get_closest_vowel__mutmut_16 failed.
+❌ Mutant x_get_closest_vowel__mutmut_17 failed.
+❌ Mutant x_get_closest_vowel__mutmut_18 failed.
+❌ Mutant x_get_closest_vowel__mutmut_19 failed.
+❌ Mutant x_get_closest_vowel__mutmut_20 failed.
+❌ Mutant x_get_closest_vowel__mutmut_21 failed.
+❌ Mutant x_get_closest_vowel__mutmut_22 failed.
+❌ Mutant x_get_closest_vowel__mutmut_23 failed.
+❌ Mutant x_get_closest_vowel__mutmut_24 failed.
+❌ Mutant x_get_closest_vowel__mutmut_25 failed.
+❌ Mutant x_get_closest_vowel__mutmut_26 failed.
+❌ Mutant x_get_closest_vowel__mutmut_27 failed.
+❌ Mutant x_get_closest_vowel__mutmut_28 failed.
+❌ Mutant x_get_closest_vowel__mutmut_29 failed.
+❌ Mutant x_get_closest_vowel__mutmut_30 failed.
+❌ Mutant x_get_closest_vowel__mutmut_31 failed.
+❌ Mutant x_get_closest_vowel__mutmut_32 failed.
+
+Summary for solution_119.py:
+Total Mutants: 32
+Passed Mutants: 5
+Pass Percentage: 15.62%
+Number of failed patches so far: 7
+
+Running tests for: test_12.py and solution_12.py
+❌ Mutant x_string_xor__mutmut_1 failed.
+❌ Mutant x_string_xor__mutmut_2 failed.
+❌ Mutant x_string_xor__mutmut_3 failed.
+❌ Mutant x_string_xor__mutmut_4 failed.
+❌ Mutant x_string_xor__mutmut_5 failed.
+❌ Mutant x_string_xor__mutmut_6 failed.
+❌ Mutant x_string_xor__mutmut_7 failed.
+❌ Mutant x_string_xor__mutmut_8 failed.
+❌ Mutant x_string_xor__mutmut_9 failed.
+❌ Mutant x_string_xor__mutmut_10 failed.
+❌ Mutant x_string_xor__mutmut_11 failed.
+❌ Mutant x_string_xor__mutmut_12 failed.
+
+Summary for solution_12.py:
+Total Mutants: 12
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_120.py and solution_120.py
+❌ Mutant x_match_parens__mutmut_1 failed.
+❌ Mutant x_match_parens__mutmut_2 failed.
+❌ Mutant x_match_parens__mutmut_3 failed.
+❌ Mutant x_match_parens__mutmut_4 failed.
+❌ Mutant x_match_parens__mutmut_5 failed.
+❌ Mutant x_match_parens__mutmut_6 failed.
+❌ Mutant x_match_parens__mutmut_7 failed.
+❌ Mutant x_match_parens__mutmut_8 failed.
+❌ Mutant x_match_parens__mutmut_9 failed.
+❌ Mutant x_match_parens__mutmut_10 failed.
+❌ Mutant x_match_parens__mutmut_11 failed.
+❌ Mutant x_match_parens__mutmut_12 failed.
+❌ Mutant x_match_parens__mutmut_13 failed.
+❌ Mutant x_match_parens__mutmut_14 failed.
+❌ Mutant x_match_parens__mutmut_15 failed.
+❌ Mutant x_match_parens__mutmut_16 failed.
+❌ Mutant x_match_parens__mutmut_17 failed.
+❌ Mutant x_match_parens__mutmut_18 failed.
+❌ Mutant x_match_parens__mutmut_19 failed.
+❌ Mutant x_match_parens__mutmut_20 failed.
+❌ Mutant x_match_parens__mutmut_21 failed.
+❌ Mutant x_match_parens__mutmut_22 failed.
+❌ Mutant x_match_parens__mutmut_23 failed.
+❌ Mutant x_match_parens__mutmut_24 failed.
+❌ Mutant x_match_parens__mutmut_25 failed.
+❌ Mutant x_match_parens__mutmut_26 failed.
+❌ Mutant x_match_parens__mutmut_27 failed.
+❌ Mutant x_match_parens__mutmut_28 failed.
+❌ Mutant x_match_parens__mutmut_29 failed.
+❌ Mutant x_match_parens__mutmut_30 failed.
+❌ Mutant x_match_parens__mutmut_31 failed.
+❌ Mutant x_match_parens__mutmut_32 failed.
+❌ Mutant x_match_parens__mutmut_33 failed.
+❌ Mutant x_match_parens__mutmut_34 failed.
+
+Summary for solution_120.py:
+Total Mutants: 34
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_121.py and solution_121.py
+❌ Mutant x_maximum__mutmut_1 failed.
+❌ Mutant x_maximum__mutmut_2 failed.
+❌ Mutant x_maximum__mutmut_3 failed.
+❌ Mutant x_maximum__mutmut_4 failed.
+❌ Mutant x_maximum__mutmut_5 failed.
+
+Summary for solution_121.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_122.py and solution_122.py
+❌ Mutant x_solution__mutmut_1 failed.
+❌ Mutant x_solution__mutmut_2 failed.
+❌ Mutant x_solution__mutmut_3 failed.
+❌ Mutant x_solution__mutmut_4 failed.
+❌ Mutant x_solution__mutmut_5 failed.
+❌ Mutant x_solution__mutmut_6 failed.
+❌ Mutant x_solution__mutmut_7 failed.
+❌ Mutant x_solution__mutmut_8 failed.
+❌ Mutant x_solution__mutmut_9 failed.
+❌ Mutant x_solution__mutmut_10 failed.
+
+Summary for solution_122.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_123.py and solution_123.py
+❌ Mutant x_add_elements__mutmut_1 failed.
+❌ Mutant x_add_elements__mutmut_2 failed.
+❌ Mutant x_add_elements__mutmut_3 failed.
+
+Summary for solution_123.py:
+Total Mutants: 3
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_124.py and solution_124.py
+❌ Mutant x_get_odd_collatz__mutmut_1 failed.
+❌ Mutant x_get_odd_collatz__mutmut_2 failed.
+❌ Mutant x_get_odd_collatz__mutmut_3 failed.
+❌ Mutant x_get_odd_collatz__mutmut_4 failed.
+❌ Mutant x_get_odd_collatz__mutmut_5 failed.
+❌ Mutant x_get_odd_collatz__mutmut_6 failed.
+⏰ Mutant x_get_odd_collatz__mutmut_7 timed out.
+❌ Mutant x_get_odd_collatz__mutmut_8 failed.
+❌ Mutant x_get_odd_collatz__mutmut_9 failed.
+⏰ Mutant x_get_odd_collatz__mutmut_10 timed out.
+❌ Mutant x_get_odd_collatz__mutmut_11 failed.
+⏰ Mutant x_get_odd_collatz__mutmut_12 timed out.
+⏰ Mutant x_get_odd_collatz__mutmut_13 timed out.
+⏰ Mutant x_get_odd_collatz__mutmut_14 timed out.
+❌ Mutant x_get_odd_collatz__mutmut_15 failed.
+⏰ Mutant x_get_odd_collatz__mutmut_16 timed out.
+⏰ Mutant x_get_odd_collatz__mutmut_17 timed out.
+⏰ Mutant x_get_odd_collatz__mutmut_18 timed out.
+⏰ Mutant x_get_odd_collatz__mutmut_19 timed out.
+❌ Mutant x_get_odd_collatz__mutmut_20 failed.
+❌ Mutant x_get_odd_collatz__mutmut_21 failed.
+❌ Mutant x_get_odd_collatz__mutmut_22 failed.
+❌ Mutant x_get_odd_collatz__mutmut_23 failed.
+❌ Mutant x_get_odd_collatz__mutmut_24 failed.
+❌ Mutant x_get_odd_collatz__mutmut_25 failed.
+❌ Mutant x_get_odd_collatz__mutmut_26 failed.
+
+Summary for solution_124.py:
+Total Mutants: 26
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 7
+
+Running tests for: test_125.py and solution_125.py
+❌ Mutant x_valid_date__mutmut_1 failed.
+❌ Mutant x_valid_date__mutmut_2 failed.
+❌ Mutant x_valid_date__mutmut_3 failed.
+❌ Mutant x_valid_date__mutmut_4 failed.
+❌ Mutant x_valid_date__mutmut_5 failed.
+❌ Mutant x_valid_date__mutmut_6 failed.
+❌ Mutant x_valid_date__mutmut_7 failed.
+❌ Mutant x_valid_date__mutmut_8 failed.
+❌ Mutant x_valid_date__mutmut_9 failed.
+✅ Mutant x_valid_date__mutmut_10 passed.
+✅ Mutant x_valid_date__mutmut_11 passed.
+❌ Mutant x_valid_date__mutmut_12 failed.
+❌ Mutant x_valid_date__mutmut_13 failed.
+✅ Mutant x_valid_date__mutmut_14 passed.
+✅ Mutant x_valid_date__mutmut_15 passed.
+✅ Mutant x_valid_date__mutmut_16 passed.
+✅ Mutant x_valid_date__mutmut_17 passed.
+✅ Mutant x_valid_date__mutmut_18 passed.
+✅ Mutant x_valid_date__mutmut_19 passed.
+✅ Mutant x_valid_date__mutmut_20 passed.
+✅ Mutant x_valid_date__mutmut_21 passed.
+❌ Mutant x_valid_date__mutmut_22 failed.
+❌ Mutant x_valid_date__mutmut_23 failed.
+❌ Mutant x_valid_date__mutmut_24 failed.
+✅ Mutant x_valid_date__mutmut_25 passed.
+✅ Mutant x_valid_date__mutmut_26 passed.
+✅ Mutant x_valid_date__mutmut_27 passed.
+❌ Mutant x_valid_date__mutmut_28 failed.
+❌ Mutant x_valid_date__mutmut_29 failed.
+❌ Mutant x_valid_date__mutmut_30 failed.
+✅ Mutant x_valid_date__mutmut_31 passed.
+✅ Mutant x_valid_date__mutmut_32 passed.
+✅ Mutant x_valid_date__mutmut_33 passed.
+✅ Mutant x_valid_date__mutmut_34 passed.
+✅ Mutant x_valid_date__mutmut_35 passed.
+❌ Mutant x_valid_date__mutmut_36 failed.
+✅ Mutant x_valid_date__mutmut_37 passed.
+✅ Mutant x_valid_date__mutmut_38 passed.
+❌ Mutant x_valid_date__mutmut_39 failed.
+❌ Mutant x_valid_date__mutmut_40 failed.
+✅ Mutant x_valid_date__mutmut_41 passed.
+✅ Mutant x_valid_date__mutmut_42 passed.
+✅ Mutant x_valid_date__mutmut_43 passed.
+✅ Mutant x_valid_date__mutmut_44 passed.
+✅ Mutant x_valid_date__mutmut_45 passed.
+✅ Mutant x_valid_date__mutmut_46 passed.
+✅ Mutant x_valid_date__mutmut_47 passed.
+✅ Mutant x_valid_date__mutmut_48 passed.
+✅ Mutant x_valid_date__mutmut_49 passed.
+❌ Mutant x_valid_date__mutmut_50 failed.
+❌ Mutant x_valid_date__mutmut_51 failed.
+
+Summary for solution_125.py:
+Total Mutants: 51
+Passed Mutants: 29
+Pass Percentage: 56.86%
+Number of failed patches so far: 8
+
+Running tests for: test_126.py and solution_126.py
+❌ Mutant x_split_words__mutmut_1 failed.
+❌ Mutant x_split_words__mutmut_2 failed.
+❌ Mutant x_split_words__mutmut_3 failed.
+❌ Mutant x_split_words__mutmut_4 failed.
+❌ Mutant x_split_words__mutmut_5 failed.
+❌ Mutant x_split_words__mutmut_6 failed.
+
+Summary for solution_126.py:
+Total Mutants: 6
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 8
+
+Running tests for: test_127.py and solution_127.py
+❌ Mutant x_is_sorted__mutmut_1 failed.
+❌ Mutant x_is_sorted__mutmut_2 failed.
+❌ Mutant x_is_sorted__mutmut_3 failed.
+❌ Mutant x_is_sorted__mutmut_4 failed.
+❌ Mutant x_is_sorted__mutmut_5 failed.
+❌ Mutant x_is_sorted__mutmut_6 failed.
+❌ Mutant x_is_sorted__mutmut_7 failed.
+❌ Mutant x_is_sorted__mutmut_8 failed.
+❌ Mutant x_is_sorted__mutmut_9 failed.
+❌ Mutant x_is_sorted__mutmut_10 failed.
+❌ Mutant x_is_sorted__mutmut_11 failed.
+❌ Mutant x_is_sorted__mutmut_12 failed.
+❌ Mutant x_is_sorted__mutmut_13 failed.
+❌ Mutant x_is_sorted__mutmut_14 failed.
+❌ Mutant x_is_sorted__mutmut_15 failed.
+✅ Mutant x_is_sorted__mutmut_16 passed.
+❌ Mutant x_is_sorted__mutmut_17 failed.
+❌ Mutant x_is_sorted__mutmut_18 failed.
+
+Summary for solution_127.py:
+Total Mutants: 18
+Passed Mutants: 1
+Pass Percentage: 5.56%
+Number of failed patches so far: 8
+
+Running tests for: test_128.py and solution_128.py
+❌ Mutant x_intersection__mutmut_1 failed.
+❌ Mutant x_intersection__mutmut_2 failed.
+❌ Mutant x_intersection__mutmut_3 failed.
+✅ Mutant x_intersection__mutmut_4 passed.
+❌ Mutant x_intersection__mutmut_5 failed.
+❌ Mutant x_intersection__mutmut_6 failed.
+✅ Mutant x_intersection__mutmut_7 passed.
+✅ Mutant x_intersection__mutmut_8 passed.
+❌ Mutant x_intersection__mutmut_9 failed.
+✅ Mutant x_intersection__mutmut_10 passed.
+✅ Mutant x_intersection__mutmut_11 passed.
+✅ Mutant x_intersection__mutmut_12 passed.
+✅ Mutant x_intersection__mutmut_13 passed.
+✅ Mutant x_intersection__mutmut_14 passed.
+✅ Mutant x_intersection__mutmut_15 passed.
+✅ Mutant x_intersection__mutmut_16 passed.
+✅ Mutant x_intersection__mutmut_17 passed.
+❌ Mutant x_intersection__mutmut_18 failed.
+❌ Mutant x_intersection__mutmut_19 failed.
+❌ Mutant x_intersection__mutmut_20 failed.
+❌ Mutant x_intersection__mutmut_21 failed.
+❌ Mutant x_intersection__mutmut_22 failed.
+❌ Mutant x_intersection__mutmut_23 failed.
+❌ Mutant x_intersection__mutmut_24 failed.
+❌ Mutant x_intersection__mutmut_25 failed.
+❌ Mutant x_intersection__mutmut_26 failed.
+❌ Mutant x_intersection__mutmut_27 failed.
+❌ Mutant x_intersection__mutmut_28 failed.
+❌ Mutant x_intersection__mutmut_29 failed.
+✅ Mutant x_intersection__mutmut_30 passed.
+✅ Mutant x_intersection__mutmut_31 passed.
+❌ Mutant x_intersection__mutmut_32 failed.
+❌ Mutant x_intersection__mutmut_33 failed.
+❌ Mutant x_intersection__mutmut_34 failed.
+❌ Mutant x_intersection__mutmut_35 failed.
+
+Summary for solution_128.py:
+Total Mutants: 35
+Passed Mutants: 13
+Pass Percentage: 37.14%
+Number of failed patches so far: 9
+
+Running tests for: test_129.py and solution_129.py
+❌ Mutant x_prod_signs__mutmut_1 failed.
+❌ Mutant x_prod_signs__mutmut_2 failed.
+❌ Mutant x_prod_signs__mutmut_3 failed.
+❌ Mutant x_prod_signs__mutmut_4 failed.
+❌ Mutant x_prod_signs__mutmut_5 failed.
+❌ Mutant x_prod_signs__mutmut_6 failed.
+❌ Mutant x_prod_signs__mutmut_7 failed.
+❌ Mutant x_prod_signs__mutmut_8 failed.
+❌ Mutant x_prod_signs__mutmut_9 failed.
+❌ Mutant x_prod_signs__mutmut_10 failed.
+
+Summary for solution_129.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 9
+
+Running tests for: test_13.py and solution_13.py
+❌ Mutant x_longest__mutmut_1 failed.
+❌ Mutant x_longest__mutmut_2 failed.
+❌ Mutant x_longest__mutmut_3 failed.
+
+Summary for solution_13.py:
+Total Mutants: 3
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 9
+
+Running tests for: test_130.py and solution_130.py
+❌ Mutant x_minPath__mutmut_1 failed.
+✅ Mutant x_minPath__mutmut_2 passed.
+✅ Mutant x_minPath__mutmut_3 passed.
+✅ Mutant x_minPath__mutmut_4 passed.
+✅ Mutant x_minPath__mutmut_5 passed.
+❌ Mutant x_minPath__mutmut_6 failed.
+❌ Mutant x_minPath__mutmut_7 failed.
+❌ Mutant x_minPath__mutmut_8 failed.
+❌ Mutant x_minPath__mutmut_9 failed.
+❌ Mutant x_minPath__mutmut_10 failed.
+❌ Mutant x_minPath__mutmut_11 failed.
+❌ Mutant x_minPath__mutmut_12 failed.
+❌ Mutant x_minPath__mutmut_13 failed.
+❌ Mutant x_minPath__mutmut_14 failed.
+❌ Mutant x_minPath__mutmut_15 failed.
+❌ Mutant x_minPath__mutmut_16 failed.
+❌ Mutant x_minPath__mutmut_17 failed.
+❌ Mutant x_minPath__mutmut_18 failed.
+❌ Mutant x_minPath__mutmut_19 failed.
+❌ Mutant x_minPath__mutmut_20 failed.
+❌ Mutant x_minPath__mutmut_21 failed.
+❌ Mutant x_minPath__mutmut_22 failed.
+❌ Mutant x_minPath__mutmut_23 failed.
+❌ Mutant x_minPath__mutmut_24 failed.
+❌ Mutant x_minPath__mutmut_25 failed.
+❌ Mutant x_minPath__mutmut_26 failed.
+❌ Mutant x_minPath__mutmut_27 failed.
+❌ Mutant x_minPath__mutmut_28 failed.
+❌ Mutant x_minPath__mutmut_29 failed.
+❌ Mutant x_minPath__mutmut_30 failed.
+❌ Mutant x_minPath__mutmut_31 failed.
+❌ Mutant x_minPath__mutmut_32 failed.
+❌ Mutant x_minPath__mutmut_33 failed.
+❌ Mutant x_minPath__mutmut_34 failed.
+❌ Mutant x_minPath__mutmut_35 failed.
+❌ Mutant x_minPath__mutmut_36 failed.
+❌ Mutant x_minPath__mutmut_37 failed.
+❌ Mutant x_minPath__mutmut_38 failed.
+❌ Mutant x_minPath__mutmut_39 failed.
+❌ Mutant x_minPath__mutmut_40 failed.
+❌ Mutant x_minPath__mutmut_41 failed.
+❌ Mutant x_minPath__mutmut_42 failed.
+❌ Mutant x_minPath__mutmut_43 failed.
+❌ Mutant x_minPath__mutmut_44 failed.
+❌ Mutant x_minPath__mutmut_45 failed.
+❌ Mutant x_minPath__mutmut_46 failed.
+❌ Mutant x_minPath__mutmut_47 failed.
+❌ Mutant x_minPath__mutmut_48 failed.
+
+Summary for solution_130.py:
+Total Mutants: 48
+Passed Mutants: 4
+Pass Percentage: 8.33%
+Number of failed patches so far: 9
+
+Running tests for: test_131.py and solution_131.py
+❌ Mutant x_tri__mutmut_1 failed.
+❌ Mutant x_tri__mutmut_2 failed.
+❌ Mutant x_tri__mutmut_3 failed.
+❌ Mutant x_tri__mutmut_4 failed.
+❌ Mutant x_tri__mutmut_5 failed.
+❌ Mutant x_tri__mutmut_6 failed.
+❌ Mutant x_tri__mutmut_7 failed.
+❌ Mutant x_tri__mutmut_8 failed.
+❌ Mutant x_tri__mutmut_9 failed.
+❌ Mutant x_tri__mutmut_10 failed.
+❌ Mutant x_tri__mutmut_11 failed.
+❌ Mutant x_tri__mutmut_12 failed.
+❌ Mutant x_tri__mutmut_13 failed.
+❌ Mutant x_tri__mutmut_14 failed.
+❌ Mutant x_tri__mutmut_15 failed.
+❌ Mutant x_tri__mutmut_16 failed.
+❌ Mutant x_tri__mutmut_17 failed.
+❌ Mutant x_tri__mutmut_18 failed.
+❌ Mutant x_tri__mutmut_19 failed.
+❌ Mutant x_tri__mutmut_20 failed.
+❌ Mutant x_tri__mutmut_21 failed.
+❌ Mutant x_tri__mutmut_22 failed.
+❌ Mutant x_tri__mutmut_23 failed.
+❌ Mutant x_tri__mutmut_24 failed.
+❌ Mutant x_tri__mutmut_25 failed.
+❌ Mutant x_tri__mutmut_26 failed.
+❌ Mutant x_tri__mutmut_27 failed.
+❌ Mutant x_tri__mutmut_28 failed.
+❌ Mutant x_tri__mutmut_29 failed.
+
+Summary for solution_131.py:
+Total Mutants: 29
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 9
+
+Running tests for: test_132.py and solution_132.py
+❌ Mutant x_digits__mutmut_1 failed.
+❌ Mutant x_digits__mutmut_2 failed.
+❌ Mutant x_digits__mutmut_3 failed.
+❌ Mutant x_digits__mutmut_4 failed.
+❌ Mutant x_digits__mutmut_5 failed.
+❌ Mutant x_digits__mutmut_6 failed.
+❌ Mutant x_digits__mutmut_7 failed.
+❌ Mutant x_digits__mutmut_8 failed.
+❌ Mutant x_digits__mutmut_9 failed.
+❌ Mutant x_digits__mutmut_10 failed.
+❌ Mutant x_digits__mutmut_11 failed.
+❌ Mutant x_digits__mutmut_12 failed.
+❌ Mutant x_digits__mutmut_13 failed.
+✅ Mutant x_digits__mutmut_14 passed.
+✅ Mutant x_digits__mutmut_15 passed.
+✅ Mutant x_digits__mutmut_16 passed.
+❌ Mutant x_digits__mutmut_17 failed.
+❌ Mutant x_digits__mutmut_18 failed.
+❌ Mutant x_digits__mutmut_19 failed.
+
+Summary for solution_132.py:
+Total Mutants: 19
+Passed Mutants: 3
+Pass Percentage: 15.79%
+Number of failed patches so far: 10
+
+Running tests for: test_133.py and solution_133.py
+❌ Mutant x_is_nested__mutmut_1 failed.
+❌ Mutant x_is_nested__mutmut_2 failed.
+❌ Mutant x_is_nested__mutmut_3 failed.
+❌ Mutant x_is_nested__mutmut_4 failed.
+❌ Mutant x_is_nested__mutmut_5 failed.
+❌ Mutant x_is_nested__mutmut_6 failed.
+❌ Mutant x_is_nested__mutmut_7 failed.
+❌ Mutant x_is_nested__mutmut_8 failed.
+❌ Mutant x_is_nested__mutmut_9 failed.
+❌ Mutant x_is_nested__mutmut_10 failed.
+❌ Mutant x_is_nested__mutmut_11 failed.
+❌ Mutant x_is_nested__mutmut_12 failed.
+❌ Mutant x_is_nested__mutmut_13 failed.
+✅ Mutant x_is_nested__mutmut_14 passed.
+❌ Mutant x_is_nested__mutmut_15 failed.
+❌ Mutant x_is_nested__mutmut_16 failed.
+❌ Mutant x_is_nested__mutmut_17 failed.
+❌ Mutant x_is_nested__mutmut_18 failed.
+❌ Mutant x_is_nested__mutmut_19 failed.
+❌ Mutant x_is_nested__mutmut_20 failed.
+✅ Mutant x_is_nested__mutmut_21 passed.
+❌ Mutant x_is_nested__mutmut_22 failed.
+❌ Mutant x_is_nested__mutmut_23 failed.
+❌ Mutant x_is_nested__mutmut_24 failed.
+
+Summary for solution_133.py:
+Total Mutants: 24
+Passed Mutants: 2
+Pass Percentage: 8.33%
+Number of failed patches so far: 10
+
+Running tests for: test_134.py and solution_134.py
+❌ Mutant x_sum_squares__mutmut_1 failed.
+❌ Mutant x_sum_squares__mutmut_2 failed.
+❌ Mutant x_sum_squares__mutmut_3 failed.
+❌ Mutant x_sum_squares__mutmut_4 failed.
+❌ Mutant x_sum_squares__mutmut_5 failed.
+❌ Mutant x_sum_squares__mutmut_6 failed.
+❌ Mutant x_sum_squares__mutmut_7 failed.
+
+Summary for solution_134.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 10
+
+Running tests for: test_135.py and solution_135.py
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_1 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_2 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_3 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_4 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_5 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_6 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_7 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_8 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_9 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_10 failed.
+✅ Mutant x_check_if_last_char_is_a_letter__mutmut_11 passed.
+✅ Mutant x_check_if_last_char_is_a_letter__mutmut_12 passed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_13 failed.
+❌ Mutant x_check_if_last_char_is_a_letter__mutmut_14 failed.
+
+Summary for solution_135.py:
+Total Mutants: 14
+Passed Mutants: 2
+Pass Percentage: 14.29%
+Number of failed patches so far: 11
+
+Running tests for: test_136.py and solution_136.py
+❌ Mutant x_can_arrange__mutmut_1 failed.
+❌ Mutant x_can_arrange__mutmut_2 failed.
+❌ Mutant x_can_arrange__mutmut_3 failed.
+✅ Mutant x_can_arrange__mutmut_4 passed.
+❌ Mutant x_can_arrange__mutmut_5 failed.
+❌ Mutant x_can_arrange__mutmut_6 failed.
+❌ Mutant x_can_arrange__mutmut_7 failed.
+✅ Mutant x_can_arrange__mutmut_8 passed.
+❌ Mutant x_can_arrange__mutmut_9 failed.
+❌ Mutant x_can_arrange__mutmut_10 failed.
+❌ Mutant x_can_arrange__mutmut_11 failed.
+❌ Mutant x_can_arrange__mutmut_12 failed.
+❌ Mutant x_can_arrange__mutmut_13 failed.
+⏰ Mutant x_can_arrange__mutmut_14 timed out.
+❌ Mutant x_can_arrange__mutmut_15 failed.
+
+Summary for solution_136.py:
+Total Mutants: 15
+Passed Mutants: 2
+Pass Percentage: 13.33%
+Number of failed patches so far: 12
+
+Running tests for: test_137.py and solution_137.py
+❌ Mutant x_largest_smallest_integers__mutmut_1 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_2 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_3 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_4 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_5 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_6 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_7 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_8 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_9 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_10 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_11 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_12 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_13 failed.
+❌ Mutant x_largest_smallest_integers__mutmut_14 failed.
+
+Summary for solution_137.py:
+Total Mutants: 14
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 12
+
+Running tests for: test_138.py and solution_138.py
+❌ Mutant x_compare_one__mutmut_1 failed.
+❌ Mutant x_compare_one__mutmut_2 failed.
+❌ Mutant x_compare_one__mutmut_3 failed.
+❌ Mutant x_compare_one__mutmut_4 failed.
+❌ Mutant x_compare_one__mutmut_5 failed.
+❌ Mutant x_compare_one__mutmut_6 failed.
+❌ Mutant x_compare_one__mutmut_7 failed.
+❌ Mutant x_compare_one__mutmut_8 failed.
+❌ Mutant x_compare_one__mutmut_9 failed.
+❌ Mutant x_compare_one__mutmut_10 failed.
+❌ Mutant x_compare_one__mutmut_11 failed.
+✅ Mutant x_compare_one__mutmut_12 passed.
+❌ Mutant x_compare_one__mutmut_13 failed.
+
+Summary for solution_138.py:
+Total Mutants: 13
+Passed Mutants: 1
+Pass Percentage: 7.69%
+Number of failed patches so far: 12
+
+Running tests for: test_139.py and solution_139.py
+❌ Mutant x_is_equal_to_sum_even__mutmut_1 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_2 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_3 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_4 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_5 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_6 failed.
+❌ Mutant x_is_equal_to_sum_even__mutmut_7 failed.
+
+Summary for solution_139.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 12
+
+Running tests for: test_14.py and solution_14.py
+❌ Mutant x_greatest_common_divisor__mutmut_1 failed.
+❌ Mutant x_greatest_common_divisor__mutmut_2 failed.
+
+Summary for solution_14.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 12
+
+Running tests for: test_140.py and solution_140.py
+❌ Mutant x_special_factorial__mutmut_1 failed.
+❌ Mutant x_special_factorial__mutmut_2 failed.
+❌ Mutant x_special_factorial__mutmut_3 failed.
+❌ Mutant x_special_factorial__mutmut_4 failed.
+✅ Mutant x_special_factorial__mutmut_5 passed.
+❌ Mutant x_special_factorial__mutmut_6 failed.
+❌ Mutant x_special_factorial__mutmut_7 failed.
+❌ Mutant x_special_factorial__mutmut_8 failed.
+❌ Mutant x_special_factorial__mutmut_9 failed.
+❌ Mutant x_special_factorial__mutmut_10 failed.
+❌ Mutant x_special_factorial__mutmut_11 failed.
+
+Summary for solution_140.py:
+Total Mutants: 11
+Passed Mutants: 1
+Pass Percentage: 9.09%
+Number of failed patches so far: 12
+
+Running tests for: test_141.py and solution_141.py
+❌ Mutant x_fix_spaces__mutmut_1 failed.
+❌ Mutant x_fix_spaces__mutmut_2 failed.
+❌ Mutant x_fix_spaces__mutmut_3 failed.
+❌ Mutant x_fix_spaces__mutmut_4 failed.
+❌ Mutant x_fix_spaces__mutmut_5 failed.
+❌ Mutant x_fix_spaces__mutmut_6 failed.
+❌ Mutant x_fix_spaces__mutmut_7 failed.
+❌ Mutant x_fix_spaces__mutmut_8 failed.
+❌ Mutant x_fix_spaces__mutmut_9 failed.
+❌ Mutant x_fix_spaces__mutmut_10 failed.
+❌ Mutant x_fix_spaces__mutmut_11 failed.
+❌ Mutant x_fix_spaces__mutmut_12 failed.
+❌ Mutant x_fix_spaces__mutmut_13 failed.
+❌ Mutant x_fix_spaces__mutmut_14 failed.
+❌ Mutant x_fix_spaces__mutmut_15 failed.
+❌ Mutant x_fix_spaces__mutmut_16 failed.
+❌ Mutant x_fix_spaces__mutmut_17 failed.
+❌ Mutant x_fix_spaces__mutmut_18 failed.
+❌ Mutant x_fix_spaces__mutmut_19 failed.
+❌ Mutant x_fix_spaces__mutmut_20 failed.
+❌ Mutant x_fix_spaces__mutmut_21 failed.
+❌ Mutant x_fix_spaces__mutmut_22 failed.
+✅ Mutant x_fix_spaces__mutmut_23 passed.
+✅ Mutant x_fix_spaces__mutmut_24 passed.
+❌ Mutant x_fix_spaces__mutmut_25 failed.
+❌ Mutant x_fix_spaces__mutmut_26 failed.
+❌ Mutant x_fix_spaces__mutmut_27 failed.
+❌ Mutant x_fix_spaces__mutmut_28 failed.
+❌ Mutant x_fix_spaces__mutmut_29 failed.
+❌ Mutant x_fix_spaces__mutmut_30 failed.
+❌ Mutant x_fix_spaces__mutmut_31 failed.
+❌ Mutant x_fix_spaces__mutmut_32 failed.
+❌ Mutant x_fix_spaces__mutmut_33 failed.
+❌ Mutant x_fix_spaces__mutmut_34 failed.
+❌ Mutant x_fix_spaces__mutmut_35 failed.
+❌ Mutant x_fix_spaces__mutmut_36 failed.
+❌ Mutant x_fix_spaces__mutmut_37 failed.
+❌ Mutant x_fix_spaces__mutmut_38 failed.
+❌ Mutant x_fix_spaces__mutmut_39 failed.
+❌ Mutant x_fix_spaces__mutmut_40 failed.
+❌ Mutant x_fix_spaces__mutmut_41 failed.
+⏰ Mutant x_fix_spaces__mutmut_42 timed out.
+❌ Mutant x_fix_spaces__mutmut_43 failed.
+❌ Mutant x_fix_spaces__mutmut_44 failed.
+✅ Mutant x_fix_spaces__mutmut_45 passed.
+✅ Mutant x_fix_spaces__mutmut_46 passed.
+✅ Mutant x_fix_spaces__mutmut_47 passed.
+✅ Mutant x_fix_spaces__mutmut_48 passed.
+✅ Mutant x_fix_spaces__mutmut_49 passed.
+❌ Mutant x_fix_spaces__mutmut_50 failed.
+❌ Mutant x_fix_spaces__mutmut_51 failed.
+❌ Mutant x_fix_spaces__mutmut_52 failed.
+❌ Mutant x_fix_spaces__mutmut_53 failed.
+❌ Mutant x_fix_spaces__mutmut_54 failed.
+❌ Mutant x_fix_spaces__mutmut_55 failed.
+
+Summary for solution_141.py:
+Total Mutants: 55
+Passed Mutants: 7
+Pass Percentage: 12.73%
+Number of failed patches so far: 13
+
+Running tests for: test_142.py and solution_142.py
+❌ Mutant x_file_name_check__mutmut_1 failed.
+❌ Mutant x_file_name_check__mutmut_2 failed.
+❌ Mutant x_file_name_check__mutmut_3 failed.
+❌ Mutant x_file_name_check__mutmut_4 failed.
+❌ Mutant x_file_name_check__mutmut_5 failed.
+❌ Mutant x_file_name_check__mutmut_6 failed.
+❌ Mutant x_file_name_check__mutmut_7 failed.
+❌ Mutant x_file_name_check__mutmut_8 failed.
+❌ Mutant x_file_name_check__mutmut_9 failed.
+❌ Mutant x_file_name_check__mutmut_10 failed.
+❌ Mutant x_file_name_check__mutmut_11 failed.
+❌ Mutant x_file_name_check__mutmut_12 failed.
+❌ Mutant x_file_name_check__mutmut_13 failed.
+❌ Mutant x_file_name_check__mutmut_14 failed.
+❌ Mutant x_file_name_check__mutmut_15 failed.
+❌ Mutant x_file_name_check__mutmut_16 failed.
+❌ Mutant x_file_name_check__mutmut_17 failed.
+❌ Mutant x_file_name_check__mutmut_18 failed.
+❌ Mutant x_file_name_check__mutmut_19 failed.
+❌ Mutant x_file_name_check__mutmut_20 failed.
+❌ Mutant x_file_name_check__mutmut_21 failed.
+❌ Mutant x_file_name_check__mutmut_22 failed.
+❌ Mutant x_file_name_check__mutmut_23 failed.
+❌ Mutant x_file_name_check__mutmut_24 failed.
+❌ Mutant x_file_name_check__mutmut_25 failed.
+❌ Mutant x_file_name_check__mutmut_26 failed.
+❌ Mutant x_file_name_check__mutmut_27 failed.
+❌ Mutant x_file_name_check__mutmut_28 failed.
+
+Summary for solution_142.py:
+Total Mutants: 28
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 13
+
+Running tests for: test_143.py and solution_143.py
+❌ Mutant x_sum_squares__mutmut_1 failed.
+❌ Mutant x_sum_squares__mutmut_2 failed.
+❌ Mutant x_sum_squares__mutmut_3 failed.
+❌ Mutant x_sum_squares__mutmut_4 failed.
+❌ Mutant x_sum_squares__mutmut_5 failed.
+❌ Mutant x_sum_squares__mutmut_6 failed.
+❌ Mutant x_sum_squares__mutmut_7 failed.
+❌ Mutant x_sum_squares__mutmut_8 failed.
+❌ Mutant x_sum_squares__mutmut_9 failed.
+❌ Mutant x_sum_squares__mutmut_10 failed.
+❌ Mutant x_sum_squares__mutmut_11 failed.
+❌ Mutant x_sum_squares__mutmut_12 failed.
+✅ Mutant x_sum_squares__mutmut_13 passed.
+❌ Mutant x_sum_squares__mutmut_14 failed.
+❌ Mutant x_sum_squares__mutmut_15 failed.
+❌ Mutant x_sum_squares__mutmut_16 failed.
+❌ Mutant x_sum_squares__mutmut_17 failed.
+❌ Mutant x_sum_squares__mutmut_18 failed.
+❌ Mutant x_sum_squares__mutmut_19 failed.
+❌ Mutant x_sum_squares__mutmut_20 failed.
+❌ Mutant x_sum_squares__mutmut_21 failed.
+❌ Mutant x_sum_squares__mutmut_22 failed.
+
+Summary for solution_143.py:
+Total Mutants: 22
+Passed Mutants: 1
+Pass Percentage: 4.55%
+Number of failed patches so far: 13
+
+Running tests for: test_144.py and solution_144.py
+❌ Mutant x_words_in_sentence__mutmut_1 failed.
+❌ Mutant x_words_in_sentence__mutmut_2 failed.
+❌ Mutant x_words_in_sentence__mutmut_3 failed.
+❌ Mutant x_words_in_sentence__mutmut_4 failed.
+❌ Mutant x_words_in_sentence__mutmut_5 failed.
+✅ Mutant x_words_in_sentence__mutmut_6 passed.
+✅ Mutant x_words_in_sentence__mutmut_7 passed.
+❌ Mutant x_words_in_sentence__mutmut_8 failed.
+❌ Mutant x_words_in_sentence__mutmut_9 failed.
+❌ Mutant x_words_in_sentence__mutmut_10 failed.
+❌ Mutant x_words_in_sentence__mutmut_11 failed.
+✅ Mutant x_words_in_sentence__mutmut_12 passed.
+✅ Mutant x_words_in_sentence__mutmut_13 passed.
+❌ Mutant x_words_in_sentence__mutmut_14 failed.
+❌ Mutant x_words_in_sentence__mutmut_15 failed.
+❌ Mutant x_words_in_sentence__mutmut_16 failed.
+✅ Mutant x_words_in_sentence__mutmut_17 passed.
+❌ Mutant x_words_in_sentence__mutmut_18 failed.
+❌ Mutant x_words_in_sentence__mutmut_19 failed.
+❌ Mutant x_words_in_sentence__mutmut_20 failed.
+❌ Mutant x_words_in_sentence__mutmut_21 failed.
+
+Summary for solution_144.py:
+Total Mutants: 21
+Passed Mutants: 5
+Pass Percentage: 23.81%
+Number of failed patches so far: 14
+
+Running tests for: test_145.py and solution_145.py
+❌ Mutant x_simplify__mutmut_1 failed.
+❌ Mutant x_simplify__mutmut_2 failed.
+❌ Mutant x_simplify__mutmut_3 failed.
+❌ Mutant x_simplify__mutmut_4 failed.
+❌ Mutant x_simplify__mutmut_5 failed.
+❌ Mutant x_simplify__mutmut_6 failed.
+❌ Mutant x_simplify__mutmut_7 failed.
+❌ Mutant x_simplify__mutmut_8 failed.
+❌ Mutant x_simplify__mutmut_9 failed.
+❌ Mutant x_simplify__mutmut_10 failed.
+❌ Mutant x_simplify__mutmut_11 failed.
+❌ Mutant x_simplify__mutmut_12 failed.
+❌ Mutant x_simplify__mutmut_13 failed.
+❌ Mutant x_simplify__mutmut_14 failed.
+❌ Mutant x_simplify__mutmut_15 failed.
+❌ Mutant x_simplify__mutmut_16 failed.
+❌ Mutant x_simplify__mutmut_17 failed.
+
+Summary for solution_145.py:
+Total Mutants: 17
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 14
+
+Running tests for: test_146.py and solution_146.py
+❌ Mutant x_order_by_points__mutmut_1 failed.
+❌ Mutant x_order_by_points__mutmut_2 failed.
+✅ Mutant x_order_by_points__mutmut_3 passed.
+✅ Mutant x_order_by_points__mutmut_4 passed.
+❌ Mutant x_order_by_points__mutmut_5 failed.
+❌ Mutant x_order_by_points__mutmut_6 failed.
+❌ Mutant x_order_by_points__mutmut_7 failed.
+❌ Mutant x_order_by_points__mutmut_8 failed.
+❌ Mutant x_order_by_points__mutmut_9 failed.
+❌ Mutant x_order_by_points__mutmut_10 failed.
+❌ Mutant x_order_by_points__mutmut_11 failed.
+❌ Mutant x_order_by_points__mutmut_12 failed.
+❌ Mutant x_order_by_points__mutmut_13 failed.
+❌ Mutant x_order_by_points__mutmut_14 failed.
+❌ Mutant x_order_by_points__mutmut_15 failed.
+❌ Mutant x_order_by_points__mutmut_16 failed.
+❌ Mutant x_order_by_points__mutmut_17 failed.
+✅ Mutant x_order_by_points__mutmut_18 passed.
+❌ Mutant x_order_by_points__mutmut_19 failed.
+❌ Mutant x_order_by_points__mutmut_20 failed.
+❌ Mutant x_order_by_points__mutmut_21 failed.
+❌ Mutant x_order_by_points__mutmut_22 failed.
+❌ Mutant x_order_by_points__mutmut_23 failed.
+❌ Mutant x_order_by_points__mutmut_24 failed.
+
+Summary for solution_146.py:
+Total Mutants: 24
+Passed Mutants: 3
+Pass Percentage: 12.50%
+Number of failed patches so far: 15
+
+Running tests for: test_147.py and solution_147.py
+❌ Mutant x_specialFilter__mutmut_1 failed.
+❌ Mutant x_specialFilter__mutmut_2 failed.
+✅ Mutant x_specialFilter__mutmut_3 passed.
+✅ Mutant x_specialFilter__mutmut_4 passed.
+❌ Mutant x_specialFilter__mutmut_5 failed.
+❌ Mutant x_specialFilter__mutmut_6 failed.
+❌ Mutant x_specialFilter__mutmut_7 failed.
+❌ Mutant x_specialFilter__mutmut_8 failed.
+❌ Mutant x_specialFilter__mutmut_9 failed.
+❌ Mutant x_specialFilter__mutmut_10 failed.
+❌ Mutant x_specialFilter__mutmut_11 failed.
+❌ Mutant x_specialFilter__mutmut_12 failed.
+❌ Mutant x_specialFilter__mutmut_13 failed.
+❌ Mutant x_specialFilter__mutmut_14 failed.
+❌ Mutant x_specialFilter__mutmut_15 failed.
+❌ Mutant x_specialFilter__mutmut_16 failed.
+❌ Mutant x_specialFilter__mutmut_17 failed.
+❌ Mutant x_specialFilter__mutmut_18 failed.
+❌ Mutant x_specialFilter__mutmut_19 failed.
+❌ Mutant x_specialFilter__mutmut_20 failed.
+❌ Mutant x_specialFilter__mutmut_21 failed.
+❌ Mutant x_specialFilter__mutmut_22 failed.
+❌ Mutant x_specialFilter__mutmut_23 failed.
+
+Summary for solution_147.py:
+Total Mutants: 23
+Passed Mutants: 2
+Pass Percentage: 8.70%
+Number of failed patches so far: 15
+
+Running tests for: test_148.py and solution_148.py
+❌ Mutant x_get_max_triples__mutmut_1 failed.
+❌ Mutant x_get_max_triples__mutmut_2 failed.
+✅ Mutant x_get_max_triples__mutmut_3 passed.
+✅ Mutant x_get_max_triples__mutmut_4 passed.
+❌ Mutant x_get_max_triples__mutmut_5 failed.
+❌ Mutant x_get_max_triples__mutmut_6 failed.
+✅ Mutant x_get_max_triples__mutmut_7 passed.
+❌ Mutant x_get_max_triples__mutmut_8 failed.
+❌ Mutant x_get_max_triples__mutmut_9 failed.
+❌ Mutant x_get_max_triples__mutmut_10 failed.
+❌ Mutant x_get_max_triples__mutmut_11 failed.
+❌ Mutant x_get_max_triples__mutmut_12 failed.
+❌ Mutant x_get_max_triples__mutmut_13 failed.
+❌ Mutant x_get_max_triples__mutmut_14 failed.
+❌ Mutant x_get_max_triples__mutmut_15 failed.
+❌ Mutant x_get_max_triples__mutmut_16 failed.
+❌ Mutant x_get_max_triples__mutmut_17 failed.
+❌ Mutant x_get_max_triples__mutmut_18 failed.
+❌ Mutant x_get_max_triples__mutmut_19 failed.
+❌ Mutant x_get_max_triples__mutmut_20 failed.
+❌ Mutant x_get_max_triples__mutmut_21 failed.
+❌ Mutant x_get_max_triples__mutmut_22 failed.
+❌ Mutant x_get_max_triples__mutmut_23 failed.
+❌ Mutant x_get_max_triples__mutmut_24 failed.
+❌ Mutant x_get_max_triples__mutmut_25 failed.
+❌ Mutant x_get_max_triples__mutmut_26 failed.
+❌ Mutant x_get_max_triples__mutmut_27 failed.
+❌ Mutant x_get_max_triples__mutmut_28 failed.
+❌ Mutant x_get_max_triples__mutmut_29 failed.
+❌ Mutant x_get_max_triples__mutmut_30 failed.
+❌ Mutant x_get_max_triples__mutmut_31 failed.
+❌ Mutant x_get_max_triples__mutmut_32 failed.
+
+Summary for solution_148.py:
+Total Mutants: 32
+Passed Mutants: 3
+Pass Percentage: 9.38%
+Number of failed patches so far: 15
+
+Running tests for: test_149.py and solution_149.py
+❌ Mutant x_bf__mutmut_1 failed.
+❌ Mutant x_bf__mutmut_2 failed.
+❌ Mutant x_bf__mutmut_3 failed.
+❌ Mutant x_bf__mutmut_4 failed.
+❌ Mutant x_bf__mutmut_5 failed.
+❌ Mutant x_bf__mutmut_6 failed.
+❌ Mutant x_bf__mutmut_7 failed.
+❌ Mutant x_bf__mutmut_8 failed.
+❌ Mutant x_bf__mutmut_9 failed.
+❌ Mutant x_bf__mutmut_10 failed.
+❌ Mutant x_bf__mutmut_11 failed.
+❌ Mutant x_bf__mutmut_12 failed.
+❌ Mutant x_bf__mutmut_13 failed.
+❌ Mutant x_bf__mutmut_14 failed.
+❌ Mutant x_bf__mutmut_15 failed.
+❌ Mutant x_bf__mutmut_16 failed.
+❌ Mutant x_bf__mutmut_17 failed.
+✅ Mutant x_bf__mutmut_18 passed.
+❌ Mutant x_bf__mutmut_19 failed.
+❌ Mutant x_bf__mutmut_20 failed.
+❌ Mutant x_bf__mutmut_21 failed.
+❌ Mutant x_bf__mutmut_22 failed.
+❌ Mutant x_bf__mutmut_23 failed.
+❌ Mutant x_bf__mutmut_24 failed.
+
+Summary for solution_149.py:
+Total Mutants: 24
+Passed Mutants: 1
+Pass Percentage: 4.17%
+Number of failed patches so far: 15
+
+Running tests for: test_15.py and solution_15.py
+❌ Mutant x_all_prefixes__mutmut_1 failed.
+❌ Mutant x_all_prefixes__mutmut_2 failed.
+❌ Mutant x_all_prefixes__mutmut_3 failed.
+❌ Mutant x_all_prefixes__mutmut_4 failed.
+
+Summary for solution_15.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 15
+
+Running tests for: test_150.py and solution_150.py
+❌ Mutant x_sorted_list_sum__mutmut_1 failed.
+❌ Mutant x_sorted_list_sum__mutmut_2 failed.
+❌ Mutant x_sorted_list_sum__mutmut_3 failed.
+❌ Mutant x_sorted_list_sum__mutmut_4 failed.
+❌ Mutant x_sorted_list_sum__mutmut_5 failed.
+❌ Mutant x_sorted_list_sum__mutmut_6 failed.
+❌ Mutant x_sorted_list_sum__mutmut_7 failed.
+❌ Mutant x_sorted_list_sum__mutmut_8 failed.
+❌ Mutant x_sorted_list_sum__mutmut_9 failed.
+❌ Mutant x_sorted_list_sum__mutmut_10 failed.
+
+Summary for solution_150.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 15
+
+Running tests for: test_151.py and solution_151.py
+❌ Mutant x_x_or_y__mutmut_1 failed.
+❌ Mutant x_x_or_y__mutmut_2 failed.
+✅ Mutant x_x_or_y__mutmut_3 passed.
+❌ Mutant x_x_or_y__mutmut_4 failed.
+❌ Mutant x_x_or_y__mutmut_5 failed.
+❌ Mutant x_x_or_y__mutmut_6 failed.
+❌ Mutant x_x_or_y__mutmut_7 failed.
+❌ Mutant x_x_or_y__mutmut_8 failed.
+✅ Mutant x_x_or_y__mutmut_9 passed.
+
+Summary for solution_151.py:
+Total Mutants: 9
+Passed Mutants: 2
+Pass Percentage: 22.22%
+Number of failed patches so far: 16
+
+Running tests for: test_152.py and solution_152.py
+❌ Mutant x_double_the_difference__mutmut_1 failed.
+❌ Mutant x_double_the_difference__mutmut_2 failed.
+✅ Mutant x_double_the_difference__mutmut_3 passed.
+❌ Mutant x_double_the_difference__mutmut_4 failed.
+❌ Mutant x_double_the_difference__mutmut_5 failed.
+❌ Mutant x_double_the_difference__mutmut_6 failed.
+❌ Mutant x_double_the_difference__mutmut_7 failed.
+❌ Mutant x_double_the_difference__mutmut_8 failed.
+❌ Mutant x_double_the_difference__mutmut_9 failed.
+❌ Mutant x_double_the_difference__mutmut_10 failed.
+❌ Mutant x_double_the_difference__mutmut_11 failed.
+❌ Mutant x_double_the_difference__mutmut_12 failed.
+
+Summary for solution_152.py:
+Total Mutants: 12
+Passed Mutants: 1
+Pass Percentage: 8.33%
+Number of failed patches so far: 16
+
+Running tests for: test_153.py and solution_153.py
+❌ Mutant x_compare__mutmut_1 failed.
+❌ Mutant x_compare__mutmut_2 failed.
+❌ Mutant x_compare__mutmut_3 failed.
+❌ Mutant x_compare__mutmut_4 failed.
+❌ Mutant x_compare__mutmut_5 failed.
+
+Summary for solution_153.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 16
+
+Running tests for: test_154.py and solution_154.py
+❌ Mutant x_Strongest_Extension__mutmut_1 failed.
+❌ Mutant x_Strongest_Extension__mutmut_2 failed.
+❌ Mutant x_Strongest_Extension__mutmut_3 failed.
+❌ Mutant x_Strongest_Extension__mutmut_4 failed.
+❌ Mutant x_Strongest_Extension__mutmut_5 failed.
+❌ Mutant x_Strongest_Extension__mutmut_6 failed.
+❌ Mutant x_Strongest_Extension__mutmut_7 failed.
+❌ Mutant x_Strongest_Extension__mutmut_8 failed.
+❌ Mutant x_Strongest_Extension__mutmut_9 failed.
+❌ Mutant x_Strongest_Extension__mutmut_10 failed.
+❌ Mutant x_Strongest_Extension__mutmut_11 failed.
+❌ Mutant x_Strongest_Extension__mutmut_12 failed.
+❌ Mutant x_Strongest_Extension__mutmut_13 failed.
+❌ Mutant x_Strongest_Extension__mutmut_14 failed.
+
+Summary for solution_154.py:
+Total Mutants: 14
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 16
+
+Running tests for: test_155.py and solution_155.py
+❌ Mutant x_cycpattern_check__mutmut_1 failed.
+❌ Mutant x_cycpattern_check__mutmut_2 failed.
+❌ Mutant x_cycpattern_check__mutmut_3 failed.
+✅ Mutant x_cycpattern_check__mutmut_4 passed.
+❌ Mutant x_cycpattern_check__mutmut_5 failed.
+✅ Mutant x_cycpattern_check__mutmut_6 passed.
+❌ Mutant x_cycpattern_check__mutmut_7 failed.
+✅ Mutant x_cycpattern_check__mutmut_8 passed.
+❌ Mutant x_cycpattern_check__mutmut_9 failed.
+❌ Mutant x_cycpattern_check__mutmut_10 failed.
+❌ Mutant x_cycpattern_check__mutmut_11 failed.
+✅ Mutant x_cycpattern_check__mutmut_12 passed.
+❌ Mutant x_cycpattern_check__mutmut_13 failed.
+❌ Mutant x_cycpattern_check__mutmut_14 failed.
+❌ Mutant x_cycpattern_check__mutmut_15 failed.
+
+Summary for solution_155.py:
+Total Mutants: 15
+Passed Mutants: 4
+Pass Percentage: 26.67%
+Number of failed patches so far: 17
+
+Running tests for: test_156.py and solution_156.py
+❌ Mutant x_even_odd_count__mutmut_1 failed.
+❌ Mutant x_even_odd_count__mutmut_2 failed.
+❌ Mutant x_even_odd_count__mutmut_3 failed.
+❌ Mutant x_even_odd_count__mutmut_4 failed.
+❌ Mutant x_even_odd_count__mutmut_5 failed.
+❌ Mutant x_even_odd_count__mutmut_6 failed.
+❌ Mutant x_even_odd_count__mutmut_7 failed.
+❌ Mutant x_even_odd_count__mutmut_8 failed.
+❌ Mutant x_even_odd_count__mutmut_9 failed.
+❌ Mutant x_even_odd_count__mutmut_10 failed.
+❌ Mutant x_even_odd_count__mutmut_11 failed.
+❌ Mutant x_even_odd_count__mutmut_12 failed.
+❌ Mutant x_even_odd_count__mutmut_13 failed.
+❌ Mutant x_even_odd_count__mutmut_14 failed.
+❌ Mutant x_even_odd_count__mutmut_15 failed.
+❌ Mutant x_even_odd_count__mutmut_16 failed.
+
+Summary for solution_156.py:
+Total Mutants: 16
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 17
+
+Running tests for: test_157.py and solution_157.py
+❌ Mutant x_int_to_mini_roman__mutmut_1 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_2 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_3 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_4 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_5 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_6 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_7 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_8 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_9 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_10 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_11 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_12 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_13 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_14 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_15 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_16 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_17 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_18 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_19 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_20 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_21 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_22 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_23 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_24 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_25 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_26 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_27 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_28 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_29 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_30 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_31 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_32 failed.
+⏰ Mutant x_int_to_mini_roman__mutmut_33 timed out.
+❌ Mutant x_int_to_mini_roman__mutmut_34 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_35 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_36 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_37 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_38 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_39 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_40 failed.
+❌ Mutant x_int_to_mini_roman__mutmut_41 failed.
+⏰ Mutant x_int_to_mini_roman__mutmut_42 timed out.
+⏰ Mutant x_int_to_mini_roman__mutmut_43 timed out.
+⏰ Mutant x_int_to_mini_roman__mutmut_44 timed out.
+❌ Mutant x_int_to_mini_roman__mutmut_45 failed.
+⏰ Mutant x_int_to_mini_roman__mutmut_46 timed out.
+❌ Mutant x_int_to_mini_roman__mutmut_47 failed.
+
+Summary for solution_157.py:
+Total Mutants: 47
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 17
+
+Running tests for: test_158.py and solution_158.py
+❌ Mutant x_right_angle_triangle__mutmut_1 failed.
+❌ Mutant x_right_angle_triangle__mutmut_2 failed.
+❌ Mutant x_right_angle_triangle__mutmut_3 failed.
+❌ Mutant x_right_angle_triangle__mutmut_4 failed.
+❌ Mutant x_right_angle_triangle__mutmut_5 failed.
+✅ Mutant x_right_angle_triangle__mutmut_6 passed.
+❌ Mutant x_right_angle_triangle__mutmut_7 failed.
+✅ Mutant x_right_angle_triangle__mutmut_8 passed.
+✅ Mutant x_right_angle_triangle__mutmut_9 passed.
+✅ Mutant x_right_angle_triangle__mutmut_10 passed.
+❌ Mutant x_right_angle_triangle__mutmut_11 failed.
+❌ Mutant x_right_angle_triangle__mutmut_12 failed.
+❌ Mutant x_right_angle_triangle__mutmut_13 failed.
+❌ Mutant x_right_angle_triangle__mutmut_14 failed.
+❌ Mutant x_right_angle_triangle__mutmut_15 failed.
+❌ Mutant x_right_angle_triangle__mutmut_16 failed.
+
+Summary for solution_158.py:
+Total Mutants: 16
+Passed Mutants: 4
+Pass Percentage: 25.00%
+Number of failed patches so far: 18
+
+Running tests for: test_159.py and solution_159.py
+❌ Mutant x_find_max__mutmut_1 failed.
+❌ Mutant x_find_max__mutmut_2 failed.
+❌ Mutant x_find_max__mutmut_3 failed.
+❌ Mutant x_find_max__mutmut_4 failed.
+❌ Mutant x_find_max__mutmut_5 failed.
+❌ Mutant x_find_max__mutmut_6 failed.
+❌ Mutant x_find_max__mutmut_7 failed.
+
+Summary for solution_159.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 18
+
+Running tests for: test_16.py and solution_16.py
+❌ Mutant x_string_sequence__mutmut_1 failed.
+❌ Mutant x_string_sequence__mutmut_2 failed.
+❌ Mutant x_string_sequence__mutmut_3 failed.
+❌ Mutant x_string_sequence__mutmut_4 failed.
+
+Summary for solution_16.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 18
+
+Running tests for: test_160.py and solution_160.py
+✅ Mutant x_eat__mutmut_1 passed.
+❌ Mutant x_eat__mutmut_2 failed.
+❌ Mutant x_eat__mutmut_3 failed.
+❌ Mutant x_eat__mutmut_4 failed.
+❌ Mutant x_eat__mutmut_5 failed.
+
+Summary for solution_160.py:
+Total Mutants: 5
+Passed Mutants: 1
+Pass Percentage: 20.00%
+Number of failed patches so far: 19
+
+Running tests for: test_161.py and solution_161.py
+❌ Mutant x_do_algebra__mutmut_1 failed.
+❌ Mutant x_do_algebra__mutmut_2 failed.
+❌ Mutant x_do_algebra__mutmut_3 failed.
+❌ Mutant x_do_algebra__mutmut_4 failed.
+❌ Mutant x_do_algebra__mutmut_5 failed.
+❌ Mutant x_do_algebra__mutmut_6 failed.
+❌ Mutant x_do_algebra__mutmut_7 failed.
+❌ Mutant x_do_algebra__mutmut_8 failed.
+❌ Mutant x_do_algebra__mutmut_9 failed.
+❌ Mutant x_do_algebra__mutmut_10 failed.
+❌ Mutant x_do_algebra__mutmut_11 failed.
+❌ Mutant x_do_algebra__mutmut_12 failed.
+
+Summary for solution_161.py:
+Total Mutants: 12
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 19
+
+Running tests for: test_162.py and solution_162.py
+❌ Mutant x_solve__mutmut_1 failed.
+❌ Mutant x_solve__mutmut_2 failed.
+❌ Mutant x_solve__mutmut_3 failed.
+❌ Mutant x_solve__mutmut_4 failed.
+❌ Mutant x_solve__mutmut_5 failed.
+❌ Mutant x_solve__mutmut_6 failed.
+❌ Mutant x_solve__mutmut_7 failed.
+❌ Mutant x_solve__mutmut_8 failed.
+✅ Mutant x_solve__mutmut_9 passed.
+✅ Mutant x_solve__mutmut_10 passed.
+❌ Mutant x_solve__mutmut_11 failed.
+❌ Mutant x_solve__mutmut_12 failed.
+❌ Mutant x_solve__mutmut_13 failed.
+❌ Mutant x_solve__mutmut_14 failed.
+❌ Mutant x_solve__mutmut_15 failed.
+❌ Mutant x_solve__mutmut_16 failed.
+❌ Mutant x_solve__mutmut_17 failed.
+❌ Mutant x_solve__mutmut_18 failed.
+❌ Mutant x_solve__mutmut_19 failed.
+❌ Mutant x_solve__mutmut_20 failed.
+❌ Mutant x_solve__mutmut_21 failed.
+❌ Mutant x_solve__mutmut_22 failed.
+
+Summary for solution_162.py:
+Total Mutants: 22
+Passed Mutants: 2
+Pass Percentage: 9.09%
+Number of failed patches so far: 19
+
+Running tests for: test_163.py and solution_163.py
+❌ Mutant x_string_to_md5__mutmut_1 failed.
+
+Summary for solution_163.py:
+Total Mutants: 1
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 19
+
+Running tests for: test_164.py and solution_164.py
+❌ Mutant x_generate_integers__mutmut_1 failed.
+❌ Mutant x_generate_integers__mutmut_2 failed.
+❌ Mutant x_generate_integers__mutmut_3 failed.
+❌ Mutant x_generate_integers__mutmut_4 failed.
+❌ Mutant x_generate_integers__mutmut_5 failed.
+❌ Mutant x_generate_integers__mutmut_6 failed.
+✅ Mutant x_generate_integers__mutmut_7 passed.
+❌ Mutant x_generate_integers__mutmut_8 failed.
+❌ Mutant x_generate_integers__mutmut_9 failed.
+❌ Mutant x_generate_integers__mutmut_10 failed.
+❌ Mutant x_generate_integers__mutmut_11 failed.
+❌ Mutant x_generate_integers__mutmut_12 failed.
+❌ Mutant x_generate_integers__mutmut_13 failed.
+❌ Mutant x_generate_integers__mutmut_14 failed.
+✅ Mutant x_generate_integers__mutmut_15 passed.
+❌ Mutant x_generate_integers__mutmut_16 failed.
+❌ Mutant x_generate_integers__mutmut_17 failed.
+❌ Mutant x_generate_integers__mutmut_18 failed.
+❌ Mutant x_generate_integers__mutmut_19 failed.
+❌ Mutant x_generate_integers__mutmut_20 failed.
+
+Summary for solution_164.py:
+Total Mutants: 20
+Passed Mutants: 2
+Pass Percentage: 10.00%
+Number of failed patches so far: 19
+
+Running tests for: test_17.py and solution_17.py
+❌ Error processing solution_17.py: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Daniel\PycharmProjects\LLMBenchmarkEval\llm-benchmark-eval\mutate_eval.py", line 121, in run_tests
+    pass_percentage = (passed_mutants / total_mutants) * 100
+                       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+Number of failed patches so far: 19
+
+Running tests for: test_18.py and solution_18.py
+❌ Mutant x_parse_music__mutmut_1 failed.
+❌ Mutant x_parse_music__mutmut_2 failed.
+❌ Mutant x_parse_music__mutmut_3 failed.
+❌ Mutant x_parse_music__mutmut_4 failed.
+❌ Mutant x_parse_music__mutmut_5 failed.
+❌ Mutant x_parse_music__mutmut_6 failed.
+❌ Mutant x_parse_music__mutmut_7 failed.
+❌ Mutant x_parse_music__mutmut_8 failed.
+❌ Mutant x_parse_music__mutmut_9 failed.
+
+Summary for solution_18.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 19
+
+Running tests for: test_19.py and solution_19.py
+❌ Mutant x_how_many_times__mutmut_1 failed.
+❌ Mutant x_how_many_times__mutmut_2 failed.
+✅ Mutant x_how_many_times__mutmut_3 passed.
+❌ Mutant x_how_many_times__mutmut_4 failed.
+✅ Mutant x_how_many_times__mutmut_5 passed.
+❌ Mutant x_how_many_times__mutmut_6 failed.
+❌ Mutant x_how_many_times__mutmut_7 failed.
+❌ Mutant x_how_many_times__mutmut_8 failed.
+❌ Mutant x_how_many_times__mutmut_9 failed.
+❌ Mutant x_how_many_times__mutmut_10 failed.
+❌ Mutant x_how_many_times__mutmut_11 failed.
+
+Summary for solution_19.py:
+Total Mutants: 11
+Passed Mutants: 2
+Pass Percentage: 18.18%
+Number of failed patches so far: 20
+
+Running tests for: test_2.py and solution_2.py
+❌ Mutant x_separate_paren_groups__mutmut_1 failed.
+❌ Mutant x_separate_paren_groups__mutmut_2 failed.
+❌ Mutant x_separate_paren_groups__mutmut_3 failed.
+❌ Mutant x_separate_paren_groups__mutmut_4 failed.
+❌ Mutant x_separate_paren_groups__mutmut_5 failed.
+❌ Mutant x_separate_paren_groups__mutmut_6 failed.
+❌ Mutant x_separate_paren_groups__mutmut_7 failed.
+❌ Mutant x_separate_paren_groups__mutmut_8 failed.
+❌ Mutant x_separate_paren_groups__mutmut_9 failed.
+❌ Mutant x_separate_paren_groups__mutmut_10 failed.
+❌ Mutant x_separate_paren_groups__mutmut_11 failed.
+❌ Mutant x_separate_paren_groups__mutmut_12 failed.
+❌ Mutant x_separate_paren_groups__mutmut_13 failed.
+❌ Mutant x_separate_paren_groups__mutmut_14 failed.
+❌ Mutant x_separate_paren_groups__mutmut_15 failed.
+❌ Mutant x_separate_paren_groups__mutmut_16 failed.
+❌ Mutant x_separate_paren_groups__mutmut_17 failed.
+❌ Mutant x_separate_paren_groups__mutmut_18 failed.
+❌ Mutant x_separate_paren_groups__mutmut_19 failed.
+❌ Mutant x_separate_paren_groups__mutmut_20 failed.
+
+Summary for solution_2.py:
+Total Mutants: 20
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 20
+
+Running tests for: test_20.py and solution_20.py
+❌ Mutant x_sort_numbers__mutmut_1 failed.
+❌ Mutant x_sort_numbers__mutmut_2 failed.
+❌ Mutant x_sort_numbers__mutmut_3 failed.
+❌ Mutant x_sort_numbers__mutmut_4 failed.
+❌ Mutant x_sort_numbers__mutmut_5 failed.
+❌ Mutant x_sort_numbers__mutmut_6 failed.
+❌ Mutant x_sort_numbers__mutmut_7 failed.
+❌ Mutant x_sort_numbers__mutmut_8 failed.
+❌ Mutant x_sort_numbers__mutmut_9 failed.
+❌ Mutant x_sort_numbers__mutmut_10 failed.
+❌ Mutant x_sort_numbers__mutmut_11 failed.
+❌ Mutant x_sort_numbers__mutmut_12 failed.
+❌ Mutant x_sort_numbers__mutmut_13 failed.
+✅ Mutant x_sort_numbers__mutmut_14 passed.
+❌ Mutant x_sort_numbers__mutmut_15 failed.
+✅ Mutant x_sort_numbers__mutmut_16 passed.
+❌ Mutant x_sort_numbers__mutmut_17 failed.
+❌ Mutant x_sort_numbers__mutmut_18 failed.
+❌ Mutant x_sort_numbers__mutmut_19 failed.
+✅ Mutant x_sort_numbers__mutmut_20 passed.
+❌ Mutant x_sort_numbers__mutmut_21 failed.
+❌ Mutant x_sort_numbers__mutmut_22 failed.
+❌ Mutant x_sort_numbers__mutmut_23 failed.
+❌ Mutant x_sort_numbers__mutmut_24 failed.
+❌ Mutant x_sort_numbers__mutmut_25 failed.
+❌ Mutant x_sort_numbers__mutmut_26 failed.
+
+Summary for solution_20.py:
+Total Mutants: 26
+Passed Mutants: 3
+Pass Percentage: 11.54%
+Number of failed patches so far: 21
+
+Running tests for: test_21.py and solution_21.py
+✅ Mutant x_find_closest_elements__mutmut_1 passed.
+❌ Mutant x_find_closest_elements__mutmut_2 failed.
+❌ Mutant x_find_closest_elements__mutmut_3 failed.
+❌ Mutant x_find_closest_elements__mutmut_4 failed.
+❌ Mutant x_find_closest_elements__mutmut_5 failed.
+❌ Mutant x_find_closest_elements__mutmut_6 failed.
+✅ Mutant x_find_closest_elements__mutmut_7 passed.
+❌ Mutant x_find_closest_elements__mutmut_8 failed.
+✅ Mutant x_find_closest_elements__mutmut_9 passed.
+❌ Mutant x_find_closest_elements__mutmut_10 failed.
+❌ Mutant x_find_closest_elements__mutmut_11 failed.
+✅ Mutant x_find_closest_elements__mutmut_12 passed.
+❌ Mutant x_find_closest_elements__mutmut_13 failed.
+❌ Mutant x_find_closest_elements__mutmut_14 failed.
+
+Summary for solution_21.py:
+Total Mutants: 14
+Passed Mutants: 4
+Pass Percentage: 28.57%
+Number of failed patches so far: 22
+
+Running tests for: test_22.py and solution_22.py
+❌ Mutant x_rescale_to_unit__mutmut_1 failed.
+❌ Mutant x_rescale_to_unit__mutmut_2 failed.
+❌ Mutant x_rescale_to_unit__mutmut_3 failed.
+❌ Mutant x_rescale_to_unit__mutmut_4 failed.
+❌ Mutant x_rescale_to_unit__mutmut_5 failed.
+❌ Mutant x_rescale_to_unit__mutmut_6 failed.
+❌ Mutant x_rescale_to_unit__mutmut_7 failed.
+
+Summary for solution_22.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 22
+
+Running tests for: test_23.py and solution_23.py
+❌ Error processing solution_23.py: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Daniel\PycharmProjects\LLMBenchmarkEval\llm-benchmark-eval\mutate_eval.py", line 121, in run_tests
+    pass_percentage = (passed_mutants / total_mutants) * 100
+                       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+Number of failed patches so far: 22
+
+Running tests for: test_24.py and solution_24.py
+❌ Error processing solution_24.py: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Daniel\PycharmProjects\LLMBenchmarkEval\llm-benchmark-eval\mutate_eval.py", line 121, in run_tests
+    pass_percentage = (passed_mutants / total_mutants) * 100
+                       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+Number of failed patches so far: 22
+
+Running tests for: test_25.py and solution_25.py
+❌ Mutant x_largest_divisor__mutmut_1 failed.
+❌ Mutant x_largest_divisor__mutmut_2 failed.
+❌ Mutant x_largest_divisor__mutmut_3 failed.
+❌ Mutant x_largest_divisor__mutmut_4 failed.
+
+Summary for solution_25.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 22
+
+Running tests for: test_26.py and solution_26.py
+❌ Mutant x_factorize__mutmut_1 failed.
+❌ Mutant x_factorize__mutmut_2 failed.
+❌ Mutant x_factorize__mutmut_3 failed.
+✅ Mutant x_factorize__mutmut_4 passed.
+❌ Mutant x_factorize__mutmut_5 failed.
+❌ Mutant x_factorize__mutmut_6 failed.
+✅ Mutant x_factorize__mutmut_7 passed.
+❌ Mutant x_factorize__mutmut_8 failed.
+❌ Mutant x_factorize__mutmut_9 failed.
+❌ Mutant x_factorize__mutmut_10 failed.
+❌ Mutant x_factorize__mutmut_11 failed.
+✅ Mutant x_factorize__mutmut_12 passed.
+⏰ Mutant x_factorize__mutmut_13 timed out.
+⏰ Mutant x_factorize__mutmut_14 timed out.
+⏰ Mutant x_factorize__mutmut_15 timed out.
+❌ Mutant x_factorize__mutmut_16 failed.
+❌ Mutant x_factorize__mutmut_17 failed.
+✅ Mutant x_factorize__mutmut_18 passed.
+❌ Mutant x_factorize__mutmut_19 failed.
+
+Summary for solution_26.py:
+Total Mutants: 19
+Passed Mutants: 4
+Pass Percentage: 21.05%
+Number of failed patches so far: 23
+
+Running tests for: test_27.py and solution_27.py
+❌ Mutant x_remove_duplicates__mutmut_1 failed.
+❌ Mutant x_remove_duplicates__mutmut_2 failed.
+❌ Mutant x_remove_duplicates__mutmut_3 failed.
+❌ Mutant x_remove_duplicates__mutmut_4 failed.
+❌ Mutant x_remove_duplicates__mutmut_5 failed.
+
+Summary for solution_27.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 23
+
+Running tests for: test_28.py and solution_28.py
+❌ Error processing solution_28.py: division by zero
+Traceback (most recent call last):
+  File "C:\Users\Daniel\PycharmProjects\LLMBenchmarkEval\llm-benchmark-eval\mutate_eval.py", line 121, in run_tests
+    pass_percentage = (passed_mutants / total_mutants) * 100
+                       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+Number of failed patches so far: 23
+
+Running tests for: test_29.py and solution_29.py
+❌ Mutant x_concatenate__mutmut_1 failed.
+❌ Mutant x_concatenate__mutmut_2 failed.
+
+Summary for solution_29.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 23
+
+Running tests for: test_3.py and solution_3.py
+❌ Mutant x_truncate_number__mutmut_1 failed.
+❌ Mutant x_truncate_number__mutmut_2 failed.
+
+Summary for solution_3.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 23
+
+Running tests for: test_30.py and solution_30.py
+❌ Mutant x_filter_by_prefix__mutmut_1 failed.
+
+Summary for solution_30.py:
+Total Mutants: 1
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 23
+
+Running tests for: test_31.py and solution_31.py
+❌ Mutant x_get_positive__mutmut_1 failed.
+❌ Mutant x_get_positive__mutmut_2 failed.
+
+Summary for solution_31.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 23
+
+Running tests for: test_32.py and solution_32.py
+✅ Mutant x_is_prime__mutmut_1 passed.
+✅ Mutant x_is_prime__mutmut_2 passed.
+❌ Mutant x_is_prime__mutmut_3 failed.
+❌ Mutant x_is_prime__mutmut_4 failed.
+❌ Mutant x_is_prime__mutmut_5 failed.
+❌ Mutant x_is_prime__mutmut_6 failed.
+❌ Mutant x_is_prime__mutmut_7 failed.
+❌ Mutant x_is_prime__mutmut_8 failed.
+❌ Mutant x_is_prime__mutmut_9 failed.
+❌ Mutant x_is_prime__mutmut_10 failed.
+❌ Mutant x_is_prime__mutmut_11 failed.
+
+Summary for solution_32.py:
+Total Mutants: 11
+Passed Mutants: 2
+Pass Percentage: 18.18%
+Number of failed patches so far: 24
+
+Running tests for: test_35.py and solution_35.py
+❌ Mutant x_unique__mutmut_1 failed.
+
+Summary for solution_35.py:
+Total Mutants: 1
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 24
+
+Running tests for: test_36.py and solution_36.py
+✅ Mutant x_max_element__mutmut_1 passed.
+❌ Mutant x_max_element__mutmut_2 failed.
+❌ Mutant x_max_element__mutmut_3 failed.
+✅ Mutant x_max_element__mutmut_4 passed.
+❌ Mutant x_max_element__mutmut_5 failed.
+
+Summary for solution_36.py:
+Total Mutants: 5
+Passed Mutants: 2
+Pass Percentage: 40.00%
+Number of failed patches so far: 25
+
+Running tests for: test_37.py and solution_37.py
+❌ Mutant x_fizz_buzz__mutmut_1 failed.
+❌ Mutant x_fizz_buzz__mutmut_2 failed.
+❌ Mutant x_fizz_buzz__mutmut_3 failed.
+❌ Mutant x_fizz_buzz__mutmut_4 failed.
+❌ Mutant x_fizz_buzz__mutmut_5 failed.
+❌ Mutant x_fizz_buzz__mutmut_6 failed.
+❌ Mutant x_fizz_buzz__mutmut_7 failed.
+❌ Mutant x_fizz_buzz__mutmut_8 failed.
+❌ Mutant x_fizz_buzz__mutmut_9 failed.
+❌ Mutant x_fizz_buzz__mutmut_10 failed.
+❌ Mutant x_fizz_buzz__mutmut_11 failed.
+❌ Mutant x_fizz_buzz__mutmut_12 failed.
+✅ Mutant x_fizz_buzz__mutmut_13 passed.
+❌ Mutant x_fizz_buzz__mutmut_14 failed.
+❌ Mutant x_fizz_buzz__mutmut_15 failed.
+❌ Mutant x_fizz_buzz__mutmut_16 failed.
+❌ Mutant x_fizz_buzz__mutmut_17 failed.
+❌ Mutant x_fizz_buzz__mutmut_18 failed.
+❌ Mutant x_fizz_buzz__mutmut_19 failed.
+❌ Mutant x_fizz_buzz__mutmut_20 failed.
+❌ Mutant x_fizz_buzz__mutmut_21 failed.
+❌ Mutant x_fizz_buzz__mutmut_22 failed.
+❌ Mutant x_fizz_buzz__mutmut_23 failed.
+❌ Mutant x_fizz_buzz__mutmut_24 failed.
+
+Summary for solution_37.py:
+Total Mutants: 24
+Passed Mutants: 1
+Pass Percentage: 4.17%
+Number of failed patches so far: 25
+
+Running tests for: test_38.py and solution_38.py
+❌ Mutant x_sort_even__mutmut_1 failed.
+❌ Mutant x_sort_even__mutmut_2 failed.
+❌ Mutant x_sort_even__mutmut_3 failed.
+❌ Mutant x_sort_even__mutmut_4 failed.
+❌ Mutant x_sort_even__mutmut_5 failed.
+❌ Mutant x_sort_even__mutmut_6 failed.
+❌ Mutant x_sort_even__mutmut_7 failed.
+❌ Mutant x_sort_even__mutmut_8 failed.
+❌ Mutant x_sort_even__mutmut_9 failed.
+❌ Mutant x_sort_even__mutmut_10 failed.
+❌ Mutant x_sort_even__mutmut_11 failed.
+❌ Mutant x_sort_even__mutmut_12 failed.
+❌ Mutant x_sort_even__mutmut_13 failed.
+❌ Mutant x_sort_even__mutmut_14 failed.
+❌ Mutant x_sort_even__mutmut_15 failed.
+❌ Mutant x_sort_even__mutmut_16 failed.
+
+Summary for solution_38.py:
+Total Mutants: 16
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 25
+
+Running tests for: test_4.py and solution_4.py
+❌ Mutant x_below_zero__mutmut_1 failed.
+❌ Mutant x_below_zero__mutmut_2 failed.
+❌ Mutant x_below_zero__mutmut_3 failed.
+❌ Mutant x_below_zero__mutmut_4 failed.
+❌ Mutant x_below_zero__mutmut_5 failed.
+❌ Mutant x_below_zero__mutmut_6 failed.
+❌ Mutant x_below_zero__mutmut_7 failed.
+❌ Mutant x_below_zero__mutmut_8 failed.
+
+Summary for solution_4.py:
+Total Mutants: 8
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 25
+
+Running tests for: test_40.py and solution_40.py
+❌ Mutant x_prime_fib__mutmut_1 failed.
+❌ Mutant x_prime_fib__mutmut_2 failed.
+❌ Mutant x_prime_fib__mutmut_3 failed.
+❌ Mutant x_prime_fib__mutmut_4 failed.
+❌ Mutant x_prime_fib__mutmut_5 failed.
+❌ Mutant x_prime_fib__mutmut_6 failed.
+✅ Mutant x_prime_fib__mutmut_7 passed.
+✅ Mutant x_prime_fib__mutmut_8 passed.
+✅ Mutant x_prime_fib__mutmut_9 passed.
+❌ Mutant x_prime_fib__mutmut_10 failed.
+❌ Mutant x_prime_fib__mutmut_11 failed.
+❌ Mutant x_prime_fib__mutmut_12 failed.
+❌ Mutant x_prime_fib__mutmut_13 failed.
+⏰ Mutant x_prime_fib__mutmut_14 timed out.
+✅ Mutant x_prime_fib__mutmut_15 passed.
+❌ Mutant x_prime_fib__mutmut_16 failed.
+❌ Mutant x_prime_fib__mutmut_17 failed.
+❌ Mutant x_prime_fib__mutmut_18 failed.
+❌ Mutant x_prime_fib__mutmut_19 failed.
+❌ Mutant x_prime_fib__mutmut_20 failed.
+❌ Mutant x_prime_fib__mutmut_21 failed.
+⏰ Mutant x_prime_fib__mutmut_22 timed out.
+❌ Mutant x_prime_fib__mutmut_23 failed.
+❌ Mutant x_prime_fib__mutmut_24 failed.
+❌ Mutant x_prime_fib__mutmut_25 failed.
+⏰ Mutant x_prime_fib__mutmut_26 timed out.
+❌ Mutant x_prime_fib__mutmut_27 failed.
+❌ Mutant x_prime_fib__mutmut_28 failed.
+⏰ Mutant x_prime_fib__mutmut_29 timed out.
+⏰ Mutant x_prime_fib__mutmut_30 timed out.
+⏰ Mutant x_prime_fib__mutmut_31 timed out.
+❌ Mutant x_prime_fib__mutmut_32 failed.
+❌ Mutant x_prime_fib__mutmut_33 failed.
+❌ Mutant x_prime_fib__mutmut_34 failed.
+❌ Mutant x_prime_fib__mutmut_35 failed.
+❌ Mutant x_prime_fib__mutmut_36 failed.
+
+Summary for solution_40.py:
+Total Mutants: 36
+Passed Mutants: 4
+Pass Percentage: 11.11%
+Number of failed patches so far: 26
+
+Running tests for: test_41.py and solution_41.py
+✅ Mutant x_triples_sum_to_zero__mutmut_1 passed.
+✅ Mutant x_triples_sum_to_zero__mutmut_2 passed.
+✅ Mutant x_triples_sum_to_zero__mutmut_3 passed.
+❌ Mutant x_triples_sum_to_zero__mutmut_4 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_5 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_6 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_7 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_8 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_9 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_10 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_11 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_12 failed.
+❌ Mutant x_triples_sum_to_zero__mutmut_13 failed.
+
+Summary for solution_41.py:
+Total Mutants: 13
+Passed Mutants: 3
+Pass Percentage: 23.08%
+Number of failed patches so far: 27
+
+Running tests for: test_42.py and solution_42.py
+❌ Mutant x_car_race_collision__mutmut_1 failed.
+❌ Mutant x_car_race_collision__mutmut_2 failed.
+
+Summary for solution_42.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 27
+
+Running tests for: test_43.py and solution_43.py
+❌ Mutant x_incr_list__mutmut_1 failed.
+❌ Mutant x_incr_list__mutmut_2 failed.
+
+Summary for solution_43.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 27
+
+Running tests for: test_44.py and solution_44.py
+❌ Mutant x_pairs_sum_to_zero__mutmut_1 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_2 failed.
+✅ Mutant x_pairs_sum_to_zero__mutmut_3 passed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_4 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_5 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_6 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_7 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_8 failed.
+❌ Mutant x_pairs_sum_to_zero__mutmut_9 failed.
+
+Summary for solution_44.py:
+Total Mutants: 9
+Passed Mutants: 1
+Pass Percentage: 11.11%
+Number of failed patches so far: 28
+
+Running tests for: test_45.py and solution_45.py
+❌ Mutant x_change_base__mutmut_1 failed.
+❌ Mutant x_change_base__mutmut_2 failed.
+⏰ Mutant x_change_base__mutmut_3 timed out.
+❌ Mutant x_change_base__mutmut_4 failed.
+❌ Mutant x_change_base__mutmut_5 failed.
+❌ Mutant x_change_base__mutmut_6 failed.
+❌ Mutant x_change_base__mutmut_7 failed.
+❌ Mutant x_change_base__mutmut_8 failed.
+⏰ Mutant x_change_base__mutmut_9 timed out.
+
+Summary for solution_45.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 28
+
+Running tests for: test_46.py and solution_46.py
+❌ Mutant x_triangle_area__mutmut_1 failed.
+❌ Mutant x_triangle_area__mutmut_2 failed.
+❌ Mutant x_triangle_area__mutmut_3 failed.
+
+Summary for solution_46.py:
+Total Mutants: 3
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 28
+
+Running tests for: test_47.py and solution_47.py
+❌ Mutant x_fib4__mutmut_1 failed.
+❌ Mutant x_fib4__mutmut_2 failed.
+❌ Mutant x_fib4__mutmut_3 failed.
+❌ Mutant x_fib4__mutmut_4 failed.
+❌ Mutant x_fib4__mutmut_5 failed.
+✅ Mutant x_fib4__mutmut_6 passed.
+✅ Mutant x_fib4__mutmut_7 passed.
+✅ Mutant x_fib4__mutmut_8 passed.
+❌ Mutant x_fib4__mutmut_9 failed.
+❌ Mutant x_fib4__mutmut_10 failed.
+❌ Mutant x_fib4__mutmut_11 failed.
+❌ Mutant x_fib4__mutmut_12 failed.
+❌ Mutant x_fib4__mutmut_13 failed.
+❌ Mutant x_fib4__mutmut_14 failed.
+❌ Mutant x_fib4__mutmut_15 failed.
+✅ Mutant x_fib4__mutmut_16 passed.
+❌ Mutant x_fib4__mutmut_17 failed.
+❌ Mutant x_fib4__mutmut_18 failed.
+❌ Mutant x_fib4__mutmut_19 failed.
+❌ Mutant x_fib4__mutmut_20 failed.
+❌ Mutant x_fib4__mutmut_21 failed.
+❌ Mutant x_fib4__mutmut_22 failed.
+❌ Mutant x_fib4__mutmut_23 failed.
+❌ Mutant x_fib4__mutmut_24 failed.
+❌ Mutant x_fib4__mutmut_25 failed.
+❌ Mutant x_fib4__mutmut_26 failed.
+❌ Mutant x_fib4__mutmut_27 failed.
+❌ Mutant x_fib4__mutmut_28 failed.
+❌ Mutant x_fib4__mutmut_29 failed.
+❌ Mutant x_fib4__mutmut_30 failed.
+
+Summary for solution_47.py:
+Total Mutants: 30
+Passed Mutants: 4
+Pass Percentage: 13.33%
+Number of failed patches so far: 29
+
+Running tests for: test_48.py and solution_48.py
+❌ Mutant x_median__mutmut_1 failed.
+❌ Mutant x_median__mutmut_2 failed.
+❌ Mutant x_median__mutmut_3 failed.
+❌ Mutant x_median__mutmut_4 failed.
+❌ Mutant x_median__mutmut_5 failed.
+❌ Mutant x_median__mutmut_6 failed.
+❌ Mutant x_median__mutmut_7 failed.
+❌ Mutant x_median__mutmut_8 failed.
+❌ Mutant x_median__mutmut_9 failed.
+❌ Mutant x_median__mutmut_10 failed.
+❌ Mutant x_median__mutmut_11 failed.
+❌ Mutant x_median__mutmut_12 failed.
+❌ Mutant x_median__mutmut_13 failed.
+❌ Mutant x_median__mutmut_14 failed.
+❌ Mutant x_median__mutmut_15 failed.
+❌ Mutant x_median__mutmut_16 failed.
+❌ Mutant x_median__mutmut_17 failed.
+❌ Mutant x_median__mutmut_18 failed.
+❌ Mutant x_median__mutmut_19 failed.
+❌ Mutant x_median__mutmut_20 failed.
+
+Summary for solution_48.py:
+Total Mutants: 20
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 29
+
+Running tests for: test_49.py and solution_49.py
+❌ Mutant x_is_palindrome__mutmut_1 failed.
+❌ Mutant x_is_palindrome__mutmut_2 failed.
+❌ Mutant x_is_palindrome__mutmut_3 failed.
+❌ Mutant x_is_palindrome__mutmut_4 failed.
+❌ Mutant x_is_palindrome__mutmut_5 failed.
+❌ Mutant x_is_palindrome__mutmut_6 failed.
+❌ Mutant x_is_palindrome__mutmut_7 failed.
+❌ Mutant x_is_palindrome__mutmut_8 failed.
+
+Summary for solution_49.py:
+Total Mutants: 8
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 29
+
+Running tests for: test_5.py and solution_5.py
+❌ Mutant x_mean_absolute_deviation__mutmut_1 failed.
+❌ Mutant x_mean_absolute_deviation__mutmut_2 failed.
+❌ Mutant x_mean_absolute_deviation__mutmut_3 failed.
+❌ Mutant x_mean_absolute_deviation__mutmut_4 failed.
+❌ Mutant x_mean_absolute_deviation__mutmut_5 failed.
+
+Summary for solution_5.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 29
+
+Running tests for: test_50.py and solution_50.py
+❌ Mutant x_modp__mutmut_1 failed.
+❌ Mutant x_modp__mutmut_2 failed.
+❌ Mutant x_modp__mutmut_3 failed.
+❌ Mutant x_modp__mutmut_4 failed.
+❌ Mutant x_modp__mutmut_5 failed.
+❌ Mutant x_modp__mutmut_6 failed.
+❌ Mutant x_modp__mutmut_7 failed.
+
+Summary for solution_50.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 29
+
+Running tests for: test_52.py and solution_52.py
+❌ Mutant x_remove_vowels__mutmut_1 failed.
+❌ Mutant x_remove_vowels__mutmut_2 failed.
+❌ Mutant x_remove_vowels__mutmut_3 failed.
+❌ Mutant x_remove_vowels__mutmut_4 failed.
+❌ Mutant x_remove_vowels__mutmut_5 failed.
+❌ Mutant x_remove_vowels__mutmut_6 failed.
+✅ Mutant x_remove_vowels__mutmut_7 passed.
+
+Summary for solution_52.py:
+Total Mutants: 7
+Passed Mutants: 1
+Pass Percentage: 14.29%
+Number of failed patches so far: 30
+
+Running tests for: test_53.py and solution_53.py
+❌ Mutant x_below_threshold__mutmut_1 failed.
+❌ Mutant x_below_threshold__mutmut_2 failed.
+❌ Mutant x_below_threshold__mutmut_3 failed.
+
+Summary for solution_53.py:
+Total Mutants: 3
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_54.py and solution_54.py
+❌ Mutant x_add__mutmut_1 failed.
+
+Summary for solution_54.py:
+Total Mutants: 1
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_55.py and solution_55.py
+❌ Mutant x_same_chars__mutmut_1 failed.
+❌ Mutant x_same_chars__mutmut_2 failed.
+❌ Mutant x_same_chars__mutmut_3 failed.
+
+Summary for solution_55.py:
+Total Mutants: 3
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_56.py and solution_56.py
+❌ Mutant x_fib__mutmut_1 failed.
+❌ Mutant x_fib__mutmut_2 failed.
+❌ Mutant x_fib__mutmut_3 failed.
+❌ Mutant x_fib__mutmut_4 failed.
+❌ Mutant x_fib__mutmut_5 failed.
+❌ Mutant x_fib__mutmut_6 failed.
+❌ Mutant x_fib__mutmut_7 failed.
+❌ Mutant x_fib__mutmut_8 failed.
+❌ Mutant x_fib__mutmut_9 failed.
+❌ Mutant x_fib__mutmut_10 failed.
+❌ Mutant x_fib__mutmut_11 failed.
+
+Summary for solution_56.py:
+Total Mutants: 11
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_57.py and solution_57.py
+❌ Mutant x_correct_bracketing__mutmut_1 failed.
+❌ Mutant x_correct_bracketing__mutmut_2 failed.
+❌ Mutant x_correct_bracketing__mutmut_3 failed.
+❌ Mutant x_correct_bracketing__mutmut_4 failed.
+❌ Mutant x_correct_bracketing__mutmut_5 failed.
+❌ Mutant x_correct_bracketing__mutmut_6 failed.
+❌ Mutant x_correct_bracketing__mutmut_7 failed.
+❌ Mutant x_correct_bracketing__mutmut_8 failed.
+❌ Mutant x_correct_bracketing__mutmut_9 failed.
+❌ Mutant x_correct_bracketing__mutmut_10 failed.
+❌ Mutant x_correct_bracketing__mutmut_11 failed.
+❌ Mutant x_correct_bracketing__mutmut_12 failed.
+❌ Mutant x_correct_bracketing__mutmut_13 failed.
+❌ Mutant x_correct_bracketing__mutmut_14 failed.
+❌ Mutant x_correct_bracketing__mutmut_15 failed.
+
+Summary for solution_57.py:
+Total Mutants: 15
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_58.py and solution_58.py
+❌ Mutant x_monotonic__mutmut_1 failed.
+❌ Mutant x_monotonic__mutmut_2 failed.
+❌ Mutant x_monotonic__mutmut_3 failed.
+❌ Mutant x_monotonic__mutmut_4 failed.
+❌ Mutant x_monotonic__mutmut_5 failed.
+❌ Mutant x_monotonic__mutmut_6 failed.
+❌ Mutant x_monotonic__mutmut_7 failed.
+❌ Mutant x_monotonic__mutmut_8 failed.
+❌ Mutant x_monotonic__mutmut_9 failed.
+❌ Mutant x_monotonic__mutmut_10 failed.
+
+Summary for solution_58.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_59.py and solution_59.py
+❌ Mutant x_common__mutmut_1 failed.
+❌ Mutant x_common__mutmut_2 failed.
+❌ Mutant x_common__mutmut_3 failed.
+❌ Mutant x_common__mutmut_4 failed.
+
+Summary for solution_59.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_6.py and solution_6.py
+❌ Mutant x_intersperse__mutmut_1 failed.
+❌ Mutant x_intersperse__mutmut_2 failed.
+❌ Mutant x_intersperse__mutmut_3 failed.
+❌ Mutant x_intersperse__mutmut_4 failed.
+❌ Mutant x_intersperse__mutmut_5 failed.
+❌ Mutant x_intersperse__mutmut_6 failed.
+❌ Mutant x_intersperse__mutmut_7 failed.
+❌ Mutant x_intersperse__mutmut_8 failed.
+❌ Mutant x_intersperse__mutmut_9 failed.
+❌ Mutant x_intersperse__mutmut_10 failed.
+
+Summary for solution_6.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 30
+
+Running tests for: test_60.py and solution_60.py
+✅ Mutant x_largest_prime_factor__mutmut_1 passed.
+✅ Mutant x_largest_prime_factor__mutmut_2 passed.
+✅ Mutant x_largest_prime_factor__mutmut_3 passed.
+✅ Mutant x_largest_prime_factor__mutmut_4 passed.
+❌ Mutant x_largest_prime_factor__mutmut_5 failed.
+✅ Mutant x_largest_prime_factor__mutmut_6 passed.
+❌ Mutant x_largest_prime_factor__mutmut_7 failed.
+❌ Mutant x_largest_prime_factor__mutmut_8 failed.
+❌ Mutant x_largest_prime_factor__mutmut_9 failed.
+❌ Mutant x_largest_prime_factor__mutmut_10 failed.
+❌ Mutant x_largest_prime_factor__mutmut_11 failed.
+✅ Mutant x_largest_prime_factor__mutmut_12 passed.
+❌ Mutant x_largest_prime_factor__mutmut_13 failed.
+✅ Mutant x_largest_prime_factor__mutmut_14 passed.
+✅ Mutant x_largest_prime_factor__mutmut_15 passed.
+✅ Mutant x_largest_prime_factor__mutmut_16 passed.
+❌ Mutant x_largest_prime_factor__mutmut_17 failed.
+❌ Mutant x_largest_prime_factor__mutmut_18 failed.
+❌ Mutant x_largest_prime_factor__mutmut_19 failed.
+❌ Mutant x_largest_prime_factor__mutmut_20 failed.
+❌ Mutant x_largest_prime_factor__mutmut_21 failed.
+❌ Mutant x_largest_prime_factor__mutmut_22 failed.
+❌ Mutant x_largest_prime_factor__mutmut_23 failed.
+❌ Mutant x_largest_prime_factor__mutmut_24 failed.
+❌ Mutant x_largest_prime_factor__mutmut_25 failed.
+❌ Mutant x_largest_prime_factor__mutmut_26 failed.
+
+Summary for solution_60.py:
+Total Mutants: 26
+Passed Mutants: 9
+Pass Percentage: 34.62%
+Number of failed patches so far: 31
+
+Running tests for: test_61.py and solution_61.py
+❌ Mutant x_sum_to_n__mutmut_1 failed.
+❌ Mutant x_sum_to_n__mutmut_2 failed.
+
+Summary for solution_61.py:
+Total Mutants: 2
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 31
+
+Running tests for: test_62.py and solution_62.py
+❌ Mutant x_correct_bracketing__mutmut_1 failed.
+❌ Mutant x_correct_bracketing__mutmut_2 failed.
+❌ Mutant x_correct_bracketing__mutmut_3 failed.
+❌ Mutant x_correct_bracketing__mutmut_4 failed.
+❌ Mutant x_correct_bracketing__mutmut_5 failed.
+❌ Mutant x_correct_bracketing__mutmut_6 failed.
+❌ Mutant x_correct_bracketing__mutmut_7 failed.
+❌ Mutant x_correct_bracketing__mutmut_8 failed.
+❌ Mutant x_correct_bracketing__mutmut_9 failed.
+❌ Mutant x_correct_bracketing__mutmut_10 failed.
+❌ Mutant x_correct_bracketing__mutmut_11 failed.
+❌ Mutant x_correct_bracketing__mutmut_12 failed.
+❌ Mutant x_correct_bracketing__mutmut_13 failed.
+❌ Mutant x_correct_bracketing__mutmut_14 failed.
+❌ Mutant x_correct_bracketing__mutmut_15 failed.
+
+Summary for solution_62.py:
+Total Mutants: 15
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 31
+
+Running tests for: test_63.py and solution_63.py
+❌ Mutant x_derivative__mutmut_1 failed.
+❌ Mutant x_derivative__mutmut_2 failed.
+❌ Mutant x_derivative__mutmut_3 failed.
+❌ Mutant x_derivative__mutmut_4 failed.
+
+Summary for solution_63.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 31
+
+Running tests for: test_64.py and solution_64.py
+❌ Mutant x_fibfib__mutmut_1 failed.
+❌ Mutant x_fibfib__mutmut_2 failed.
+❌ Mutant x_fibfib__mutmut_3 failed.
+❌ Mutant x_fibfib__mutmut_4 failed.
+❌ Mutant x_fibfib__mutmut_5 failed.
+❌ Mutant x_fibfib__mutmut_6 failed.
+❌ Mutant x_fibfib__mutmut_7 failed.
+❌ Mutant x_fibfib__mutmut_8 failed.
+❌ Mutant x_fibfib__mutmut_9 failed.
+❌ Mutant x_fibfib__mutmut_10 failed.
+❌ Mutant x_fibfib__mutmut_11 failed.
+❌ Mutant x_fibfib__mutmut_12 failed.
+❌ Mutant x_fibfib__mutmut_13 failed.
+❌ Mutant x_fibfib__mutmut_14 failed.
+❌ Mutant x_fibfib__mutmut_15 failed.
+❌ Mutant x_fibfib__mutmut_16 failed.
+❌ Mutant x_fibfib__mutmut_17 failed.
+
+Summary for solution_64.py:
+Total Mutants: 17
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 31
+
+Running tests for: test_65.py and solution_65.py
+✅ Mutant x_vowels_count__mutmut_1 passed.
+❌ Mutant x_vowels_count__mutmut_2 failed.
+❌ Mutant x_vowels_count__mutmut_3 failed.
+❌ Mutant x_vowels_count__mutmut_4 failed.
+❌ Mutant x_vowels_count__mutmut_5 failed.
+❌ Mutant x_vowels_count__mutmut_6 failed.
+❌ Mutant x_vowels_count__mutmut_7 failed.
+❌ Mutant x_vowels_count__mutmut_8 failed.
+❌ Mutant x_vowels_count__mutmut_9 failed.
+❌ Mutant x_vowels_count__mutmut_10 failed.
+❌ Mutant x_vowels_count__mutmut_11 failed.
+❌ Mutant x_vowels_count__mutmut_12 failed.
+❌ Mutant x_vowels_count__mutmut_13 failed.
+❌ Mutant x_vowels_count__mutmut_14 failed.
+❌ Mutant x_vowels_count__mutmut_15 failed.
+❌ Mutant x_vowels_count__mutmut_16 failed.
+❌ Mutant x_vowels_count__mutmut_17 failed.
+❌ Mutant x_vowels_count__mutmut_18 failed.
+
+Summary for solution_65.py:
+Total Mutants: 18
+Passed Mutants: 1
+Pass Percentage: 5.56%
+Number of failed patches so far: 31
+
+Running tests for: test_66.py and solution_66.py
+❌ Mutant x_circular_shift__mutmut_1 failed.
+❌ Mutant x_circular_shift__mutmut_2 failed.
+❌ Mutant x_circular_shift__mutmut_3 failed.
+❌ Mutant x_circular_shift__mutmut_4 failed.
+❌ Mutant x_circular_shift__mutmut_5 failed.
+❌ Mutant x_circular_shift__mutmut_6 failed.
+❌ Mutant x_circular_shift__mutmut_7 failed.
+❌ Mutant x_circular_shift__mutmut_8 failed.
+❌ Mutant x_circular_shift__mutmut_9 failed.
+❌ Mutant x_circular_shift__mutmut_10 failed.
+❌ Mutant x_circular_shift__mutmut_11 failed.
+
+Summary for solution_66.py:
+Total Mutants: 11
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 31
+
+Running tests for: test_67.py and solution_67.py
+❌ Mutant x_digitSum__mutmut_1 failed.
+✅ Mutant x_digitSum__mutmut_2 passed.
+❌ Mutant x_digitSum__mutmut_3 failed.
+❌ Mutant x_digitSum__mutmut_4 failed.
+❌ Mutant x_digitSum__mutmut_5 failed.
+
+Summary for solution_67.py:
+Total Mutants: 5
+Passed Mutants: 1
+Pass Percentage: 20.00%
+Number of failed patches so far: 32
+
+Running tests for: test_68.py and solution_68.py
+❌ Mutant x_fruit_distribution__mutmut_1 failed.
+❌ Mutant x_fruit_distribution__mutmut_2 failed.
+❌ Mutant x_fruit_distribution__mutmut_3 failed.
+❌ Mutant x_fruit_distribution__mutmut_4 failed.
+❌ Mutant x_fruit_distribution__mutmut_5 failed.
+
+Summary for solution_68.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 32
+
+Running tests for: test_69.py and solution_69.py
+❌ Mutant x_pluck__mutmut_1 failed.
+✅ Mutant x_pluck__mutmut_2 passed.
+❌ Mutant x_pluck__mutmut_3 failed.
+❌ Mutant x_pluck__mutmut_4 failed.
+❌ Mutant x_pluck__mutmut_5 failed.
+❌ Mutant x_pluck__mutmut_6 failed.
+❌ Mutant x_pluck__mutmut_7 failed.
+❌ Mutant x_pluck__mutmut_8 failed.
+❌ Mutant x_pluck__mutmut_9 failed.
+❌ Mutant x_pluck__mutmut_10 failed.
+❌ Mutant x_pluck__mutmut_11 failed.
+❌ Mutant x_pluck__mutmut_12 failed.
+❌ Mutant x_pluck__mutmut_13 failed.
+
+Summary for solution_69.py:
+Total Mutants: 13
+Passed Mutants: 1
+Pass Percentage: 7.69%
+Number of failed patches so far: 32
+
+Running tests for: test_7.py and solution_7.py
+❌ Mutant x_parse_nested_parens__mutmut_1 failed.
+❌ Mutant x_parse_nested_parens__mutmut_2 failed.
+✅ Mutant x_parse_nested_parens__mutmut_3 passed.
+❌ Mutant x_parse_nested_parens__mutmut_4 failed.
+❌ Mutant x_parse_nested_parens__mutmut_5 failed.
+❌ Mutant x_parse_nested_parens__mutmut_6 failed.
+❌ Mutant x_parse_nested_parens__mutmut_7 failed.
+❌ Mutant x_parse_nested_parens__mutmut_8 failed.
+❌ Mutant x_parse_nested_parens__mutmut_9 failed.
+❌ Mutant x_parse_nested_parens__mutmut_10 failed.
+❌ Mutant x_parse_nested_parens__mutmut_11 failed.
+❌ Mutant x_parse_nested_parens__mutmut_12 failed.
+❌ Mutant x_parse_nested_parens__mutmut_13 failed.
+❌ Mutant x_parse_nested_parens__mutmut_14 failed.
+❌ Mutant x_parse_nested_parens__mutmut_15 failed.
+✅ Mutant x_parse_nested_parens__mutmut_16 passed.
+❌ Mutant x_parse_nested_parens__mutmut_17 failed.
+❌ Mutant x_parse_nested_parens__mutmut_18 failed.
+❌ Mutant x_parse_nested_parens__mutmut_19 failed.
+
+Summary for solution_7.py:
+Total Mutants: 19
+Passed Mutants: 2
+Pass Percentage: 10.53%
+Number of failed patches so far: 33
+
+Running tests for: test_70.py and solution_70.py
+❌ Mutant x_search__mutmut_1 failed.
+❌ Mutant x_search__mutmut_2 failed.
+❌ Mutant x_search__mutmut_3 failed.
+❌ Mutant x_search__mutmut_4 failed.
+✅ Mutant x_search__mutmut_5 passed.
+❌ Mutant x_search__mutmut_6 failed.
+❌ Mutant x_search__mutmut_7 failed.
+❌ Mutant x_search__mutmut_8 failed.
+❌ Mutant x_search__mutmut_9 failed.
+❌ Mutant x_search__mutmut_10 failed.
+❌ Mutant x_search__mutmut_11 failed.
+❌ Mutant x_search__mutmut_12 failed.
+❌ Mutant x_search__mutmut_13 failed.
+❌ Mutant x_search__mutmut_14 failed.
+❌ Mutant x_search__mutmut_15 failed.
+❌ Mutant x_search__mutmut_16 failed.
+❌ Mutant x_search__mutmut_17 failed.
+
+Summary for solution_70.py:
+Total Mutants: 17
+Passed Mutants: 1
+Pass Percentage: 5.88%
+Number of failed patches so far: 33
+
+Running tests for: test_71.py and solution_71.py
+❌ Mutant x_strange_sort_list__mutmut_1 failed.
+❌ Mutant x_strange_sort_list__mutmut_2 failed.
+❌ Mutant x_strange_sort_list__mutmut_3 failed.
+❌ Mutant x_strange_sort_list__mutmut_4 failed.
+❌ Mutant x_strange_sort_list__mutmut_5 failed.
+❌ Mutant x_strange_sort_list__mutmut_6 failed.
+❌ Mutant x_strange_sort_list__mutmut_7 failed.
+❌ Mutant x_strange_sort_list__mutmut_8 failed.
+❌ Mutant x_strange_sort_list__mutmut_9 failed.
+
+Summary for solution_71.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 33
+
+Running tests for: test_72.py and solution_72.py
+❌ Mutant x_triangle_area__mutmut_1 failed.
+❌ Mutant x_triangle_area__mutmut_2 failed.
+❌ Mutant x_triangle_area__mutmut_3 failed.
+✅ Mutant x_triangle_area__mutmut_4 passed.
+❌ Mutant x_triangle_area__mutmut_5 failed.
+✅ Mutant x_triangle_area__mutmut_6 passed.
+❌ Mutant x_triangle_area__mutmut_7 failed.
+❌ Mutant x_triangle_area__mutmut_8 failed.
+❌ Mutant x_triangle_area__mutmut_9 failed.
+❌ Mutant x_triangle_area__mutmut_10 failed.
+❌ Mutant x_triangle_area__mutmut_11 failed.
+❌ Mutant x_triangle_area__mutmut_12 failed.
+❌ Mutant x_triangle_area__mutmut_13 failed.
+❌ Mutant x_triangle_area__mutmut_14 failed.
+❌ Mutant x_triangle_area__mutmut_15 failed.
+❌ Mutant x_triangle_area__mutmut_16 failed.
+❌ Mutant x_triangle_area__mutmut_17 failed.
+❌ Mutant x_triangle_area__mutmut_18 failed.
+❌ Mutant x_triangle_area__mutmut_19 failed.
+❌ Mutant x_triangle_area__mutmut_20 failed.
+❌ Mutant x_triangle_area__mutmut_21 failed.
+❌ Mutant x_triangle_area__mutmut_22 failed.
+❌ Mutant x_triangle_area__mutmut_23 failed.
+❌ Mutant x_triangle_area__mutmut_24 failed.
+❌ Mutant x_triangle_area__mutmut_25 failed.
+❌ Mutant x_triangle_area__mutmut_26 failed.
+❌ Mutant x_triangle_area__mutmut_27 failed.
+
+Summary for solution_72.py:
+Total Mutants: 27
+Passed Mutants: 2
+Pass Percentage: 7.41%
+Number of failed patches so far: 33
+
+Running tests for: test_73.py and solution_73.py
+❌ Mutant x_will_it_fly__mutmut_1 failed.
+❌ Mutant x_will_it_fly__mutmut_2 failed.
+❌ Mutant x_will_it_fly__mutmut_3 failed.
+❌ Mutant x_will_it_fly__mutmut_4 failed.
+❌ Mutant x_will_it_fly__mutmut_5 failed.
+❌ Mutant x_will_it_fly__mutmut_6 failed.
+❌ Mutant x_will_it_fly__mutmut_7 failed.
+✅ Mutant x_will_it_fly__mutmut_8 passed.
+❌ Mutant x_will_it_fly__mutmut_9 failed.
+❌ Mutant x_will_it_fly__mutmut_10 failed.
+❌ Mutant x_will_it_fly__mutmut_11 failed.
+❌ Mutant x_will_it_fly__mutmut_12 failed.
+❌ Mutant x_will_it_fly__mutmut_13 failed.
+✅ Mutant x_will_it_fly__mutmut_14 passed.
+✅ Mutant x_will_it_fly__mutmut_15 passed.
+❌ Mutant x_will_it_fly__mutmut_16 failed.
+✅ Mutant x_will_it_fly__mutmut_17 passed.
+✅ Mutant x_will_it_fly__mutmut_18 passed.
+❌ Mutant x_will_it_fly__mutmut_19 failed.
+
+Summary for solution_73.py:
+Total Mutants: 19
+Passed Mutants: 5
+Pass Percentage: 26.32%
+Number of failed patches so far: 34
+
+Running tests for: test_74.py and solution_74.py
+❌ Mutant x_smallest_change__mutmut_1 failed.
+❌ Mutant x_smallest_change__mutmut_2 failed.
+❌ Mutant x_smallest_change__mutmut_3 failed.
+❌ Mutant x_smallest_change__mutmut_4 failed.
+❌ Mutant x_smallest_change__mutmut_5 failed.
+❌ Mutant x_smallest_change__mutmut_6 failed.
+❌ Mutant x_smallest_change__mutmut_7 failed.
+❌ Mutant x_smallest_change__mutmut_8 failed.
+❌ Mutant x_smallest_change__mutmut_9 failed.
+❌ Mutant x_smallest_change__mutmut_10 failed.
+❌ Mutant x_smallest_change__mutmut_11 failed.
+❌ Mutant x_smallest_change__mutmut_12 failed.
+❌ Mutant x_smallest_change__mutmut_13 failed.
+
+Summary for solution_74.py:
+Total Mutants: 13
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 34
+
+Running tests for: test_75.py and solution_75.py
+❌ Mutant x_total_match__mutmut_1 failed.
+❌ Mutant x_total_match__mutmut_2 failed.
+❌ Mutant x_total_match__mutmut_3 failed.
+❌ Mutant x_total_match__mutmut_4 failed.
+❌ Mutant x_total_match__mutmut_5 failed.
+❌ Mutant x_total_match__mutmut_6 failed.
+❌ Mutant x_total_match__mutmut_7 failed.
+❌ Mutant x_total_match__mutmut_8 failed.
+❌ Mutant x_total_match__mutmut_9 failed.
+
+Summary for solution_75.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 34
+
+Running tests for: test_76.py and solution_76.py
+✅ Mutant x_is_multiply_prime__mutmut_1 passed.
+❌ Mutant x_is_multiply_prime__mutmut_2 failed.
+❌ Mutant x_is_multiply_prime__mutmut_3 failed.
+❌ Mutant x_is_multiply_prime__mutmut_4 failed.
+❌ Mutant x_is_multiply_prime__mutmut_5 failed.
+❌ Mutant x_is_multiply_prime__mutmut_6 failed.
+❌ Mutant x_is_multiply_prime__mutmut_7 failed.
+❌ Mutant x_is_multiply_prime__mutmut_8 failed.
+❌ Mutant x_is_multiply_prime__mutmut_9 failed.
+✅ Mutant x_is_multiply_prime__mutmut_10 passed.
+❌ Mutant x_is_multiply_prime__mutmut_11 failed.
+❌ Mutant x_is_multiply_prime__mutmut_12 failed.
+❌ Mutant x_is_multiply_prime__mutmut_13 failed.
+❌ Mutant x_is_multiply_prime__mutmut_14 failed.
+✅ Mutant x_is_multiply_prime__mutmut_15 passed.
+❌ Mutant x_is_multiply_prime__mutmut_16 failed.
+❌ Mutant x_is_multiply_prime__mutmut_17 failed.
+❌ Mutant x_is_multiply_prime__mutmut_18 failed.
+❌ Mutant x_is_multiply_prime__mutmut_19 failed.
+✅ Mutant x_is_multiply_prime__mutmut_20 passed.
+❌ Mutant x_is_multiply_prime__mutmut_21 failed.
+❌ Mutant x_is_multiply_prime__mutmut_22 failed.
+❌ Mutant x_is_multiply_prime__mutmut_23 failed.
+❌ Mutant x_is_multiply_prime__mutmut_24 failed.
+❌ Mutant x_is_multiply_prime__mutmut_25 failed.
+❌ Mutant x_is_multiply_prime__mutmut_26 failed.
+❌ Mutant x_is_multiply_prime__mutmut_27 failed.
+❌ Mutant x_is_multiply_prime__mutmut_28 failed.
+
+Summary for solution_76.py:
+Total Mutants: 28
+Passed Mutants: 4
+Pass Percentage: 14.29%
+Number of failed patches so far: 35
+
+Running tests for: test_77.py and solution_77.py
+❌ Mutant x_is_simple_power__mutmut_1 failed.
+❌ Mutant x_is_simple_power__mutmut_2 failed.
+❌ Mutant x_is_simple_power__mutmut_3 failed.
+❌ Mutant x_is_simple_power__mutmut_4 failed.
+❌ Mutant x_is_simple_power__mutmut_5 failed.
+❌ Mutant x_is_simple_power__mutmut_6 failed.
+❌ Mutant x_is_simple_power__mutmut_7 failed.
+⏰ Mutant x_is_simple_power__mutmut_8 timed out.
+❌ Mutant x_is_simple_power__mutmut_9 failed.
+❌ Mutant x_is_simple_power__mutmut_10 failed.
+
+Summary for solution_77.py:
+Total Mutants: 10
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 35
+
+Running tests for: test_78.py and solution_78.py
+❌ Mutant x_iscube__mutmut_1 failed.
+❌ Mutant x_iscube__mutmut_2 failed.
+❌ Mutant x_iscube__mutmut_3 failed.
+❌ Mutant x_iscube__mutmut_4 failed.
+❌ Mutant x_iscube__mutmut_5 failed.
+❌ Mutant x_iscube__mutmut_6 failed.
+❌ Mutant x_iscube__mutmut_7 failed.
+❌ Mutant x_iscube__mutmut_8 failed.
+❌ Mutant x_iscube__mutmut_9 failed.
+
+Summary for solution_78.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 35
+
+Running tests for: test_79.py and solution_79.py
+❌ Mutant x_hex_key__mutmut_1 failed.
+❌ Mutant x_hex_key__mutmut_2 failed.
+❌ Mutant x_hex_key__mutmut_3 failed.
+❌ Mutant x_hex_key__mutmut_4 failed.
+❌ Mutant x_hex_key__mutmut_5 failed.
+❌ Mutant x_hex_key__mutmut_6 failed.
+❌ Mutant x_hex_key__mutmut_7 failed.
+❌ Mutant x_hex_key__mutmut_8 failed.
+❌ Mutant x_hex_key__mutmut_9 failed.
+❌ Mutant x_hex_key__mutmut_10 failed.
+❌ Mutant x_hex_key__mutmut_11 failed.
+❌ Mutant x_hex_key__mutmut_12 failed.
+❌ Mutant x_hex_key__mutmut_13 failed.
+❌ Mutant x_hex_key__mutmut_14 failed.
+❌ Mutant x_hex_key__mutmut_15 failed.
+
+Summary for solution_79.py:
+Total Mutants: 15
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 35
+
+Running tests for: test_8.py and solution_8.py
+❌ Mutant x_filter_by_substring__mutmut_1 failed.
+
+Summary for solution_8.py:
+Total Mutants: 1
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 35
+
+Running tests for: test_80.py and solution_80.py
+❌ Mutant x_decimal_to_binary__mutmut_1 failed.
+❌ Mutant x_decimal_to_binary__mutmut_2 failed.
+❌ Mutant x_decimal_to_binary__mutmut_3 failed.
+❌ Mutant x_decimal_to_binary__mutmut_4 failed.
+❌ Mutant x_decimal_to_binary__mutmut_5 failed.
+❌ Mutant x_decimal_to_binary__mutmut_6 failed.
+❌ Mutant x_decimal_to_binary__mutmut_7 failed.
+
+Summary for solution_80.py:
+Total Mutants: 7
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 35
+
+Running tests for: test_81.py and solution_81.py
+❌ Mutant x_is_happy__mutmut_1 failed.
+❌ Mutant x_is_happy__mutmut_2 failed.
+❌ Mutant x_is_happy__mutmut_3 failed.
+❌ Mutant x_is_happy__mutmut_4 failed.
+❌ Mutant x_is_happy__mutmut_5 failed.
+❌ Mutant x_is_happy__mutmut_6 failed.
+❌ Mutant x_is_happy__mutmut_7 failed.
+❌ Mutant x_is_happy__mutmut_8 failed.
+✅ Mutant x_is_happy__mutmut_9 passed.
+❌ Mutant x_is_happy__mutmut_10 failed.
+❌ Mutant x_is_happy__mutmut_11 failed.
+❌ Mutant x_is_happy__mutmut_12 failed.
+❌ Mutant x_is_happy__mutmut_13 failed.
+❌ Mutant x_is_happy__mutmut_14 failed.
+❌ Mutant x_is_happy__mutmut_15 failed.
+❌ Mutant x_is_happy__mutmut_16 failed.
+❌ Mutant x_is_happy__mutmut_17 failed.
+❌ Mutant x_is_happy__mutmut_18 failed.
+❌ Mutant x_is_happy__mutmut_19 failed.
+❌ Mutant x_is_happy__mutmut_20 failed.
+❌ Mutant x_is_happy__mutmut_21 failed.
+❌ Mutant x_is_happy__mutmut_22 failed.
+❌ Mutant x_is_happy__mutmut_23 failed.
+❌ Mutant x_is_happy__mutmut_24 failed.
+❌ Mutant x_is_happy__mutmut_25 failed.
+
+Summary for solution_81.py:
+Total Mutants: 25
+Passed Mutants: 1
+Pass Percentage: 4.00%
+Number of failed patches so far: 35
+
+Running tests for: test_82.py and solution_82.py
+❌ Mutant x_numerical_letter_grade__mutmut_1 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_2 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_3 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_4 failed.
+✅ Mutant x_numerical_letter_grade__mutmut_5 passed.
+✅ Mutant x_numerical_letter_grade__mutmut_6 passed.
+✅ Mutant x_numerical_letter_grade__mutmut_7 passed.
+❌ Mutant x_numerical_letter_grade__mutmut_8 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_9 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_10 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_11 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_12 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_13 failed.
+✅ Mutant x_numerical_letter_grade__mutmut_14 passed.
+❌ Mutant x_numerical_letter_grade__mutmut_15 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_16 failed.
+✅ Mutant x_numerical_letter_grade__mutmut_17 passed.
+✅ Mutant x_numerical_letter_grade__mutmut_18 passed.
+✅ Mutant x_numerical_letter_grade__mutmut_19 passed.
+❌ Mutant x_numerical_letter_grade__mutmut_20 failed.
+✅ Mutant x_numerical_letter_grade__mutmut_21 passed.
+✅ Mutant x_numerical_letter_grade__mutmut_22 passed.
+❌ Mutant x_numerical_letter_grade__mutmut_23 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_24 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_25 failed.
+✅ Mutant x_numerical_letter_grade__mutmut_26 passed.
+❌ Mutant x_numerical_letter_grade__mutmut_27 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_28 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_29 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_30 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_31 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_32 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_33 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_34 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_35 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_36 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_37 failed.
+❌ Mutant x_numerical_letter_grade__mutmut_38 failed.
+
+Summary for solution_82.py:
+Total Mutants: 38
+Passed Mutants: 10
+Pass Percentage: 26.32%
+Number of failed patches so far: 36
+
+Running tests for: test_83.py and solution_83.py
+❌ Mutant x_prime_length__mutmut_1 failed.
+❌ Mutant x_prime_length__mutmut_2 failed.
+❌ Mutant x_prime_length__mutmut_3 failed.
+❌ Mutant x_prime_length__mutmut_4 failed.
+❌ Mutant x_prime_length__mutmut_5 failed.
+❌ Mutant x_prime_length__mutmut_6 failed.
+❌ Mutant x_prime_length__mutmut_7 failed.
+❌ Mutant x_prime_length__mutmut_8 failed.
+❌ Mutant x_prime_length__mutmut_9 failed.
+❌ Mutant x_prime_length__mutmut_10 failed.
+❌ Mutant x_prime_length__mutmut_11 failed.
+❌ Mutant x_prime_length__mutmut_12 failed.
+❌ Mutant x_prime_length__mutmut_13 failed.
+❌ Mutant x_prime_length__mutmut_14 failed.
+❌ Mutant x_prime_length__mutmut_15 failed.
+
+Summary for solution_83.py:
+Total Mutants: 15
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_84.py and solution_84.py
+❌ Mutant x_starts_one_ends__mutmut_1 failed.
+❌ Mutant x_starts_one_ends__mutmut_2 failed.
+❌ Mutant x_starts_one_ends__mutmut_3 failed.
+❌ Mutant x_starts_one_ends__mutmut_4 failed.
+❌ Mutant x_starts_one_ends__mutmut_5 failed.
+❌ Mutant x_starts_one_ends__mutmut_6 failed.
+❌ Mutant x_starts_one_ends__mutmut_7 failed.
+❌ Mutant x_starts_one_ends__mutmut_8 failed.
+❌ Mutant x_starts_one_ends__mutmut_9 failed.
+
+Summary for solution_84.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_85.py and solution_85.py
+❌ Mutant x_solve__mutmut_1 failed.
+❌ Mutant x_solve__mutmut_2 failed.
+❌ Mutant x_solve__mutmut_3 failed.
+❌ Mutant x_solve__mutmut_4 failed.
+
+Summary for solution_85.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_86.py and solution_86.py
+❌ Mutant x_add__mutmut_1 failed.
+❌ Mutant x_add__mutmut_2 failed.
+❌ Mutant x_add__mutmut_3 failed.
+❌ Mutant x_add__mutmut_4 failed.
+❌ Mutant x_add__mutmut_5 failed.
+❌ Mutant x_add__mutmut_6 failed.
+❌ Mutant x_add__mutmut_7 failed.
+❌ Mutant x_add__mutmut_8 failed.
+
+Summary for solution_86.py:
+Total Mutants: 8
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_87.py and solution_87.py
+❌ Mutant x_anti_shuffle__mutmut_1 failed.
+❌ Mutant x_anti_shuffle__mutmut_2 failed.
+❌ Mutant x_anti_shuffle__mutmut_3 failed.
+❌ Mutant x_anti_shuffle__mutmut_4 failed.
+
+Summary for solution_87.py:
+Total Mutants: 4
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_88.py and solution_88.py
+❌ Mutant x_get_row__mutmut_1 failed.
+❌ Mutant x_get_row__mutmut_2 failed.
+❌ Mutant x_get_row__mutmut_3 failed.
+❌ Mutant x_get_row__mutmut_4 failed.
+❌ Mutant x_get_row__mutmut_5 failed.
+❌ Mutant x_get_row__mutmut_6 failed.
+❌ Mutant x_get_row__mutmut_7 failed.
+❌ Mutant x_get_row__mutmut_8 failed.
+❌ Mutant x_get_row__mutmut_9 failed.
+❌ Mutant x_get_row__mutmut_10 failed.
+✅ Mutant x_get_row__mutmut_11 passed.
+❌ Mutant x_get_row__mutmut_12 failed.
+❌ Mutant x_get_row__mutmut_13 failed.
+❌ Mutant x_get_row__mutmut_14 failed.
+❌ Mutant x_get_row__mutmut_15 failed.
+❌ Mutant x_get_row__mutmut_16 failed.
+
+Summary for solution_88.py:
+Total Mutants: 16
+Passed Mutants: 1
+Pass Percentage: 6.25%
+Number of failed patches so far: 36
+
+Running tests for: test_89.py and solution_89.py
+❌ Mutant x_sort_array__mutmut_1 failed.
+❌ Mutant x_sort_array__mutmut_2 failed.
+❌ Mutant x_sort_array__mutmut_3 failed.
+❌ Mutant x_sort_array__mutmut_4 failed.
+❌ Mutant x_sort_array__mutmut_5 failed.
+✅ Mutant x_sort_array__mutmut_6 passed.
+❌ Mutant x_sort_array__mutmut_7 failed.
+❌ Mutant x_sort_array__mutmut_8 failed.
+❌ Mutant x_sort_array__mutmut_9 failed.
+❌ Mutant x_sort_array__mutmut_10 failed.
+❌ Mutant x_sort_array__mutmut_11 failed.
+❌ Mutant x_sort_array__mutmut_12 failed.
+❌ Mutant x_sort_array__mutmut_13 failed.
+❌ Mutant x_sort_array__mutmut_14 failed.
+❌ Mutant x_sort_array__mutmut_15 failed.
+
+Summary for solution_89.py:
+Total Mutants: 15
+Passed Mutants: 1
+Pass Percentage: 6.67%
+Number of failed patches so far: 36
+
+Running tests for: test_9.py and solution_9.py
+❌ Mutant x_sum_product__mutmut_1 failed.
+❌ Mutant x_sum_product__mutmut_2 failed.
+❌ Mutant x_sum_product__mutmut_3 failed.
+❌ Mutant x_sum_product__mutmut_4 failed.
+❌ Mutant x_sum_product__mutmut_5 failed.
+❌ Mutant x_sum_product__mutmut_6 failed.
+❌ Mutant x_sum_product__mutmut_7 failed.
+❌ Mutant x_sum_product__mutmut_8 failed.
+
+Summary for solution_9.py:
+Total Mutants: 8
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 36
+
+Running tests for: test_90.py and solution_90.py
+❌ Mutant x_encrypt__mutmut_1 failed.
+❌ Mutant x_encrypt__mutmut_2 failed.
+❌ Mutant x_encrypt__mutmut_3 failed.
+❌ Mutant x_encrypt__mutmut_4 failed.
+❌ Mutant x_encrypt__mutmut_5 failed.
+❌ Mutant x_encrypt__mutmut_6 failed.
+❌ Mutant x_encrypt__mutmut_7 failed.
+❌ Mutant x_encrypt__mutmut_8 failed.
+❌ Mutant x_encrypt__mutmut_9 failed.
+❌ Mutant x_encrypt__mutmut_10 failed.
+❌ Mutant x_encrypt__mutmut_11 failed.
+❌ Mutant x_encrypt__mutmut_12 failed.
+❌ Mutant x_encrypt__mutmut_13 failed.
+❌ Mutant x_encrypt__mutmut_14 failed.
+❌ Mutant x_encrypt__mutmut_15 failed.
+✅ Mutant x_encrypt__mutmut_16 passed.
+✅ Mutant x_encrypt__mutmut_17 passed.
+
+Summary for solution_90.py:
+Total Mutants: 17
+Passed Mutants: 2
+Pass Percentage: 11.76%
+Number of failed patches so far: 37
+
+Running tests for: test_91.py and solution_91.py
+❌ Mutant x_next_smallest__mutmut_1 failed.
+❌ Mutant x_next_smallest__mutmut_2 failed.
+❌ Mutant x_next_smallest__mutmut_3 failed.
+❌ Mutant x_next_smallest__mutmut_4 failed.
+❌ Mutant x_next_smallest__mutmut_5 failed.
+❌ Mutant x_next_smallest__mutmut_6 failed.
+
+Summary for solution_91.py:
+Total Mutants: 6
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 37
+
+Running tests for: test_92.py and solution_92.py
+❌ Mutant x_is_bored__mutmut_1 failed.
+❌ Mutant x_is_bored__mutmut_2 failed.
+❌ Mutant x_is_bored__mutmut_3 failed.
+❌ Mutant x_is_bored__mutmut_4 failed.
+❌ Mutant x_is_bored__mutmut_5 failed.
+❌ Mutant x_is_bored__mutmut_6 failed.
+❌ Mutant x_is_bored__mutmut_7 failed.
+❌ Mutant x_is_bored__mutmut_8 failed.
+❌ Mutant x_is_bored__mutmut_9 failed.
+
+Summary for solution_92.py:
+Total Mutants: 9
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 37
+
+Running tests for: test_93.py and solution_93.py
+❌ Mutant x_any_int__mutmut_1 failed.
+❌ Mutant x_any_int__mutmut_2 failed.
+❌ Mutant x_any_int__mutmut_3 failed.
+❌ Mutant x_any_int__mutmut_4 failed.
+❌ Mutant x_any_int__mutmut_5 failed.
+❌ Mutant x_any_int__mutmut_6 failed.
+❌ Mutant x_any_int__mutmut_7 failed.
+❌ Mutant x_any_int__mutmut_8 failed.
+❌ Mutant x_any_int__mutmut_9 failed.
+❌ Mutant x_any_int__mutmut_10 failed.
+❌ Mutant x_any_int__mutmut_11 failed.
+
+Summary for solution_93.py:
+Total Mutants: 11
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 37
+
+Running tests for: test_94.py and solution_94.py
+✅ Mutant x_encode__mutmut_1 passed.
+❌ Mutant x_encode__mutmut_2 failed.
+❌ Mutant x_encode__mutmut_3 failed.
+❌ Mutant x_encode__mutmut_4 failed.
+❌ Mutant x_encode__mutmut_5 failed.
+❌ Mutant x_encode__mutmut_6 failed.
+❌ Mutant x_encode__mutmut_7 failed.
+❌ Mutant x_encode__mutmut_8 failed.
+❌ Mutant x_encode__mutmut_9 failed.
+❌ Mutant x_encode__mutmut_10 failed.
+
+Summary for solution_94.py:
+Total Mutants: 10
+Passed Mutants: 1
+Pass Percentage: 10.00%
+Number of failed patches so far: 37
+
+Running tests for: test_95.py and solution_95.py
+❌ Mutant x_skjkasdkd__mutmut_1 failed.
+✅ Mutant x_skjkasdkd__mutmut_2 passed.
+❌ Mutant x_skjkasdkd__mutmut_3 failed.
+❌ Mutant x_skjkasdkd__mutmut_4 failed.
+✅ Mutant x_skjkasdkd__mutmut_5 passed.
+❌ Mutant x_skjkasdkd__mutmut_6 failed.
+❌ Mutant x_skjkasdkd__mutmut_7 failed.
+❌ Mutant x_skjkasdkd__mutmut_8 failed.
+❌ Mutant x_skjkasdkd__mutmut_9 failed.
+❌ Mutant x_skjkasdkd__mutmut_10 failed.
+✅ Mutant x_skjkasdkd__mutmut_11 passed.
+❌ Mutant x_skjkasdkd__mutmut_12 failed.
+❌ Mutant x_skjkasdkd__mutmut_13 failed.
+❌ Mutant x_skjkasdkd__mutmut_14 failed.
+❌ Mutant x_skjkasdkd__mutmut_15 failed.
+❌ Mutant x_skjkasdkd__mutmut_16 failed.
+✅ Mutant x_skjkasdkd__mutmut_17 passed.
+❌ Mutant x_skjkasdkd__mutmut_18 failed.
+❌ Mutant x_skjkasdkd__mutmut_19 failed.
+❌ Mutant x_skjkasdkd__mutmut_20 failed.
+❌ Mutant x_skjkasdkd__mutmut_21 failed.
+❌ Mutant x_skjkasdkd__mutmut_22 failed.
+⏰ Mutant x_skjkasdkd__mutmut_23 timed out.
+❌ Mutant x_skjkasdkd__mutmut_24 failed.
+❌ Mutant x_skjkasdkd__mutmut_25 failed.
+❌ Mutant x_skjkasdkd__mutmut_26 failed.
+❌ Mutant x_skjkasdkd__mutmut_27 failed.
+
+Summary for solution_95.py:
+Total Mutants: 27
+Passed Mutants: 4
+Pass Percentage: 14.81%
+Number of failed patches so far: 38
+
+Running tests for: test_96.py and solution_96.py
+❌ Mutant x_check_dict_case__mutmut_1 failed.
+✅ Mutant x_check_dict_case__mutmut_2 passed.
+❌ Mutant x_check_dict_case__mutmut_3 failed.
+❌ Mutant x_check_dict_case__mutmut_4 failed.
+❌ Mutant x_check_dict_case__mutmut_5 failed.
+❌ Mutant x_check_dict_case__mutmut_6 failed.
+❌ Mutant x_check_dict_case__mutmut_7 failed.
+✅ Mutant x_check_dict_case__mutmut_8 passed.
+✅ Mutant x_check_dict_case__mutmut_9 passed.
+❌ Mutant x_check_dict_case__mutmut_10 failed.
+❌ Mutant x_check_dict_case__mutmut_11 failed.
+❌ Mutant x_check_dict_case__mutmut_12 failed.
+❌ Mutant x_check_dict_case__mutmut_13 failed.
+❌ Mutant x_check_dict_case__mutmut_14 failed.
+❌ Mutant x_check_dict_case__mutmut_15 failed.
+❌ Mutant x_check_dict_case__mutmut_16 failed.
+❌ Mutant x_check_dict_case__mutmut_17 failed.
+❌ Mutant x_check_dict_case__mutmut_18 failed.
+✅ Mutant x_check_dict_case__mutmut_19 passed.
+❌ Mutant x_check_dict_case__mutmut_20 failed.
+❌ Mutant x_check_dict_case__mutmut_21 failed.
+❌ Mutant x_check_dict_case__mutmut_22 failed.
+❌ Mutant x_check_dict_case__mutmut_23 failed.
+❌ Mutant x_check_dict_case__mutmut_24 failed.
+❌ Mutant x_check_dict_case__mutmut_25 failed.
+❌ Mutant x_check_dict_case__mutmut_26 failed.
+✅ Mutant x_check_dict_case__mutmut_27 passed.
+✅ Mutant x_check_dict_case__mutmut_28 passed.
+❌ Mutant x_check_dict_case__mutmut_29 failed.
+❌ Mutant x_check_dict_case__mutmut_30 failed.
+❌ Mutant x_check_dict_case__mutmut_31 failed.
+❌ Mutant x_check_dict_case__mutmut_32 failed.
+❌ Mutant x_check_dict_case__mutmut_33 failed.
+❌ Mutant x_check_dict_case__mutmut_34 failed.
+❌ Mutant x_check_dict_case__mutmut_35 failed.
+
+Summary for solution_96.py:
+Total Mutants: 35
+Passed Mutants: 6
+Pass Percentage: 17.14%
+Number of failed patches so far: 39
+
+Running tests for: test_97.py and solution_97.py
+❌ Mutant x_count_up_to__mutmut_1 failed.
+❌ Mutant x_count_up_to__mutmut_2 failed.
+❌ Mutant x_count_up_to__mutmut_3 failed.
+❌ Mutant x_count_up_to__mutmut_4 failed.
+❌ Mutant x_count_up_to__mutmut_5 failed.
+❌ Mutant x_count_up_to__mutmut_6 failed.
+❌ Mutant x_count_up_to__mutmut_7 failed.
+❌ Mutant x_count_up_to__mutmut_8 failed.
+❌ Mutant x_count_up_to__mutmut_9 failed.
+❌ Mutant x_count_up_to__mutmut_10 failed.
+❌ Mutant x_count_up_to__mutmut_11 failed.
+❌ Mutant x_count_up_to__mutmut_12 failed.
+❌ Mutant x_count_up_to__mutmut_13 failed.
+✅ Mutant x_count_up_to__mutmut_14 passed.
+❌ Mutant x_count_up_to__mutmut_15 failed.
+❌ Mutant x_count_up_to__mutmut_16 failed.
+
+Summary for solution_97.py:
+Total Mutants: 16
+Passed Mutants: 1
+Pass Percentage: 6.25%
+Number of failed patches so far: 39
+
+Running tests for: test_98.py and solution_98.py
+❌ Mutant x_multiply__mutmut_1 failed.
+❌ Mutant x_multiply__mutmut_2 failed.
+❌ Mutant x_multiply__mutmut_3 failed.
+❌ Mutant x_multiply__mutmut_4 failed.
+❌ Mutant x_multiply__mutmut_5 failed.
+
+Summary for solution_98.py:
+Total Mutants: 5
+Passed Mutants: 0
+Pass Percentage: 0.00%
+Number of failed patches so far: 39
+
+Running tests for: test_99.py and solution_99.py
+❌ Mutant x_count_upper__mutmut_1 failed.
+❌ Mutant x_count_upper__mutmut_2 failed.
+❌ Mutant x_count_upper__mutmut_3 failed.
+❌ Mutant x_count_upper__mutmut_4 failed.
+❌ Mutant x_count_upper__mutmut_5 failed.
+❌ Mutant x_count_upper__mutmut_6 failed.
+✅ Mutant x_count_upper__mutmut_7 passed.
+❌ Mutant x_count_upper__mutmut_8 failed.
+❌ Mutant x_count_upper__mutmut_9 failed.
+❌ Mutant x_count_upper__mutmut_10 failed.
+
+Summary for solution_99.py:
+Total Mutants: 10
+Passed Mutants: 1
+Pass Percentage: 10.00%
+Number of failed patches so far: 39
+
+=== Final Summary ===
+Total Solutions: 159
+Failed Patches: 39
+Detected Patches: 120
+Mutation Score: 75.47%

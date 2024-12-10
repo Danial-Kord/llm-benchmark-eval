@@ -4,12 +4,14 @@ import traceback
 import re
 from multiprocessing import Process, Queue
 from typing import Any
+from datetime import datetime
 
 # Directories
 TESTS_DIR = "humaneval_files/tests"
 SOLUTIONS_DIR = "mutants/humaneval_files/solutions"
 OLD_SOLUTIONS_DIR = "humaneval_files/solutions"  # Directory with original solutions
 TIMEOUT = 10  # Time limit in seconds for each test case
+THRESHOLD = 10  # Threshold for the number of allowed passed mutants percent
 
 
 def load_module(filepath):
@@ -70,62 +72,87 @@ def run_tests():
         print("Error: Mismatched number of test, solution, and old solution files.")
         return
 
-    for test_file, solution_file, old_solution_file in zip(test_files, solution_files, old_solution_files):
-        test_path = os.path.join(TESTS_DIR, test_file)
-        solution_path = os.path.join(SOLUTIONS_DIR, solution_file)
-        old_solution_path = os.path.join(OLD_SOLUTIONS_DIR, old_solution_file)
+    # Create a log file
+    date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    log_filename = f"{THRESHOLD}_{date_str}.log"
+    with open(log_filename, "w", encoding="utf-8") as log_file:
 
-        print(f"\nRunning tests for: {test_file} and {solution_file}")
+        for test_file, solution_file, old_solution_file in zip(test_files, solution_files, old_solution_files):
+            test_path = os.path.join(TESTS_DIR, test_file)
+            solution_path = os.path.join(SOLUTIONS_DIR, solution_file)
+            old_solution_path = os.path.join(OLD_SOLUTIONS_DIR, old_solution_file)
 
-        try:
-            # Extract mutant function names from the mutated solution
-            mutant_function_names = extract_mutant_function_names(solution_path)
+            log_file.write(f"\nRunning tests for: {test_file} and {solution_file}\n")
+            print(f"\nRunning tests for: {test_file} and {solution_file}")
 
-            total_mutants = len(mutant_function_names)
-            passed_mutants = 0
+            try:
+                # Extract mutant function names from the mutated solution
+                mutant_function_names = extract_mutant_function_names(solution_path)
 
-            # Run tests for each mutant function
-            for mutant_function_name in mutant_function_names:
-                queue = Queue()
-                process = Process(target=run_test_in_process, args=(solution_path, test_path, mutant_function_name, queue))
-                process.start()
-                process.join(TIMEOUT)
+                total_mutants = len(mutant_function_names)
+                passed_mutants = 0
 
-                if process.is_alive():
-                    process.terminate()
-                    process.join()
-                    print(f"⏰ Mutant {mutant_function_name} timed out.")
-                else:
-                    result = queue.get()
-                    if result == "pass":
-                        print(f"✅ Mutant {mutant_function_name} passed.")
-                        passed_mutants += 1
+                # Run tests for each mutant function
+                for mutant_function_name in mutant_function_names:
+                    queue = Queue()
+                    process = Process(
+                        target=run_test_in_process,
+                        args=(solution_path, test_path, mutant_function_name, queue),
+                    )
+                    process.start()
+                    process.join(TIMEOUT)
+
+                    if process.is_alive():
+                        process.terminate()
+                        process.join()
+                        log_file.write(f"⏰ Mutant {mutant_function_name} timed out.\n")
+                        print(f"⏰ Mutant {mutant_function_name} timed out.")
                     else:
-                        print(f"❌ Mutant {mutant_function_name} failed.")
+                        result = queue.get()
+                        if result == "pass":
+                            log_file.write(f"✅ Mutant {mutant_function_name} passed.\n")
+                            print(f"✅ Mutant {mutant_function_name} passed.")
+                            passed_mutants += 1
+                        else:
+                            log_file.write(f"❌ Mutant {mutant_function_name} failed.\n")
+                            print(f"❌ Mutant {mutant_function_name} failed.")
 
-            # Calculate and display percentage of passed mutants
-            pass_percentage = (passed_mutants / total_mutants) * 100
-            print(f"\nSummary for {solution_file}:")
-            print(f"Total Mutants: {total_mutants}")
-            print(f"Passed Mutants: {passed_mutants}")
-            print(f"Pass Percentage: {pass_percentage:.2f}%")
-            if passed_mutants > 0:
-                failed_mutant_patch += 1
-        except Exception as e:
-            print(f"❌ Error processing {solution_file}: {str(e)}")
-            print(traceback.format_exc())
-        print("Number of failed patches: ", failed_mutant_patch)
+                # Calculate and display percentage of passed mutants
+                pass_percentage = (passed_mutants / total_mutants) * 100
+                log_file.write(f"\nSummary for {solution_file}:\n")
+                log_file.write(f"Total Mutants: {total_mutants}\n")
+                log_file.write(f"Passed Mutants: {passed_mutants}\n")
+                log_file.write(f"Pass Percentage: {pass_percentage:.2f}%\n")
+                print(f"\nSummary for {solution_file}:")
+                print(f"Total Mutants: {total_mutants}")
+                print(f"Passed Mutants: {passed_mutants}")
+                print(f"Pass Percentage: {pass_percentage:.2f}%")
 
-    # Calculate mutation score
-    detected_mutants = len(solution_files) - failed_mutant_patch
-    mutation_score = (detected_mutants / len(solution_files)) * 100
+                if pass_percentage > THRESHOLD:
+                    failed_mutant_patch += 1
+            except Exception as e:
+                error_msg = f"❌ Error processing {solution_file}: {str(e)}\n"
+                log_file.write(error_msg)
+                print(error_msg)
+                log_file.write(traceback.format_exc())
+            log_file.write(f"Number of failed patches so far: {failed_mutant_patch}\n")
+            print(f"Number of failed patches so far: {failed_mutant_patch}")
 
-    # Final Summary
-    print("\n=== Final Summary ===")
-    print(f"Total Solutions: {len(solution_files)}")
-    print(f"Failed Patches: {failed_mutant_patch}")
-    print(f"Detected Patches: {detected_mutants}")
-    print(f"Mutation Score: {mutation_score:.2f}%")
+        # Calculate mutation score
+        detected_mutants = len(solution_files) - failed_mutant_patch
+        mutation_score = (detected_mutants / len(solution_files)) * 100
+
+        # Final Summary
+        final_summary = (
+            f"\n=== Final Summary ===\n"
+            f"Total Solutions: {len(solution_files)}\n"
+            f"Failed Patches: {failed_mutant_patch}\n"
+            f"Detected Patches: {detected_mutants}\n"
+            f"Mutation Score: {mutation_score:.2f}%\n"
+        )
+        log_file.write(final_summary)
+        print(final_summary)
+
 
 if __name__ == "__main__":
     run_tests()
