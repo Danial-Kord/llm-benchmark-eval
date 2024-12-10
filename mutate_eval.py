@@ -2,14 +2,11 @@ import os
 import importlib.util
 import traceback
 import re
-from multiprocessing import Process, Queue
-from typing import Any
 
 # Directories
 TESTS_DIR = "humaneval_files/tests"
 SOLUTIONS_DIR = "mutants/humaneval_files/solutions"
 OLD_SOLUTIONS_DIR = "humaneval_files/solutions"  # Directory with original solutions
-TIMEOUT = 10  # Time limit in seconds for each test case
 
 
 def load_module(filepath):
@@ -37,15 +34,6 @@ def extract_mutant_function_names(filepath):
         content = file.read()
     matches = re.findall(r"def\s+(x_\w+__mutmut_\d+)\s*\(", content)
     return matches
-
-
-def run_test_in_process(candidate_function, check_function, queue):
-    """Run the test in a separate process and send the result to a queue."""
-    try:
-        check_function(candidate_function)
-        queue.put("pass")
-    except Exception:
-        queue.put("fail")
 
 
 def run_tests():
@@ -85,23 +73,13 @@ def run_tests():
 
             # Run tests for each mutant function
             for mutant_function_name in mutant_function_names:
-                candidate_function = getattr(solution_module, mutant_function_name)
-                queue = Queue()
-                process = Process(target=run_test_in_process, args=(candidate_function, test_module.check, queue))
-                process.start()
-                process.join(TIMEOUT)
-
-                if process.is_alive():
-                    process.terminate()
-                    process.join()
-                    print(f"⏰ Mutant {mutant_function_name} timed out.")
-                else:
-                    result = queue.get()
-                    if result == "pass":
-                        print(f"✅ Mutant {mutant_function_name} passed.")
-                        passed_mutants += 1
-                    else:
-                        print(f"❌ Mutant {mutant_function_name} failed.")
+                try:
+                    candidate_function = getattr(solution_module, mutant_function_name)
+                    test_module.check(candidate_function)
+                    print(f"✅ Mutant {mutant_function_name} passed.")
+                    passed_mutants += 1
+                except Exception:
+                    print(f"❌ Mutant {mutant_function_name} failed.")
 
             # Calculate and display percentage of passed mutants
             pass_percentage = (passed_mutants / total_mutants) * 100
@@ -114,7 +92,7 @@ def run_tests():
         except Exception as e:
             print(f"❌ Error processing {solution_file}: {str(e)}")
             print(traceback.format_exc())
-        print("Number of failed patches: ", failed_mutant_patch)
+        print("number of failed mutants: ", failed_mutant_patch)
 
     # Calculate mutation score
     detected_mutants = len(solution_files) - failed_mutant_patch
@@ -123,8 +101,8 @@ def run_tests():
     # Final Summary
     print("\n=== Final Summary ===")
     print(f"Total Solutions: {len(solution_files)}")
-    print(f"Failed Patches: {failed_mutant_patch}")
-    print(f"Detected Patches: {detected_mutants}")
+    print(f"Failed Mutants Detected: {failed_mutant_patch}")
+    print(f"Detected Mutants: {detected_mutants}")
     print(f"Mutation Score: {mutation_score:.2f}%")
 
 if __name__ == "__main__":
