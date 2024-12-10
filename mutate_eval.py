@@ -2,11 +2,14 @@ import os
 import importlib.util
 import traceback
 import re
+from multiprocessing import Process, Queue
+from typing import Any
 
 # Directories
 TESTS_DIR = "humaneval_files/tests"
 SOLUTIONS_DIR = "mutants/humaneval_files/solutions"
 OLD_SOLUTIONS_DIR = "humaneval_files/solutions"  # Directory with original solutions
+TIMEOUT = 10  # Time limit in seconds for each test case
 
 
 def load_module(filepath):
@@ -36,6 +39,25 @@ def extract_mutant_function_names(filepath):
     return matches
 
 
+def run_test_in_process(solution_path, test_path, function_name, queue):
+    """Run the test in a separate process and send the result to a queue."""
+    try:
+        # Load the test module
+        test_module = load_module(test_path)
+
+        # Load the solution module
+        solution_module = load_module(solution_path)
+
+        # Get the candidate function
+        candidate_function = getattr(solution_module, function_name)
+
+        # Run the test
+        test_module.check(candidate_function)
+        queue.put("pass")
+    except Exception:
+        queue.put("fail")
+
+
 def run_tests():
     """Run tests for all mutants and calculate pass percentage for each."""
     failed_mutant_patch = 0
@@ -56,30 +78,30 @@ def run_tests():
         print(f"\nRunning tests for: {test_file} and {solution_file}")
 
         try:
-            # Load the test module
-            test_module = load_module(test_path)
-
-            # Extract base function name from the old solution
-            base_function_name = extract_base_function_name(old_solution_path)
-
             # Extract mutant function names from the mutated solution
             mutant_function_names = extract_mutant_function_names(solution_path)
-
-            # Load the solution module
-            solution_module = load_module(solution_path)
 
             total_mutants = len(mutant_function_names)
             passed_mutants = 0
 
             # Run tests for each mutant function
             for mutant_function_name in mutant_function_names:
-                try:
-                    candidate_function = getattr(solution_module, mutant_function_name)
-                    test_module.check(candidate_function)
-                    print(f"✅ Mutant {mutant_function_name} passed.")
-                    passed_mutants += 1
-                except Exception:
-                    print(f"❌ Mutant {mutant_function_name} failed.")
+                queue = Queue()
+                process = Process(target=run_test_in_process, args=(solution_path, test_path, mutant_function_name, queue))
+                process.start()
+                process.join(TIMEOUT)
+
+                if process.is_alive():
+                    process.terminate()
+                    process.join()
+                    print(f"⏰ Mutant {mutant_function_name} timed out.")
+                else:
+                    result = queue.get()
+                    if result == "pass":
+                        print(f"✅ Mutant {mutant_function_name} passed.")
+                        passed_mutants += 1
+                    else:
+                        print(f"❌ Mutant {mutant_function_name} failed.")
 
             # Calculate and display percentage of passed mutants
             pass_percentage = (passed_mutants / total_mutants) * 100
@@ -92,7 +114,7 @@ def run_tests():
         except Exception as e:
             print(f"❌ Error processing {solution_file}: {str(e)}")
             print(traceback.format_exc())
-        print("number of failed mutants: ", failed_mutant_patch)
+        print("Number of failed patches: ", failed_mutant_patch)
 
     # Calculate mutation score
     detected_mutants = len(solution_files) - failed_mutant_patch
@@ -101,8 +123,8 @@ def run_tests():
     # Final Summary
     print("\n=== Final Summary ===")
     print(f"Total Solutions: {len(solution_files)}")
-    print(f"Failed Mutants Detected: {failed_mutant_patch}")
-    print(f"Detected Mutants: {detected_mutants}")
+    print(f"Failed Patches: {failed_mutant_patch}")
+    print(f"Detected Patches: {detected_mutants}")
     print(f"Mutation Score: {mutation_score:.2f}%")
 
 if __name__ == "__main__":
