@@ -7,12 +7,12 @@ from typing import Any
 from datetime import datetime
 
 # Directories
-TESTS_DIR = "humaneval_files/tests"
-SOLUTIONS_DIR = "mutants/humaneval_files/solutions"
-OLD_SOLUTIONS_DIR = "humaneval_files/solutions"  # Directory with original solutions
+TESTS_DIR = "mbpp_files/tests"
+SOLUTIONS_DIR = "mutants/mbpp_files/solutions"
+OLD_SOLUTIONS_DIR = "mbpp_files/solutions"  # Directory with original solutions
 TIMEOUT = 10  # Time limit in seconds for each test case
-THRESHOLD = 10  # Threshold for the number of allowed passed mutants percent
-
+THRESHOLD = 0  # Threshold for the number of allowed passed mutants percent
+DATASET = "mbpp"  # Name of the dataset
 
 def load_module(filepath):
     """Load a Python module from a given file path."""
@@ -74,7 +74,7 @@ def run_tests():
 
     # Create a log file
     date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    log_filename = f"{THRESHOLD}_{date_str}.log"
+    log_filename = f"{DATASET}_{THRESHOLD}_{date_str}.log"
     with open(log_filename, "w", encoding="utf-8") as log_file:
 
         for test_file, solution_file, old_solution_file in zip(test_files, solution_files, old_solution_files):
@@ -145,6 +145,8 @@ def run_tests():
         # Final Summary
         final_summary = (
             f"\n=== Final Summary ===\n"
+            f"Dataset: {DATASET}\n"
+            f"Threshold: {THRESHOLD}\n"
             f"Total Solutions: {len(solution_files)}\n"
             f"Failed Patches: {failed_mutant_patch}\n"
             f"Detected Patches: {detected_mutants}\n"
