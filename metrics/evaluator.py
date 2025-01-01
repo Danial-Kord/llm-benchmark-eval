@@ -1,5 +1,7 @@
 import ast
 import re
+from collections import Counter
+import math
 
 
 class CyclomaticComplexityVisitor(ast.NodeVisitor):
@@ -159,6 +161,87 @@ def calculate_naming_compliance(source_code, naming_pattern="^[a-z_][a-z0-9_]*$"
         return None
 
 
+import ast
+import re
+from collections import Counter
+import math
+
+def longest_common_subsequence(seq1, seq2):
+    """Find the length of the longest common subsequence between two sequences."""
+    m, n = len(seq1), len(seq2)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if seq1[i - 1] == seq2[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1] + 1
+            else:
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+    return dp[m][n]
+
+def calculate_rouge_l(candidate, reference):
+    """
+    Calculate the ROUGE-L score for a candidate text against a reference text.
+
+    :param candidate: The candidate text as a string.
+    :param reference: The reference text as a string.
+    :return: A dictionary containing precision, recall, and F-measure.
+    """
+    candidate_tokens = candidate.split()
+    reference_tokens = reference.split()
+
+    lcs_length = longest_common_subsequence(candidate_tokens, reference_tokens)
+
+    precision = lcs_length / len(candidate_tokens) if candidate_tokens else 0
+    recall = lcs_length / len(reference_tokens) if reference_tokens else 0
+    f_measure = (
+        (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    )
+
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f_measure": f_measure
+    }
+
+def calculate_bleu(candidate, references, n=4):
+    """
+    Calculate the BLEU score for a candidate sentence against one or more reference sentences.
+
+    :param candidate: The candidate sentence as a string.
+    :param references: A list of reference sentences.
+    :param n: The maximum n-gram size to consider.
+    :return: The BLEU score as a float.
+    """
+    def n_gram_counts(sentence, n):
+        tokens = sentence.split()
+        return Counter(tuple(tokens[i:i + n]) for i in range(len(tokens) - n + 1))
+
+    candidate_tokens = candidate.split()
+    candidate_length = len(candidate_tokens)
+    reference_lengths = [len(ref.split()) for ref in references]
+
+    # Calculate brevity penalty
+    closest_ref_length = min(reference_lengths, key=lambda ref_len: (abs(ref_len - candidate_length), ref_len))
+    brevity_penalty = 1 if candidate_length > closest_ref_length else math.exp(1 - closest_ref_length / candidate_length)
+
+    # Calculate n-gram precision
+    precisions = []
+    for i in range(1, n + 1):
+        candidate_counts = n_gram_counts(candidate, i)
+        max_ref_counts = Counter()
+        for ref in references:
+            max_ref_counts |= n_gram_counts(ref, i)
+        clipped_counts = {ngram: min(count, max_ref_counts[ngram]) for ngram, count in candidate_counts.items()}
+        precisions.append(sum(clipped_counts.values()) / sum(candidate_counts.values()) if candidate_counts else 0)
+
+    # Calculate geometric mean of precisions
+    precision_product = math.prod(precisions)
+    bleu_score = brevity_penalty * (precision_product ** (1 / n)) if precision_product > 0 else 0
+
+    return bleu_score
+
 # Example Usage:
 if __name__ == "__main__":
     code = """
@@ -186,7 +269,17 @@ def AnotherFunction():
     function_lengths = calculate_function_lengths(code, specific_functions)
     naming_compliance = calculate_naming_compliance(code)
 
+    candidate = "the cat is on the mat"
+    references = ["the cat is on a the mat"]
+    bleu_score = calculate_bleu(candidate, references)
+
     print(f"Cyclomatic Complexity: {complexity}")
     print(f"Comment Ratio: {comment_ratio:.2f}")
     print(f"Function Lengths: {function_lengths}")
     print(f"Naming Compliance: {naming_compliance:.2f}")
+    print(f"BLEU Score: {bleu_score:.2f}")
+    candidate = "the cat is on the mat"
+    reference = "the cat sat on the mat"
+
+    rouge_l = calculate_rouge_l(candidate, reference)
+    print("ROUGE-L:", rouge_l)

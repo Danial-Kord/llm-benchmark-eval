@@ -5,7 +5,7 @@ import re
 from multiprocessing import Process, Queue
 from typing import Any
 from datetime import datetime
-from metrics.evaluator import calculate_cyclomatic_complexity, calculate_function_lengths, calculate_comment_ratio,calculate_naming_compliance
+from metrics.cyclomatic_complexity import calculate_cyclomatic_complexity, calculate_function_lengths, calculate_comment_ratio,calculate_naming_compliance
 import csv
 import ast
 
@@ -95,12 +95,11 @@ def run_tests():
     """Run tests for all mutants and calculate pass percentage for each."""
     failed_mutant_patch = 0
     test_files = sorted([f for f in os.listdir(TESTS_DIR) if f.startswith("test_") and f.endswith(".py")])
-    solution_files = sorted([f for f in os.listdir(SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
     old_solution_files = sorted(
         [f for f in os.listdir(OLD_SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
 
-    if not (len(test_files) == len(solution_files) == len(old_solution_files)):
-        print(len(test_files), len(solution_files), len(old_solution_files))
+    if not (len(test_files) == len(old_solution_files)):
+        print(len(test_files), len(old_solution_files))
         print("Error: Mismatched number of test, solution, and old solution files.")
         return
 
@@ -119,56 +118,48 @@ def run_tests():
         writer.writerow(header)
     with open(log_filename, "w", encoding="utf-8") as log_file:
 
-        for test_file, solution_file, old_solution_file in zip(test_files, solution_files, old_solution_files):
+        for test_file, old_solution_file in zip(test_files, old_solution_files):
             test_path = os.path.join(TESTS_DIR, test_file)
-            solution_path = os.path.join(SOLUTIONS_DIR, solution_file)
+            solution_path = os.path.join(SOLUTIONS_DIR, test_file.replace(".py", ""))
             old_solution_path = os.path.join(OLD_SOLUTIONS_DIR, old_solution_file)
 
-            log_file.write(f"\nRunning tests for: {test_file} and {solution_file}\n")
-            print(f"\nRunning tests for: {test_file} and {solution_file}")
+            log_file.write(f"\nRunning tests for: {test_file}\n")
+            print(f"\nRunning tests for: {test_file}")
 
             try:
-                # Extract mutant function names from the mutated solution
-                mutant_function_names = extract_mutant_function_names(solution_path)
-
+                list_of_mutants = sorted(
+                [f for f in os.listdir(OLD_SOLUTIONS_DIR) if f.startswith("version_") and f.endswith(".py")])
                 total_mutants = len(mutant_function_names)
-                if total_mutants == 0:
-                    log_file.write(f"❌ No mutants found in {solution_file}.\n")
-                    # print(f"❌ No mutants found in {solution_file}.")
-                    p = extract_function_names(solution_path)
-                    if len(p) == 0:
-                        log_file.write(f"❌ No functions found in {solution_file}.\n")
-                        print(f"❌ No functions found in {solution_file}.")
-                        continue
-                    else:
-                        mutant_function_names.append(p[0])
-                        total_mutants = 1
                 passed_mutants = 0
+                for mutant_file in list_of_mutants:
+                    # Extract mutant function names from the mutated solution
+                    mutant_function_names = extract_mutant_function_names(mutant_file)
 
-                # Run tests for each mutant function
-                for mutant_function_name in mutant_function_names:
-                    queue = Queue()
-                    process = Process(
-                        target=run_test_in_process,
-                        args=(solution_path, test_path, mutant_function_name, queue),
-                    )
-                    process.start()
-                    process.join(TIMEOUT)
 
-                    if process.is_alive():
-                        process.terminate()
-                        process.join()
-                        log_file.write(f"⏰ Mutant {mutant_function_name} timed out.\n")
-                        print(f"⏰ Mutant {mutant_function_name} timed out.")
-                    else:
-                        result = queue.get()
-                        if result == "pass":
-                            log_file.write(f"✅ Mutant {mutant_function_name} passed.\n")
-                            print(f"✅ Mutant {mutant_function_name} passed.")
-                            passed_mutants += 1
+                    # Run tests for each mutant function
+                    for mutant_function_name in mutant_function_names:
+                        queue = Queue()
+                        process = Process(
+                            target=run_test_in_process,
+                            args=(solution_path, test_path, mutant_function_name, queue),
+                        )
+                        process.start()
+                        process.join(TIMEOUT)
+
+                        if process.is_alive():
+                            process.terminate()
+                            process.join()
+                            log_file.write(f"⏰ Mutant {mutant_function_name} timed out.\n")
+                            print(f"⏰ Mutant {mutant_function_name} timed out.")
                         else:
-                            log_file.write(f"❌ Mutant {mutant_function_name} failed.\n")
-                            print(f"❌ Mutant {mutant_function_name} failed.")
+                            result = queue.get()
+                            if result == "pass":
+                                log_file.write(f"✅ Mutant {mutant_function_name} passed.\n")
+                                print(f"✅ Mutant {mutant_function_name} passed.")
+                                passed_mutants += 1
+                            else:
+                                log_file.write(f"❌ Mutant {mutant_function_name} failed.\n")
+                                print(f"❌ Mutant {mutant_function_name} failed.")
 
                 # Calculate and display percentage of passed mutants
                 pass_percentage = (passed_mutants / total_mutants) * 100

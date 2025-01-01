@@ -3,9 +3,9 @@ import importlib.util
 import traceback
 
 # Directories
-TESTS_DIR = "mbpp_files/tests"
-SOLUTIONS_DIR = "mbpp_files/solutions"
-
+TESTS_DIR = "humaneval_files/tests"
+GENERATED_SOLUTIONS_DIR = "humaneval_files/generated_solutions"
+SOLUTIONS_DIR = "humaneval_files/solutions"
 def load_module(filepath):
     """Load a Python module from a given file path."""
     module_name = os.path.basename(filepath).replace(".py", "")
@@ -27,7 +27,7 @@ def run_tests():
     """Run all test-solution pairs and calculate pass percentage."""
     test_files = sorted([f for f in os.listdir(TESTS_DIR) if f.startswith("test_") and f.endswith(".py")])
     solution_files = sorted([f for f in os.listdir(SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
-
+    generated_solution_files = sorted([f for f in os.listdir(GENERATED_SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
     if len(test_files) != len(solution_files):
         print("Error: Mismatched number of test and solution files.")
         return
@@ -35,10 +35,10 @@ def run_tests():
     total_tests = len(test_files)
     passed_tests = 0
 
-    for test_file, solution_file in zip(test_files, solution_files):
+    for test_file, solution_file, generated_file in zip(test_files, solution_files, generated_solution_files):
         test_path = os.path.join(TESTS_DIR, test_file)
         solution_path = os.path.join(SOLUTIONS_DIR, solution_file)
-
+        generated_path = os.path.join(GENERATED_SOLUTIONS_DIR, generated_file)
 
         try:
             # Load modules
@@ -57,6 +57,7 @@ def run_tests():
         except Exception as e:
             indexs_to_remove.append(test_path)
             indexs_to_remove.append(solution_path)
+            indexs_to_remove.append(generated_path)
             print(f"Running test for: {test_file} and {solution_file}")
             print(f"❌ {test_file} failed.")
             print(traceback.format_exc())
@@ -67,6 +68,7 @@ def run_tests():
     print(f"Total Tests: {total_tests}")
     print(f"Passed Tests: {passed_tests}")
     print(f"Pass Percentage: {pass_percentage:.2f}%")
+    input("Press Enter to continue...")
     for index in indexs_to_remove:
         os.remove(index)
 
