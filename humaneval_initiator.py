@@ -42,31 +42,56 @@ for idx, example in enumerate(examples):
 
     os.makedirs(f"humaneval_files/generated_solutions/solutions_{idx+1}", exist_ok=True)
 
-    # Generate 5 different solutions using GPT-4O
-    for version in range(1, 6):
-        try:
-            chat_completion = client.chat.completions.create(
-                messages=[
-                    {
-                        "role": "developer",
-                        "content": f"Write a Python solution for the following problem. Note that just write the main function and no example by the generated output:\n{prompt}\n",
-                    }
-                ],
-                model="gpt-4o",
-            )
-            generated_code = chat_completion.choices[0].message.content
-            # Extract content from ```python to ```
-            if "```python" in generated_code and "```" in generated_code:
-                start = generated_code.index("```python") + len("```python")
-                end = generated_code.index("```", start)
-                generated_code = generated_code[start:end].strip()
+    try:
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "developer",
+                    "content": f"Write a Python solution for the following problem. Note that just write the main function and no example by the generated output:\n{prompt}\n",
+                }
+            ],
+            model="gpt-4o",
+        )
+        generated_code = chat_completion.choices[0].message.content
+        # Extract content from ```python to ```
+        if "```python" in generated_code and "```" in generated_code:
+            start = generated_code.index("```python") + len("```python")
+            end = generated_code.index("```", start)
+            generated_code = generated_code[start:end].strip()
 
-            # Save the generated solution to a file
-            generated_solution_path = f"humaneval_files/generated_solutions/solutions_{idx+1}/version_{version}.py"
-            with open(generated_solution_path, "w", encoding="utf-8") as generated_solution_file:
-                generated_solution_file.write(f"# Generated Solution\n{generated_code}\n")
-        except Exception as e:
-            print(f"Error generating solution for example {idx + 1}, version {version}: {e}")
+        # Save the generated solution to a file
+        generated_solution_path = f"humaneval_files/generated_solutions/solutions_{idx + 1}.py"
+        with open(generated_solution_path, "w", encoding="utf-8") as generated_solution_file:
+            generated_solution_file.write(f"# Generated Solution\n{generated_code}\n")
+    except Exception as e:
+        print(f"Error generating solution for example {idx + 1}: {e}")
+    #
+    #
+    # # Generate 5 different solutions using GPT-4O
+    # for version in range(1, 6):
+    #     try:
+    #         chat_completion = client.chat.completions.create(
+    #             messages=[
+    #                 {
+    #                     "role": "developer",
+    #                     "content": f"Write a Python solution for the following problem. Note that just write the main function and no example by the generated output:\n{prompt}\n",
+    #                 }
+    #             ],
+    #             model="gpt-4o",
+    #         )
+    #         generated_code = chat_completion.choices[0].message.content
+    #         # Extract content from ```python to ```
+    #         if "```python" in generated_code and "```" in generated_code:
+    #             start = generated_code.index("```python") + len("```python")
+    #             end = generated_code.index("```", start)
+    #             generated_code = generated_code[start:end].strip()
+    #
+    #         # Save the generated solution to a file
+    #         generated_solution_path = f"humaneval_files/generated_solutions/solutions_{idx+1}/version_{version}.py"
+    #         with open(generated_solution_path, "w", encoding="utf-8") as generated_solution_file:
+    #             generated_solution_file.write(f"# Generated Solution\n{generated_code}\n")
+    #     except Exception as e:
+    #         print(f"Error generating solution for example {idx + 1}, version {version}: {e}")
 
 print(
     f"Solutions, tests, and generated solutions have been saved in 'humaneval_files/solutions', 'humaneval_files/tests', and 'humaneval_files/generated_solutions' directories.")

@@ -5,19 +5,18 @@ import re
 from multiprocessing import Process, Queue
 from typing import Any
 from datetime import datetime
-from metrics.evaluator import calculate_cyclomatic_complexity, calculate_function_lengths, calculate_comment_ratio,calculate_naming_compliance
+from metrics.evaluator import calculate_cyclomatic_complexity, calculate_function_lengths, calculate_comment_ratio, calculate_naming_compliance, calculate_bleu, calculate_rouge_l
 import csv
 import ast
 
 # Directories
-TESTS_DIR = "humaneval_files/tests"
+TESTS_DIR = "mbpp_files/tests"
 # SOLUTIONS_DIR = "mutants/humaneval_files/solutions"
-SOLUTIONS_DIR = "humaneval_files/generated_solutions"
-OLD_SOLUTIONS_DIR = "humaneval_files/solutions"  # Directory with original solutions
+SOLUTIONS_DIR = "mbpp_files/generated_solutions"
+OLD_SOLUTIONS_DIR = "mbpp_files/solutions"  # Directory with original solutions
 TIMEOUT = 10  # Time limit in seconds for each test case
 THRESHOLD = 0  # Threshold for the number of allowed passed mutants percent
 DATASET = "mbpp"  # Name of the dataset
-
 
 def extract_function_names(file_path):
     """
@@ -44,7 +43,6 @@ def extract_function_names(file_path):
         print(f"Error while processing the file: {e}")
         return []
 
-
 def load_module(filepath):
     """Load a Python module from a given file path."""
     module_name = os.path.basename(filepath).replace(".py", "")
@@ -52,7 +50,6 @@ def load_module(filepath):
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
-
 
 def extract_base_function_name(filepath):
     """Extract the base function name from the old solution."""
@@ -63,14 +60,12 @@ def extract_base_function_name(filepath):
         return match.group(1)
     raise ValueError(f"Base function name not found in {filepath}")
 
-
 def extract_mutant_function_names(filepath):
     """Extract all mutant function names from the mutated solution file."""
     with open(filepath, "r") as file:
         content = file.read()
     matches = re.findall(r"def\s+(x_\w+__mutmut_\d+)\s*\(", content)
     return matches
-
 
 def run_test_in_process(solution_path, test_path, function_name, queue):
     """Run the test in a separate process and send the result to a queue."""
@@ -90,12 +85,11 @@ def run_test_in_process(solution_path, test_path, function_name, queue):
     except Exception:
         queue.put("fail")
 
-
 def run_tests():
     """Run tests for all mutants and calculate pass percentage for each."""
     failed_mutant_patch = 0
     test_files = sorted([f for f in os.listdir(TESTS_DIR) if f.startswith("test_") and f.endswith(".py")])
-    solution_files = sorted([f for f in os.listdir(SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
+    solution_files = sorted([f for f in os.listdir(SOLUTIONS_DIR) if f.startswith("generated_solution_") and f.endswith(".py")])
     old_solution_files = sorted(
         [f for f in os.listdir(OLD_SOLUTIONS_DIR) if f.startswith("solution_") and f.endswith(".py")])
 
@@ -115,6 +109,8 @@ def run_tests():
                   "Average Function Length (Mutated)", "Average Function Length (Original)",
                   "Average Comment Ratio (Mutated)", "Average Comment Ratio (Original)",
                   "Average Naming Compliance (Mutated)", "Average Naming Compliance (Original)",
+                  "BLEU",
+                  "ROUGE-L",
                   "Failed Patch"]
         writer.writerow(header)
     with open(log_filename, "w", encoding="utf-8") as log_file:
@@ -197,7 +193,7 @@ def run_tests():
                     mutate_code_content = src_code.read()
                 with open(old_solution_path, mode="r") as target_code:
                     trg_code_content = target_code.read()
-                    # input(trg_code_content)
+
                 writer = csv.writer(file)
 
                 mutate_function_length = calculate_function_lengths(mutate_code_content, mutant_function_names)
@@ -209,12 +205,18 @@ def run_tests():
                 mutate_naming_compliance = calculate_naming_compliance(mutate_code_content)
                 trg_naming_compliance = calculate_naming_compliance(trg_code_content)
 
+                mutate_bleu = calculate_bleu(mutate_code_content, [trg_code_content])
+
+                mutate_rouge = calculate_rouge_l(mutate_code_content, trg_code_content)["f_measure"]
+
                 row_contents = [solution_file, total_mutants, passed_mutants, pass_percentage,
                                 calculate_cyclomatic_complexity(mutate_code_content)/float(len(mutant_function_names)),
                                 calculate_cyclomatic_complexity(trg_code_content),
                                 mutate_function_length, trg_function_length,
                                 mutate_comment_ratio, trg_comment_ratio,
                                 mutate_naming_compliance, trg_naming_compliance,
+                                mutate_bleu,
+                                mutate_rouge,
                                 pass_percentage <= THRESHOLD]
                 writer.writerow(row_contents)
 
@@ -234,7 +236,6 @@ def run_tests():
         )
         log_file.write(final_summary)
         print(final_summary)
-
 
 if __name__ == "__main__":
     run_tests()
