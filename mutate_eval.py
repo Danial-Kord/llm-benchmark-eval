@@ -5,6 +5,9 @@ import re
 from multiprocessing import Process, Queue
 from typing import Any
 from datetime import datetime
+from metrics.cyclomatic_complexity import calculate_cyclomatic_complexity, calculate_function_lengths, calculate_comment_ratio,calculate_naming_compliance
+import csv
+
 
 # Directories
 TESTS_DIR = "mbpp_files/tests"
@@ -13,6 +16,10 @@ OLD_SOLUTIONS_DIR = "mbpp_files/solutions"  # Directory with original solutions
 TIMEOUT = 10  # Time limit in seconds for each test case
 THRESHOLD = 0  # Threshold for the number of allowed passed mutants percent
 DATASET = "mbpp"  # Name of the dataset
+
+
+
+
 
 def load_module(filepath):
     """Load a Python module from a given file path."""
@@ -75,6 +82,16 @@ def run_tests():
     # Create a log file
     date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     log_filename = f"{DATASET}_{THRESHOLD}_{date_str}.log"
+    csv_filename = f"{DATASET}_{THRESHOLD}_{date_str}.csv"
+    with open(csv_filename, mode="a", newline="") as file:
+        writer = csv.writer(file)
+        header = ["Solution", "Total Mutants", "Passed Mutants", "Pass Percentage",
+                  "Average Cyclomatic Complexity (Mutated)", "Average Cyclomatic Complexity (Original)",
+                  "Average Function Length (Mutated)", "Average Function Length (Original)",
+                  "Average Comment Ratio (Mutated)", "Average Comment Ratio (Original)",
+                  "Average Naming Compliance (Mutated)", "Average Naming Compliance (Original)",
+                  "Failed Patch"]
+        writer.writerow(header)
     with open(log_filename, "w", encoding="utf-8") as log_file:
 
         for test_file, solution_file, old_solution_file in zip(test_files, solution_files, old_solution_files):
@@ -137,6 +154,34 @@ def run_tests():
                 log_file.write(traceback.format_exc())
             log_file.write(f"Number of failed patches so far: {failed_mutant_patch}\n")
             print(f"Number of failed patches so far: {failed_mutant_patch}")
+
+            # Calculate metrics and write to csv
+            with open(csv_filename, mode="a", newline="") as file:
+                with open(solution_path, mode="r") as src_code:
+                    mutate_code_content = src_code.read()
+                with open(old_solution_path, mode="r") as target_code:
+                    trg_code_content = target_code.read()
+                    # input(trg_code_content)
+                writer = csv.writer(file)
+
+                mutate_function_length = calculate_function_lengths(mutate_code_content, mutant_function_names)
+                trg_function_length = calculate_function_lengths(trg_code_content)
+
+                mutate_comment_ratio = calculate_comment_ratio(mutate_code_content, mutant_function_names)
+                trg_comment_ratio = calculate_comment_ratio(trg_code_content)
+
+                mutate_naming_compliance = calculate_naming_compliance(mutate_code_content)
+                trg_naming_compliance = calculate_naming_compliance(trg_code_content)
+
+                row_contents = [solution_file, total_mutants, passed_mutants, pass_percentage,
+                                calculate_cyclomatic_complexity(mutate_code_content)/float(len(mutant_function_names)),
+                                calculate_cyclomatic_complexity(trg_code_content),
+                                mutate_function_length, trg_function_length,
+                                mutate_comment_ratio, trg_comment_ratio,
+                                mutate_naming_compliance, trg_naming_compliance,
+                                pass_percentage <= THRESHOLD]
+                input(row_contents)
+                writer.writerow(row_contents)
 
         # Calculate mutation score
         detected_mutants = len(solution_files) - failed_mutant_patch

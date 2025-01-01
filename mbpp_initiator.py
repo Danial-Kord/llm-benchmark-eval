@@ -2,7 +2,7 @@ import os
 from datasets import load_dataset
 
 # Load the dataset
-dataset = load_dataset("google-research-datasets/mbpp", "full")
+dataset = load_dataset("mbpp-plus", "full")
 
 # Directories for test and solution files
 test_dir = "mbpp_files/tests"

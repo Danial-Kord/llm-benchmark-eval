@@ -3,8 +3,8 @@ import importlib.util
 import traceback
 
 # Directories
-TESTS_DIR = "humaneval_files/tests"
-SOLUTIONS_DIR = "humaneval_files/solutions"
+TESTS_DIR = "mbpp_files/tests"
+SOLUTIONS_DIR = "mbpp_files/solutions"
 
 def load_module(filepath):
     """Load a Python module from a given file path."""
@@ -53,6 +53,7 @@ def run_tests():
             test_module.check(candidate_function)
             # print(f"✅ {test_file} passed.")
             passed_tests += 1
+            print(f"Running test for: {test_file} and {solution_file}")
         except Exception as e:
             indexs_to_remove.append(test_path)
             indexs_to_remove.append(solution_path)
